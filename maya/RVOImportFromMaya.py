@@ -1,4 +1,4 @@
-f = open(r"F:\Github\RVO2-3D-update\examples\407.txt", "r")
+f = open(r"F:\Github\RVO2-3D-update\examples\807.txt", "r")
 import json
 
 data = json.load(f)
@@ -22,8 +22,10 @@ for i in range(spheres_num):
     name = base_name + str((i) + 1)
     spheres.append(name)
 
-data_interval = 1  # 10
+data_interval = 1
 time_interval = 1
+break_time = 300
+
 cmds.cutKey(spheres, time=(cur_time, len(data) / data_interval * time_interval + 1000), clear=True)
 for line in range(0, len(data), data_interval):
     cmds.currentTime(cur_time)
@@ -34,3 +36,5 @@ for line in range(0, len(data), data_interval):
         cmds.move(pos[0] + 2, pos[1], pos[2], name, ws=True)
         cmds.setKeyframe(name, attribute='translate')
     cur_time += time_interval
+    if cur_time > break_time:
+        break
