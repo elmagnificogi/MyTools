@@ -3,6 +3,7 @@ import csv
 import sys
 
 # export implicit-crowds data format in csv
+# implicit-crowds repository:https://github.com/johnoriginal/implicit-crowds
 
 spheres = cmds.ls("dmd*", selection=True, transforms=True)
 start_time = 1
