@@ -20,5 +20,7 @@ make yourself at home
 - Query_Subnet_IP,query all subnet ip,find which is online
 - Raspberry_Auto_Change_IP,batch change Raspberry ip by ssh
 - SSH_SCP,replace remote client file by SSH SCP
+- Close_or_open_mav,a mix of Query_Subnet_IP and SSH_SCP
+- 一键改IP,change local pc ip by one click
 - 
 
