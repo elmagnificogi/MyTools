@@ -1,0 +1,33 @@
+35669898644445 no
+3 ok
+2017-07-31+01:54:01 - Raw bytes:01 09 15 78 00 09 51 43 03
+3 oj
+2017-07-31+01:54:02 - Raw bytes:01 09 15 78 00 09 51 43 03
++3 ok
+dfdfdf6522323 ok
+2017-07-31+01:54:03 - Raw bytes:01 09 15 78 00 09 51 43 03
+2017-07-31+01:54:04 - Raw bytes:01 09 15 78 00 09 51 43 03
+2017-07-31+01:54:05 - Raw bytes:01 09 15 78 00 09 51 43 03
+4545454454511 n5
+
+set /a high = %ip:~34,31%type a.txt|finta.txt;
+for /f "delims=" %%a in (rawdata.txt) do (
+      set ip=%%a
+
+echo %ip:~44,6%
+set high = 0
+set low  = 0
+set /a high = %ip:~44,2%
+set /a "high = 0x%high%"
+set /a low  = %ip:~47,2%
+set /a "low = 0x%low%"
+set /a high = high "<<" 3
+set /a low= low ">>" 4
+set num
+set /a num = high "|" low
+set kph 
+set /a kph = 0.8278 "*" num "+" 1.0
+set mps
+set /a mps = kph "/" 3.6
+    )
+    pause>nul

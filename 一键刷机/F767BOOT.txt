@@ -1,0 +1,9 @@
+connect
+STM32F767VI 
+s
+4000
+loadfile c:\F767BOOT.bin 0x8000000
+verifybin c:\F767BOOT.bin 0x8000000
+r
+go
+q

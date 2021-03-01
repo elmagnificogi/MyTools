@@ -1,0 +1,9 @@
+usb
+si 1
+speed 4000
+device stm32f407vg
+loadfile c:\F407MCU.bin
+verifybin c:\F407MCU.bin 0x8000000
+r
+go
+q

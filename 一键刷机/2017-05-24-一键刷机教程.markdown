@@ -1,0 +1,124 @@
+---
+layout:     post
+title:      "一键刷机教程"
+subtitle:   "刷机"
+date:       2017-05-24
+author:     "elmagnifico"
+header-img: "img/git-head-bg.jpg"
+catalog:    true
+tags:
+    - c/c++
+    - firmware
+---
+
+#### 安装 J-Link
+
+已经安装就跳过此步骤
+
+J-Link安装包在教程目录下,名为J-Link驱动.zip，解压出来直接运行安装即可，除了安装目录
+自己定，其他next就好。遇到任何提示升级驱动的提示，选择否。
+
+#### 复制 bin文件
+
+把教程目录下
+- F103GPS.bin
+- F407IMU.bin
+- F407MCU.bin
+- F767MCU.bin
+- F767BOOT.bin
+- F767ALL.bin
+
+全部复制到C盘根目录下
+
+#### 复制 一键刷机文件
+
+先打开下面的目录，根据自己安装的位置而变。
+
+```c
+X:\Program Files (x86)\SEGGER\JLink_V614b
+```
+
+最快速的方法就是查看最近安装的程序，右键，(属性)打开所在位置，如果是快捷方式，继续右键，(属性)打开所在位置。
+
+把教程目录下的
+
+- F103GPS.txt
+- F407IMU.txt
+- F407MCU.txt
+- F767MCU.txt
+- F767BOOT.txt
+- F767ALL.txt
+- F4一键刷机.bat
+- F7一键刷MCU.bat
+- F7一键刷BOOT.bat
+- F7一键全刷.bat
+
+六个文件全部复制到JLink_V614b目录下
+
+#### 一键刷机
+
+刷老飞机（由MCU IMU GPS组成的）双击 F4一键刷机.bat 根据提示刷机。
+
+刷新飞机（只有MCU）双击 F7一键刷机.bat 根据提示刷机。
+
+刷新飞机（只刷boot）双击 F7一键刷BOOT.bat 根据提示刷机。
+
+刷新飞机（刷boot和MCU）双击 F7一键全刷.bat 根据提示刷机。
+
+#### 固件更新
+
+日后固件更新，只需要把新固件改名成对应的bin文件，然后覆盖老的就行，各部分名字如下：
+
+- F103GPS.bin
+- F407IMU.bin
+- F407MCU.bin
+- F767MCU.bin
+- F767BOOT.bin
+- F767ALL.bin
+
+注意需要放在c盘根目录下
+
+## 注意
+
+1. 烧写前一定要连接正确！！不要错把IMU和MCU刷混了
+
+2. 全部烧写完成以后断电，重启，检查是否正常
+
+3. 如果固件没有改动会提示sikpped，相当于刷好了
+
+4. 遇到任何提示升级驱动的部分，选择否。
+
+5. 如果不小心刷错了，重新刷正确的固件即可
+
+#### 自定义bin文件位置
+
+默认存放烧写bin文件的位置是C盘根目录
+
+可以通过修改
+
+- F103GPS.txt
+- F407IMU.txt
+- F407MCU.txt
+- F767MCU.txt
+- F767ALL.txt
+
+文件中的 c:\xxxx.bin 路径，改变bin文件所在位置
+
+下面是将bin文件路径修改为了D盘firmware文件夹下
+
+```
+usb
+si 1
+speed 4000
+device stm32f407vg
+loadfile D:\firmware\F407MCU.bin
+q
+```
+
+
+
+#### J-Link 连接图
+
+![J-link](.\J-link.png)
+
+![J-link2](.\J-link2.png)

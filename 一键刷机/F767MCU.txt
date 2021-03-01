@@ -1,0 +1,9 @@
+connect
+STM32F767VI 
+s
+4000
+loadfile c:\F767MCU.bin 0x8010000
+verifybin c:\F767MCU.bin 0x8010000
+r
+go
+q

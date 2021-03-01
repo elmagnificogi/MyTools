@@ -2,7 +2,13 @@
 
 there are some scripts and some funcs that useful when do some batch works
 
+
+
 make yourself at home
+
+
+
+these tools maybe write by python,batch,c++,some from my work,some from my blog
 
 
 
@@ -22,5 +28,6 @@ make yourself at home
 - SSH_SCP,replace remote client file by SSH SCP
 - Close_or_open_mav,a mix of Query_Subnet_IP and SSH_SCP
 - 一键改IP,change local pc ip by one click
-- 
+- 一键刷机,flash firmware by one click
+- 一键提取特定文本内容,get specific content from a txt by batch 
 

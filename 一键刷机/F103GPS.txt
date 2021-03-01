@@ -1,0 +1,9 @@
+usb
+si 1
+speed 4000
+device stm32f103c8
+loadfile c:\F103GPS.bin
+verifybin c:\F103GPS.bin 0x8000000
+r
+go
+q
