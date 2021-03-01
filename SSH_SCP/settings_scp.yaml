@@ -1,0 +1,25 @@
+# 登录用户名称
+username: pi
+# 登录用户密码
+passwd: raspberry
+
+# SSH需要登录的飞机IP，多个IP时前面需加"- "
+ips:
+- 34
+
+# 本地文件名(放置在可执行文件同一文件夹下)； 需要删除时留空
+local_file:
+-
+-
+-
+-
+- test.txt
+
+
+# 远端文件名（包括路径）
+remote_file:
+- /home/pi/1
+- /home/pi/2
+- /home/pi/3
+- /home/pi/4
+- /home/pi/test.txt

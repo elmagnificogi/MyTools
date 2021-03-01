@@ -1,0 +1,10 @@
+# SSH登录用户名称
+username: pi
+# SSH登录用户密码
+passwd: raspberry
+
+# SSH需要登录的飞机编号，多个编号时前面需加"- "
+ips:
+- 19
+
+

@@ -1,0 +1,16 @@
+# 登录用户名称
+username: pi
+# 登录用户密码
+passwd: raspberry
+
+# 需要修改的飞机IP，多个IP时前面需加"- "
+ips:
+- 20
+
+# 更改前地面站ip地址最后一段
+ground_station: 234
+# 更改后地面站ip地址最后一段
+ground_station_new: 235
+
+
+

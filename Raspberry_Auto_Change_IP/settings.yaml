@@ -1,0 +1,27 @@
+# 登录用户名称
+username: pi
+# 登录用户密码
+passwd: raspberry
+
+# 需要登录的当前飞机IP，多个IP时前面需加"- "
+ips:
+- 19
+- 20
+- 21
+- 22
+- 23
+
+# pi连接的wifi
+ssid: d50
+# wifi密码
+psk: szdamoda
+
+# 飞机修改后的IP，数量需和登陆的飞机一样
+address:
+- 20
+- 21
+- 22
+- 23
+- 24
+
+
