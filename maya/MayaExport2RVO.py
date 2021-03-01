@@ -1,3 +1,5 @@
+# import obj pos and goals from maya to RVO array
+
 spheres = cmds.ls("dmd*", selection=True, transforms=True)
 start_time = 1
 end_time = 314

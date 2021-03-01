@@ -1,5 +1,8 @@
-f = open(r"F:\Github\RVO2-3D-update\examples\807.txt", "r")
 import json
+
+# import RVO2 result to show animation in maya
+
+f = open(r"F:\Github\RVO2-3D-update\examples\807.txt", "r")
 
 data = json.load(f)
 f.close()
