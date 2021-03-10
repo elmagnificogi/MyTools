@@ -34,4 +34,5 @@ these tools maybe write by python,batch,c++,some from my work,some from my blog
 - 蚁群算法-matlab,Ant Clony Optimization by matlab
 - Artificial Potential Field Method, a particle goal target like maya particle goal,but it's awsful. It mix RVO and Artificial Potential Field
 - ECE375,ECE375 Final Project report and asm,all work
+- DeleteCode,it's about the code i deleted
 
