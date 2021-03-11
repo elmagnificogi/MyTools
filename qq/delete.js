@@ -9,11 +9,17 @@ console.log(tableId.rows.length)
 for(var i=1;i<tableId.rows.length;i++)
 {
     var user_name = tableId.rows[i].cells[2]
+    var nick_name = tableId.rows[i].cells[3].childNodes[1].childNodes[1].innerText.replace(/\s+/g,"");
     join_time = tableId.rows[i].cells[7].innerHTML.replace(/\s+/g,"");
+    // 有可能是9也有可能是8，取决于你有没有设置群头衔
     last_speak_time = tableId.rows[i].cells[9].innerHTML.replace(/\s+/g,"");
+    //console.log(last_speak_time)
+    //console.log(join_time)
     if(join_time==last_speak_time)
     {
         // 增加一个条件，判定是否群昵称为空
+        if(nick_name != "")
+            continue;
 
         console.log(last_speak_time)
         console.log(user_name)
@@ -35,3 +41,5 @@ for(var i=1;i<tableId.rows.length;i++)
 
 
 }
+
+console.log("一共找到"+delete_count)
