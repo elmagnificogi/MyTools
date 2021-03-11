@@ -13,6 +13,8 @@ for(var i=1;i<tableId.rows.length;i++)
     last_speak_time = tableId.rows[i].cells[9].innerHTML.replace(/\s+/g,"");
     if(join_time==last_speak_time)
     {
+        // 增加一个条件，判定是否群昵称为空
+
         console.log(last_speak_time)
         console.log(user_name)
 
@@ -22,6 +24,7 @@ for(var i=1;i<tableId.rows.length;i++)
 
         delete_count++;
         //alert(user_name)
+
     }
 
     if(delete_count==20)
