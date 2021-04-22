@@ -58,7 +58,7 @@ while len(white_list_sorted) <= 1:
     white_list = []
     for c in low_saturation_list:
         score = c[0] + c[1] + c[2]
-        score += c[4] * 100 + c[5]
+        score += -c[4] * 100 + c[5]
         white_list.append((score, c))
 
     # just one data,try next time
