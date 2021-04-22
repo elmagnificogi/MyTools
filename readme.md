@@ -39,5 +39,5 @@ these tools maybe write by python,batch,c++,some from my work,some from my blog
 - plot_RGB_chromaticities_in_chromaticity_diagram_CIE1931,show RGB anchor on diagram CIE1931
 - chaojiying_Python，chaojiying captcha demo
 - AutoReplay_douban, auto replay douban and recgnize captcha
-- graph coloring，graph vertex coloring
+- graph coloring，graph vertex coloring, find white point and show rgb curve
 
