@@ -3,8 +3,8 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 
-f = open("./LightColor_0-255.txt")
-# f = open("./LightColor_5081_0-255.txt")
+#f = open("./LightColor_0-255.txt")
+f = open("./LightColor_5081_0-255.txt")
 lines = f.readlines()
 f.close()
 

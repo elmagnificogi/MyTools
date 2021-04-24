@@ -40,4 +40,5 @@ these tools maybe write by python,batch,c++,some from my work,some from my blog
 - chaojiying_Python，chaojiying captcha demo
 - AutoReplay_douban, auto replay douban and recgnize captcha
 - graph coloring，graph vertex coloring, find white point and show rgb curve
+- APF-Simulator, Artificial Potential Field simulator
 
