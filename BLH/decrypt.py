@@ -24,18 +24,18 @@ mem = {}
 # uart buff addr
 mem[local1] = 0x19F20C
 mem[local2] = 0x7C00A1C8
-mem[local3] = 0xD3617DCA  # buff 前4字节
+mem[local3] = 0  # buff 前4字节
 mem[local4] = 0x154369FC  # buff 后4字节
 mem[local5] = 0  # 这个值每次也+8
 mem[local6] = 0x4
 mem[local7] = 0x1513F8C
 mem[local8] = 0x20  # count 
 mem[local9] = 0x100
+# 这几个值来源不明，但是关键计算都有他们，所以猜测是计算向量之类的东西
 mem[local10] = 0x318234B4
-# 这个值来源不明
 mem[local11] = 0x29A1FA54  # [ebp+edx*4-0x34]
 mem[local12] = 0x9E81C901
-mem[local13] = 0x81FBC617
+mem[local13] = 0x81FBC617 # 0x19F134
 mem[local14] = 0x4
 mem[local15] = 0x513F8C
 mem[0x19F168 - 6] = 0x7C00  # [ebp-0x6] 这个值每次+8
@@ -44,18 +44,9 @@ mem[0x19F20C] = 0x4FEA1C8
 
 ebp = 0x19F168
 
-ebx = ds[0x839634]
-ebx = ebx * ds[0x839630] & 0xFFFFFFFF
-eax = mem[local1]
-eax = mem[eax]  # 0x4FEA1C8
-edx = mem[local5]
-eax = eax + edx
-edx = mem[local4]
-ecx = 0x8
-# move 准备工作
 # mem[local4] = 0x7EAB1EA0
 # mem[local5] = 0x625214C8
-eax = ds[0x839630]  # 20
+eax = ds[0x839630]  # 0x20
 
 # uart buff
 uart_buff = []
@@ -103,52 +94,36 @@ mem[local8] = eax
 for i in range(0, 0x100, 8):
     mem[local4] = int(uart_buff[i + 3] + uart_buff[i + 2] + uart_buff[i + 1] + uart_buff[i + 0], base=16)
     mem[local3] = int(uart_buff[i + 7] + uart_buff[i + 6] + uart_buff[i + 5] + uart_buff[i + 4], base=16)
-    ebx = ds[0x839634]
-    ebx = ebx * ds[0x839630] & 0xFFFFFFFF
-    eax = mem[local1]
-    eax = mem[eax]  # 0x4FEA1C8
-    edx = mem[local5]
-    eax = eax + edx
-    edx = mem[local4]
-    ecx = 0x8
 
+    ebx = ds[0x839634] * ds[0x839630] & 0xFFFFFFFF
+    
     for i in range(32):
         # loop2
-        esi = mem[local4]
-        eax = esi
-        eax = eax << 4 & 0xFFFFFFFF
-        edx = esi
-        edx = edx >> 5 & 0xFFFFFFFF
+        eax = mem[local4] << 4 & 0xFFFFFFFF
+        edx = mem[local4] >> 5 & 0xFFFFFFFF
         eax = eax ^ edx
-        eax = (eax + esi) & 0xFFFFFFFF
-        edx = ebx
-        edx = edx >> 0xB & 0xFFFFFFFF
+        eax = (eax + mem[local4]) & 0xFFFFFFFF
+        edx = ebx >> 0xB & 0xFFFFFFFF
         edx = edx & 0x3
-        edx = mem[ebp + edx * 4 - 0x34]
+        local = 0x19F134 + edx * 4
+        edx = mem[local]
         edx = (edx + ebx) & 0xFFFFFFFF
-        ecx = mem[ebp - 0x6]
-        edx = (edx + ecx) & 0xFFFFFFFF
+        edx = (edx + mem[ebp - 0x6]) & 0xFFFFFFFF
         eax = eax ^ edx
         mem[local3] = (mem[local3] - eax) & 0xFFFFFFFF
         ebx = (ebx - ds[0x839634]) & 0xFFFFFFFF
-        edi = mem[local3]
-        eax = edi
-        eax = eax << 4 & 0xFFFFFFFF
-        edx = edi
-        edx = edx >> 5 & 0xFFFFFFFF
+        
+        eax = mem[local3] << 4 & 0xFFFFFFFF
+        edx = mem[local3] >> 5 & 0xFFFFFFFF
         eax = eax ^ edx
-        eax = (eax + edi) & 0xFFFFFFFF
-        edx = 0x3
-        edx = edx & ebx
+        eax = (eax + mem[local3]) & 0xFFFFFFFF
+        edx = 0x3 & ebx
         edx = mem[ebp + edx * 4 - 0x34]
         edx = (edx + ebx) & 0xFFFFFFFF
-        ecx = mem[ebp - 0x6]
-        edx = (edx + ecx) & 0xFFFFFFFF
+        edx = (edx + mem[ebp - 0x6]) & 0xFFFFFFFF
         eax = eax ^ edx
         mem[local4] = (mem[local4] - eax) & 0xFFFFFFFF
-        mem[local8] -= 1
         # loop2 end
-    mem[local5] += 8
     mem[0x19F168 - 6] += 8
 
     decrypt_mem.append(mem[local4])
