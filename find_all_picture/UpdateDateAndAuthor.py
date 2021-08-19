@@ -4,7 +4,7 @@ import re
 # use for find all pic in markdown doc
 
 # first get all file
-dir = r"F:\GD32\dmd_uav_f4"
+dir = r"F:\v3\dmd_uav_h7"
 target_str = "![*](*)"
 # origin_str = "Raspberrypi-head-bg.jpg"
 # replace_str = "Raspberrypi-head-bg.png"
@@ -38,7 +38,8 @@ for root, dirs, files in os.walk(dir):
         new_file = ""
         time_stamp = datetime.datetime.now()
         now = time_stamp.strftime('%Y.%m.%d %H:%M:%S')
-        time_line = " * Date    : "+now+'\n'
+        time_line =   " * Date    : "+now+'\n'
+        author_line = " * Auther  : elmagnifico\n"
         #continue
         find_time =False
         for line in content:
@@ -47,6 +48,14 @@ for root, dirs, files in os.walk(dir):
             if re.search(r' * Date    :', line) != None:
                 print(line)
                 new_line = time_line
+                find_time = True
+            if re.search(r' Auther  : mr', line) != None:
+                print(line)
+                new_line = author_line
+                find_time = True
+            if re.search(r' Auther  : minrui', line) != None:
+                print(line)
+                new_line = author_line
                 find_time = True
             new_file+=new_line
                 # print(line.replace(origin_str, replace_str))
