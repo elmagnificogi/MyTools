@@ -153,3 +153,38 @@ for i in range(0, 64, 2):
     # print(decrypt_mem[i+7])
 
 end = True
+
+# # loop for method 2
+# ebx = 0x0c6ef3720
+# #eax = [ebp-4]
+# #eax = [[ebp-4]]
+# #edx = [ebp-10]
+# #eax = [ebp-10] + [[ebp-4]] 这里也没啥用
+# #edx = [ebp-0C]
+# # ecx = 8 没啥用
+# eax = 0x20 # 循环计数器
+# [ebp-1C] = eax# 这里应该没啥用
+# #esi = [ebp-0C]
+# #eax = esi
+# eax = ([ebp-0C] << 4) + [ebp-28]
+# #edx = esi
+# edx = 0x0c6ef3720 + [ebp-0C]
+# eax ^= edx
+# esi = ([ebp-0C] >> 5) + [ebp-24]
+# #esi += [ebp-24]
+# eax = eax ^ esi
+# [ebp-8] -= eax # 第一字节的结果
+# #edi = [ebp-8]
+# #eax = edi
+# #eax = [ebp-8] << 4
+# eax = ([ebp-8] << 4) + [ebp-30]
+# #edx = [ebp-8]
+# edx = 0x0c6ef3720 + [ebp-8]
+# eax ^= edx
+# #edi = [ebp-8] >> 5
+# edi = ([ebp-8] >> 5) + [ebp-2C]
+# eax = eax ^ edi
+# [ebp-0c] -= eax # 第二字节的结果
+# 
+# ebx -= [9DA86C] # 初值也会自动减少
+# [ebp-1c] -= 1 # 计数器减一
