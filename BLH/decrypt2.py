@@ -49,7 +49,7 @@ eax = ds[0x839630]  # 0x20
 
 # uart buff
 uart_buff = []
-f = open(os.path.dirname(__file__) + "/crypt_data.txt")
+f = open(os.path.dirname(__file__) + "/crypt_data2.txt")
 hex_data = f.read()
 print(hex_data)
 start = None
@@ -133,58 +133,30 @@ for i in range(0, 0x100, 8):
 
 print(decrypt_mem)
 
-def bytes2hex(data):
-    lin = ['%02X' % i for i in data]
-    return "".join(lin)
+def byte2hex(data):
+    lin = '%02X' % data
+    return "0x"+"".join(lin)
 
+pd = ""
 for i in range(0, 64, 2):
-    data = hex((decrypt_mem[i + 0] & 0x00FF0000) >> 16).zfill(4) + hex((decrypt_mem[i + 0] & 0xFF000000) >> 24).replace("0x",'').zfill(2)
-    data = data.replace("L",'')
-    print(data)
-    data = hex((decrypt_mem[i + 1] & 0x000000FF)).zfill(4) + hex((decrypt_mem[i + 1] & 0x0000FF00) >> 8).replace("0x",'').zfill(2) + hex(
-    (decrypt_mem[i + 1] & 0x00FF0000) >> 16).replace("0x",'').zfill(2) + hex((decrypt_mem[i + 1] & 0xFF000000) >> 24).replace("0x",'').zfill(2)
-    data = data.replace("L",'')
-    print(data)
+    #print ((decrypt_mem[i + 0] & 0x00FF0000) >> 16)
+    data = byte2hex((decrypt_mem[i + 0] & 0x00FF0000) >> 16)
+    pd = data+" "
+    #print(data)    
+    data = byte2hex((decrypt_mem[i + 0] & 0xFF000000) >> 24)
+    pd += data+" "
+    #print(data)
+    data = byte2hex((decrypt_mem[i + 1] & 0x000000FF) >> 0)
+    pd += data+" "
+    #print(data)
+    data = byte2hex((decrypt_mem[i + 1] & 0x0000FF00) >> 8)
+    pd += data+" "
+    #print(data)
+    data = byte2hex((decrypt_mem[i + 1] & 0x00FF0000) >> 16)
+    pd += data+" "
+    #print(data)
+    data = byte2hex((decrypt_mem[i + 1] & 0xFF000000) >> 24)
+    pd += data
+    #print(data)
+    print(pd)
 
-    # print(hex((decrypt_mem[i + 1] & 0x00FFFFFF) << 32 | decrypt_mem[i + 1]).zfill(16))
-    # print(decrypt_mem[i+4])
-    # print(decrypt_mem[i+5])
-    # print(decrypt_mem[i+6])
-    # print(decrypt_mem[i+7])
-
-end = True
-
-# # loop for method 2
-# ebx = 0x0c6ef3720
-# #eax = [ebp-4]
-# #eax = [[ebp-4]]
-# #edx = [ebp-10]
-# #eax = [ebp-10] + [[ebp-4]] 这里也没啥用
-# #edx = [ebp-0C]
-# # ecx = 8 没啥用
-# eax = 0x20 # 循环计数器
-# [ebp-1C] = eax# 这里应该没啥用
-# #esi = [ebp-0C]
-# #eax = esi
-# eax = ([ebp-0C] << 4) + [ebp-28]
-# #edx = esi
-# edx = 0x0c6ef3720 + [ebp-0C]
-# eax ^= edx
-# esi = ([ebp-0C] >> 5) + [ebp-24]
-# #esi += [ebp-24]
-# eax = eax ^ esi
-# [ebp-8] -= eax # 第一字节的结果
-# #edi = [ebp-8]
-# #eax = edi
-# #eax = [ebp-8] << 4
-# eax = ([ebp-8] << 4) + [ebp-30]
-# #edx = [ebp-8]
-# edx = 0x0c6ef3720 + [ebp-8]
-# eax ^= edx
-# #edi = [ebp-8] >> 5
-# edi = ([ebp-8] >> 5) + [ebp-2C]
-# eax = eax ^ edi
-# [ebp-0c] -= eax # 第二字节的结果
-# 
-# ebx -= [9DA86C] # 初值也会自动减少
-# [ebp-1c] -= 1 # 计数器减一

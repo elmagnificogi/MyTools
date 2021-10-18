@@ -32,10 +32,10 @@ mem[local7] = 0x1513F8C
 mem[local8] = 0x20  # count 
 mem[local9] = 0x100
 # 
-mem[local10] = 0x318234B4  # 需要
-mem[local11] = 0x29A1FA54  # [ebp+edx*4-0x34] 需要
-mem[local12] = 0x9E81C901 # 需要
-mem[local13] = 0x81FBC617 # 0x19F134 需要
+mem[local10] = 0x318234B4  # need
+mem[local11] = 0x29A1FA54  # [ebp+edx*4-0x34] need
+mem[local12] = 0x9E81C901 # need
+mem[local13] = 0x81FBC617 # 0x19F134 need
 mem[local14] = 0x4
 mem[local15] = 0x513F8C
 mem[0x19F168 - 6] = 0x7C00  # [ebp-0x6] 
@@ -50,7 +50,7 @@ eax = ds[0x839630]  # 0x20
 
 # uart buff
 uart_buff = []
-f = open(os.path.dirname(__file__) + "/crypt_data2.txt")
+f = open(os.path.dirname(__file__) + "/crypt_data.txt")
 hex_data = f.read()
 print(hex_data)
 start = None
@@ -134,22 +134,29 @@ for i in range(0, 0x100, 8):
 
 print(decrypt_mem)
 
-def bytes2hex(data):
-    lin = ['%02X' % i for i in data]
-    return "".join(lin)
+def byte2hex(data):
+    lin = '%02X' % data
+    return "0x"+"".join(lin)
 
+pd = ""
 for i in range(0, 64, 2):
-    data = hex((decrypt_mem[i + 0] & 0x00FF0000) >> 16).zfill(4) + hex((decrypt_mem[i + 0] & 0xFF000000) >> 24).replace("0x",'').zfill(2)
-    data = data.replace("L",'')
-    print(data)
-    data = hex((decrypt_mem[i + 1] & 0x000000FF)).zfill(4) + hex((decrypt_mem[i + 1] & 0x0000FF00) >> 8).replace("0x",'').zfill(2) + hex(
-        (decrypt_mem[i + 1] & 0x00FF0000) >> 16).replace("0x",'').zfill(2) + hex((decrypt_mem[i + 1] & 0xFF000000) >> 24).replace("0x",'').zfill(2)
-    data = data.replace("L",'')
-    print(data)
-    # print(hex((decrypt_mem[i + 1] & 0x00FFFFFF) << 32 | decrypt_mem[i + 1]).zfill(16))
-    # print(decrypt_mem[i+4])
-    # print(decrypt_mem[i+5])
-    # print(decrypt_mem[i+6])
-    # print(decrypt_mem[i+7])
-
-end = True
+    #print ((decrypt_mem[i + 0] & 0x00FF0000) >> 16)
+    data = byte2hex((decrypt_mem[i + 0] & 0x00FF0000) >> 16)
+    pd = data+" "
+    #print(data)    
+    data = byte2hex((decrypt_mem[i + 0] & 0xFF000000) >> 24)
+    pd += data+" "
+    #print(data)
+    data = byte2hex((decrypt_mem[i + 1] & 0x000000FF) >> 0)
+    pd += data+" "
+    #print(data)
+    data = byte2hex((decrypt_mem[i + 1] & 0x0000FF00) >> 8)
+    pd += data+" "
+    #print(data)
+    data = byte2hex((decrypt_mem[i + 1] & 0x00FF0000) >> 16)
+    pd += data+" "
+    #print(data)
+    data = byte2hex((decrypt_mem[i + 1] & 0xFF000000) >> 24)
+    pd += data
+    #print(data)
+    print(pd)
