@@ -43,7 +43,7 @@ for i in range(0, len(hex_data), 3):
         state = 0
 
 if end == None:
-    print "no start,exit"
+    print "no end,exit"
     sys.exit(0)
 
 print(start, end)
