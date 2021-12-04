@@ -1,6 +1,8 @@
 import os
 import sys
 
+# use for release version
+
 ds = {}
 ds[0x839634] = 0x9E3779B9
 ds[0x839630] = 0x20
