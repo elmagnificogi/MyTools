@@ -1,7 +1,7 @@
 import os
 import sys
 
-# use for test version 0x7C00
+# use for test version 0xF800
 
 ds = {}
 ds[0x839634] = 0x9E3779B9
@@ -39,7 +39,7 @@ mem[local12] = 0x1E88C901 # need
 mem[local13] = 0x71F1C617 # 0x19F134 need
 mem[local14] = 0x4
 mem[local15] = 0x513F8C
-mem[0x19F168 - 6] = 0xF800#0x7C00  # [ebp-0x6] 
+mem[0x19F168 - 6] = 0x7C00  # [ebp-0x6] 
 
 mem[0x19F20C] = 0x4FEA1C8
 
@@ -51,7 +51,7 @@ eax = ds[0x839630]  # 0x20
 
 # uart buff
 uart_buff = []
-f = open(os.path.dirname(__file__) + "/crypt_data2.txt")
+f = open(os.path.dirname(__file__) + "/crypt_data3.txt")
 hex_data = f.read()
 print(hex_data)
 start = None
