@@ -14,7 +14,7 @@ these tools maybe write by python,batch,c++,some from my work,some from my blog
 
 ## Tools
 
-- find_all_picture,replace my blog img
+- find_all_picture,replace my blog img and upload or download them
 - seed,update the seed libary
 - maya,some shot script about maya
 - Activation,software activation method
