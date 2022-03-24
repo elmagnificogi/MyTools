@@ -1,0 +1,35 @@
+ifeq ($(CONFIG_NAME),Ov2f7)
+    GIT_COMMIT_ID ?= n2.x.$(shell git describe --tags --always --abbrev=8 HEAD | sed 's/-g/+/' | cut -d "." -f3)
+endif
+
+ifeq ($(CONFIG_NAME),Ov2f7_boot)
+    GIT_COMMIT_ID ?= n2.x.$(shell git describe --tags --always --abbrev=8 HEAD | sed 's/-g/+/' | cut -d "." -f3)
+endif
+
+ifeq ($(CONFIG_NAME),Ov2h7)
+    GIT_COMMIT_ID ?= n2.x.$(shell git describe --tags --always --abbrev=8 HEAD | sed 's/-g/+/' | cut -d "." -f3)
+endif
+
+ifeq ($(CONFIG_NAME),Ov2h7_boot)
+    GIT_COMMIT_ID ?= n2.x.$(shell git describe --tags --always --abbrev=8 HEAD | sed 's/-g/+/' | cut -d "." -f3)
+endif
+
+ifeq ($(CONFIG_NAME),Ov3)
+    GIT_COMMIT_ID ?= n2.x.$(shell git describe --tags --always --abbrev=8 HEAD | sed 's/-g/+/' | cut -d "." -f3)
+endif
+
+ifeq ($(CONFIG_NAME),Ov3_boot)
+    GIT_COMMIT_ID ?= n2.x.$(shell git describe --tags --always --abbrev=8 HEAD | sed 's/-g/+/' | cut -d "." -f3)
+endif
+
+ifeq ($(CONFIG_NAME),Iv2)
+    GIT_COMMIT_ID ?= n2.x.$(shell git describe --tags --always --abbrev=8 HEAD | sed 's/-g/+/' | cut -d "." -f3)
+endif
+
+ifeq ($(CONFIG_NAME),Iv2_boot)
+    GIT_COMMIT_ID ?= n2.x.$(shell git describe --tags --always --abbrev=8 HEAD | sed 's/-g/+/' | cut -d "." -f3)
+endif
+
+
+GIT_COMMIT_ID ?= $(shell git rev-parse HEAD | cut -c1-16)
+GIT_COMMIT_ID ?= $(shell git rev-parse HEAD | cut -c1-8)
