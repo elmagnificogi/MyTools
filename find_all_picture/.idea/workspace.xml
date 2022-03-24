@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="684b1585-8102-41bb-9434-3470e0f504a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ReplaceOldImgUrl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/find_replace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/find_replace.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="684b1585-8102-41bb-9434-3470e0f504a3" name="Default Changelist" comment="add new py for replace and upload all img in my blog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DownloadAllPic.py" beforeDir="false" afterPath="$PROJECT_DIR$/DownloadAllPic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,8 +182,18 @@
       <workItem from="1624528235566" duration="3217000" />
       <workItem from="1643266904660" duration="4759000" />
       <workItem from="1643352845670" duration="4916000" />
-      <workItem from="1643357982662" duration="521000" />
+      <workItem from="1643357982662" duration="1192000" />
+      <workItem from="1647167401979" duration="811000" />
+      <workItem from="1647394694334" duration="207000" />
     </task>
+    <task id="LOCAL-00001" summary="add new py for replace and upload all img in my blog">
+      <created>1643358541964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643358541964</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +210,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new py for replace and upload all img in my blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new py for replace and upload all img in my blog" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/find_replace$ReplaceOldImgUrl.coverage" NAME="ReplaceOldImgUrl Coverage Results" MODIFIED="1643356423517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
