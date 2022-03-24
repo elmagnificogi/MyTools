@@ -1,7 +1,7 @@
 import os
 import sys
 
-# use for release version 0x7C00
+# use for release version 0xF800
 
 ds = {}
 ds[0x839634] = 0x9E3779B9
@@ -26,21 +26,20 @@ mem = {}
 # uart buff addr
 mem[local1] = 0x19F20C
 mem[local2] = 0x7C00A1C8
-mem[local3] = 0  
+mem[local3] = 0
 mem[local4] = 0x154369FC  #
 mem[local5] = 0  # 
 mem[local6] = 0x4
 mem[local7] = 0x1513F8C
 mem[local8] = 0x20  # count 
 mem[local9] = 0x100
-# 
 mem[local10] = 0x318234B4  # need
 mem[local11] = 0x29A1FA54  # [ebp+edx*4-0x34] need
 mem[local12] = 0x9E81C901 # need
 mem[local13] = 0x81FBC617 # 0x19F134 need
 mem[local14] = 0x4
 mem[local15] = 0x513F8C
-mem[0x19F168 - 6] = 0x7C00  # [ebp-0x6] need
+mem[0x19F168 - 6] = 0xF800  # [ebp-0x6] need
 
 mem[0x19F20C] = 0x4FEA1C8
 
@@ -52,7 +51,7 @@ eax = ds[0x839630]  # 0x20
 
 # uart buff
 uart_buff = []
-f = open(os.path.dirname(__file__) + "/crypt_data.txt")
+f = open(os.path.dirname(__file__) + "/crypt_data4.txt")
 hex_data = f.read()
 print(hex_data)
 start = None
@@ -98,7 +97,7 @@ for i in range(0, 0x100, 8):
     mem[local3] = int(uart_buff[i + 7] + uart_buff[i + 6] + uart_buff[i + 5] + uart_buff[i + 4], base=16)
 
     ebx = ds[0x839634] * ds[0x839630] & 0xFFFFFFFF
-    
+
     for i in range(32):
         # loop2
         eax = mem[local4] << 4 & 0xFFFFFFFF
@@ -114,7 +113,7 @@ for i in range(0, 0x100, 8):
         eax = eax ^ edx
         mem[local3] = (mem[local3] - eax) & 0xFFFFFFFF
         ebx = (ebx - ds[0x839634]) & 0xFFFFFFFF
-        
+
         eax = mem[local3] << 4 & 0xFFFFFFFF
         edx = mem[local3] >> 5 & 0xFFFFFFFF
         eax = eax ^ edx
@@ -162,3 +161,4 @@ for i in range(0, 64, 2):
     pd += data
     #print(data)
     print(pd)
+
