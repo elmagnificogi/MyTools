@@ -1,4 +1,4 @@
-for /F %%i in ('git describe --tags --always --abbrev^=8 HEAD') do (set tagid=%%i)
+for /F %%i in ('git describe --tags --always --abbrev^=0 HEAD') do (set tagid=%%i)
 echo %tagid%
 set num=%tagid:~-3%
 echo #include "version.h" > ./rtos/start/version.c

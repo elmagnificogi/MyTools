@@ -1,6 +1,6 @@
 @echo off
 :: echo %1%
-for /F %%i in ('git describe --tags --always --abbrev^=8 HEAD') do (set tagid=%%i)
+for /F %%i in ('git describe --tags --always --abbrev^=0 HEAD') do (set tagid=%%i)
 :: echo %tagid%
 set "path=%1%
 set "path=%path:/=\%"
