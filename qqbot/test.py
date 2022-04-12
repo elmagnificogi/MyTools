@@ -9,7 +9,7 @@ from qqbot.core.util.yaml_util import YamlUtil
 test_config = YamlUtil.read(os.path.join(os.path.dirname(__file__), "config.yaml"))
 
 
-async def _direct_message_handler(event, message: qqbot.Message):
+async def _at_message_handler(event, message: qqbot.Message):
     """
     定义事件回调的处理
 
@@ -17,19 +17,28 @@ async def _direct_message_handler(event, message: qqbot.Message):
     :param message: 事件对象（如监听消息是Message对象）
     """
     msg_api = qqbot.AsyncDmsAPI(t_token, False)
+    mAPI = qqbot.AsyncMessageAPI(t_token, False)
     # 打印返回信息
     qqbot.logger.info("event %s" % event + ",receive message %s" % message.content)
-    # 构造消息发送请求数据对象
-    send = qqbot.MessageSendRequest("收到你的私信消息了：%s" % message.content, message.id)
-    # 通过api发送回复消息
-    await msg_api.post_direct_message(message.guild_id, send)
+
+    # 输入/xxx后的处理
+    if "/启动" in message.content:
+        message_to_send = qqbot.MessageSendRequest("已启动群与频道消息同步", message.id)
+        await mAPI.post_message(message.channel_id, message_to_send)
+
+    elif "/停止" in message.content:
+        message_to_send = qqbot.MessageSendRequest("已停止群与频道消息同步", message.id)
+        await mAPI.post_message(message.channel_id, message_to_send)
 
 
 if __name__ == "__main__":
     t_token = qqbot.Token(test_config["token"]["appid"], test_config["token"]["token"])
+
+    # 注册机器人被@后的事件
     qqbot_handler = qqbot.Handler(
-        qqbot.HandlerType.DIRECT_MESSAGE_EVENT_HANDLER, _direct_message_handler
+        qqbot.HandlerType.AT_MESSAGE_EVENT_HANDLER, _at_message_handler
     )
+    qqbot.async_listen_events(t_token, False, qqbot_handler)
 
     # init UserAPI
     uAPI = qqbot.UserAPI(t_token, False)
@@ -57,13 +66,11 @@ if __name__ == "__main__":
         for i in range(len(channels)):
             print(channels[i].__dict__)
 
-    mAPI = qqbot.MessageAPI(t_token, True)
-    for i in range(100):
-        # content max len is 10KB,but limit post times per day or per second
-        content = "消息测试："+str(i)
-        send = qqbot.MessageSendRequest(content)
-        mAPI.post_message("3315041", send)
-        time.sleep(1)
-    # qqbot.async_listen_events(t_token, False, qqbot_handler)
-
-    # qqbot.MessageSendRequest("test",)
+    # mAPI = qqbot.MessageAPI(t_token, False)
+    # for i in range(100):
+    #     # content max len is 10KB,but limit post times per day or per second
+    #     content = "消息测试：" + str(i)
+    #     message_id = "088de19cbeb883e7e97110a2e39c0138d401"
+    #     send = qqbot.MessageSendRequest(content, message_id)
+    #     mAPI.post_message("3315041", send)
+    #     time.sleep(1)
