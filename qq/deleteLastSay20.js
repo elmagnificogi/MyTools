@@ -15,11 +15,11 @@ for(var i=1;i<tableId.rows.length;i++)
     last_speak_time = tableId.rows[i].cells[9].innerHTML.replace(/\s+/g,"");
     //console.log(last_speak_time)
     //console.log(join_time)
-    if(join_time==last_speak_time)
+    //if(join_time==last_speak_time)
     {
         // 增加一个条件，判定是否群昵称为空
-        #if(nick_name != "")
-        #    continue;
+        //if(nick_name != "")
+        //    continue;
 
         console.log(last_speak_time)
         console.log(user_name)
