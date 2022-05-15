@@ -13,8 +13,11 @@ last_user_count = 0
 
 def getDCInfo():
     global dcTrackInfo
-    call = requests.get(d2api).json()
-    dcTrackInfo = call
+    try:
+        call = requests.get(d2api).json()
+        dcTrackInfo = call
+    except:
+        dcTrackInfo = ""
 
 
 def DCTrackLoop():
