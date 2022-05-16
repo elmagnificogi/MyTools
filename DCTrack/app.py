@@ -11,10 +11,11 @@ dcTrackInfo = ""
 user_count = 0
 last_user_count = 0
 
+
 def getDCInfo():
     global dcTrackInfo
     try:
-        call = requests.get(d2api).json()
+        call = requests.get(d2api, timeout=10).json()
         dcTrackInfo = call
     except:
         dcTrackInfo = ""
@@ -45,10 +46,9 @@ def statistics():
     global last_user_count
     return "user count:" + str(last_user_count)
 
-
+# start tracker
+getDCInfo()
+dctrack = threading.Thread(target=DCTrackLoop)
+dctrack.start()
 if __name__ == '__main__':
-    # start tracker
-    getDCInfo()
-    dctrack = threading.Thread(target=DCTrackLoop)
-    dctrack.start()
     app.run(host='0.0.0.0', port=8000)
