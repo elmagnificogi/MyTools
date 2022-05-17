@@ -1,15 +1,17 @@
 from flask import Flask, jsonify
 import requests
 import time
+import threading
 
 app = Flask(__name__)
 d2api = "https://diablo2.io/dclone_api.php"
 dcTrackInfo, dcTrackTimeStamp, user_count = "", time.time(), 0
-
+lock = threading.Lock()
 
 def getDCInfo():
     global dcTrackTimeStamp, dcTrackInfo
     dcTrackTimeStamp = time.time()
+    print(dcTrackTimeStamp)
     dcTrackInfo = requests.get(d2api).json()
 
 
@@ -18,10 +20,12 @@ def getDCInfo():
 def dctrackinfo():
     global dcTrackTimeStamp, dcTrackInfo, user_count
     user_count += 1
-    if time.time() - dcTrackTimeStamp > 5:
-        print("user count: {}".format(user_count))
-        user_count = 0
-        getDCInfo()
+    if lock.acquire(blocking=False):
+        if time.time() - dcTrackTimeStamp > 5:
+            print("user count: {}".format(user_count))
+            user_count = 0
+            getDCInfo()
+        lock.release()
     return jsonify(dcTrackInfo)
 
 
