@@ -10,9 +10,12 @@ lock = threading.Lock()
 
 def getDCInfo():
     global dcTrackTimeStamp, dcTrackInfo
-    dcTrackTimeStamp = time.time()
-    print(dcTrackTimeStamp)
-    dcTrackInfo = requests.get(d2api).json()
+    try:
+        dcTrackTimeStamp = time.time()
+        print(dcTrackTimeStamp)
+        dcTrackInfo = requests.get(d2api).json()
+    except:
+        pass
 
 
 
