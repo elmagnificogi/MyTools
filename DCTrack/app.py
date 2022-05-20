@@ -13,7 +13,7 @@ def getDCInfo():
     try:
         dcTrackTimeStamp = time.time()
         print(dcTrackTimeStamp)
-        dcTrackInfo = requests.get(d2api).json()
+        dcTrackInfo = requests.get(d2api,timeout=10).json()
     except:
         pass
 
@@ -23,11 +23,14 @@ def getDCInfo():
 def dctrackinfo():
     global dcTrackTimeStamp, dcTrackInfo, user_count
     user_count += 1
-    if lock.acquire(blocking=False):
-        if time.time() - dcTrackTimeStamp > 5:
-            print("user count: {}".format(user_count))
-            user_count = 0
-            getDCInfo()
+    try:
+        if lock.acquire(blocking=False):
+            if time.time() - dcTrackTimeStamp > 5:
+                print("user count: {}".format(user_count))
+                user_count = 0
+                getDCInfo()
+            lock.release()
+    except:
         lock.release()
     return jsonify(dcTrackInfo)
 
