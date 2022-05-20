@@ -4,7 +4,8 @@ import os
 
 # first get all file
 dir = r"E:\elmagnificogi.github.io\_posts"
-no_replace = ["Embedded-head-bg.png", "python-head-bg.png"]
+dir = r"E:\Github\elmagnificogi.github.io\_posts"
+no_replace = []
 origin_str = "png"
 replace_str = "jpg"
 

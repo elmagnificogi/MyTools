@@ -42,4 +42,14 @@ these tools maybe write by python,batch,c++,some from my work,some from my blog
 - graph coloring，graph vertex coloring, find white point and show rgb curve
 - APF-Simulator, Artificial Potential Field simulator
 - GD32F450VI，modified STM32HALF4 library
+- BLH,for BLH_music and decrypt,dump settings
+- check_ip,use for get ip region
+- DCTrack,a dc track api api
+- Foxit PDF Page Organizer,FPDFPO for unlock pdf protect
+- git_commit_info,use for c get commit id
+- qq,for delete user in group
+- qqbot,a qq channel bot test demo
+- show_yuv,show yuv data img
+- VS-TT,a visual sutido text templete for auto generating version
+- 
 
