@@ -1,0 +1,1687 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o (exit)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o (__libc_init_array)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o (memset)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o) (_exit)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+                              Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o (__aeabi_uldivmod)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-malloc.o)
+                              Output/debug_ram/Obj/helloworld/fsl_common.o (malloc)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-freer.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-malloc.o) (_free_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-mallocr.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-malloc.o) (_malloc_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-sbrkr.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-strlen.o)
+                              Output/debug_ram/Obj/helloworld/fsl_str.o (strlen)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-mlock.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-reent.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-sbrkr.o) (errno)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-sbrkr.o) (_sbrk)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .rodata        0x00000000       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/startup_MIMXRT1052.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/startup_MIMXRT1052.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/board.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/board.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/board.o
+ .text.BOARD_SD_Pin_Config
+                0x00000000       0x38 Output/debug_ram/Obj/helloworld/board.o
+ .text.BOARD_MMC_Pin_Config
+                0x00000000       0x48 Output/debug_ram/Obj/helloworld/board.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/clock_config.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/clock_config.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/clock_config.o
+ .text.BOARD_InitBootClocks
+                0x00000000        0x8 Output/debug_ram/Obj/helloworld/clock_config.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/hello_world.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/hello_world.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/hello_world.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/pin_mux.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/pin_mux.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/pin_mux.o
+ .text.BOARD_InitBootPins
+                0x00000000        0x8 Output/debug_ram/Obj/helloworld/pin_mux.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/evkbimxrt1050_flexspi_nor_config.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/evkbimxrt1050_flexspi_nor_config.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/evkbimxrt1050_flexspi_nor_config.o
+ .debug_info    0x00000000       0x72 Output/debug_ram/Obj/helloworld/evkbimxrt1050_flexspi_nor_config.o
+ .debug_abbrev  0x00000000       0x26 Output/debug_ram/Obj/helloworld/evkbimxrt1050_flexspi_nor_config.o
+ .debug_aranges
+                0x00000000       0x18 Output/debug_ram/Obj/helloworld/evkbimxrt1050_flexspi_nor_config.o
+ .debug_line    0x00000000       0x1d Output/debug_ram/Obj/helloworld/evkbimxrt1050_flexspi_nor_config.o
+ .debug_str     0x00000000      0x247 Output/debug_ram/Obj/helloworld/evkbimxrt1050_flexspi_nor_config.o
+ .comment       0x00000000       0x4a Output/debug_ram/Obj/helloworld/evkbimxrt1050_flexspi_nor_config.o
+ .ARM.attributes
+                0x00000000       0x32 Output/debug_ram/Obj/helloworld/evkbimxrt1050_flexspi_nor_config.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/evkbimxrt1050_sdram_ini_dcd.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/evkbimxrt1050_sdram_ini_dcd.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/evkbimxrt1050_sdram_ini_dcd.o
+ .debug_info    0x00000000       0x64 Output/debug_ram/Obj/helloworld/evkbimxrt1050_sdram_ini_dcd.o
+ .debug_abbrev  0x00000000       0x26 Output/debug_ram/Obj/helloworld/evkbimxrt1050_sdram_ini_dcd.o
+ .debug_aranges
+                0x00000000       0x18 Output/debug_ram/Obj/helloworld/evkbimxrt1050_sdram_ini_dcd.o
+ .debug_line    0x00000000       0x1d Output/debug_ram/Obj/helloworld/evkbimxrt1050_sdram_ini_dcd.o
+ .debug_str     0x00000000      0x237 Output/debug_ram/Obj/helloworld/evkbimxrt1050_sdram_ini_dcd.o
+ .comment       0x00000000       0x4a Output/debug_ram/Obj/helloworld/evkbimxrt1050_sdram_ini_dcd.o
+ .ARM.attributes
+                0x00000000       0x32 Output/debug_ram/Obj/helloworld/evkbimxrt1050_sdram_ini_dcd.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .text.DbgConsole_SendData
+                0x00000000       0x50 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .rodata.DbgConsole_ReadLine.str1.4
+                0x00000000        0xc Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .text.DbgConsole_ReadLine
+                0x00000000       0x64 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .text.DbgConsole_Deinit
+                0x00000000       0x2c Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .text.DbgConsole_Flush
+                0x00000000        0x4 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .text.DbgConsole_Scanf
+                0x00000000       0x3a Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .text._write   0x00000000       0x26 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .text._read    0x00000000       0x56 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .bss.s_debugConsoleReadWaitSemaphore
+                0x00000000        0x1 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .rodata.__func__.2
+                0x00000000       0x14 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .rodata.__func__.4
+                0x00000000       0x14 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_TransferReceiveTransaction
+                0x00000000       0x52 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_GetInstance
+                0x00000000        0xa Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.FLEXIO_SPI_MasterInit.str1.4
+                0x00000000       0x96 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_MasterInit
+                0x00000000      0x230 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_MasterDeinit
+                0x00000000       0x74 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_MasterGetDefaultConfig
+                0x00000000       0x44 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.FLEXIO_SPI_SlaveInit.str1.4
+                0x00000000       0x14 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_SlaveInit
+                0x00000000      0x1bc Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_SlaveDeinit
+                0x00000000        0x8 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.FLEXIO_SPI_SlaveGetDefaultConfig.str1.4
+                0x00000000        0xc Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_SlaveGetDefaultConfig
+                0x00000000       0x3c Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_EnableInterrupts
+                0x00000000       0x30 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_DisableInterrupts
+                0x00000000       0x38 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_TransferSendTransaction
+                0x00000000       0x70 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_EnableDMA
+                0x00000000       0x46 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_GetStatusFlags
+                0x00000000       0x28 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_ClearStatusFlags
+                0x00000000       0x26 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_MasterSetBaudRate
+                0x00000000       0x2a Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.FLEXIO_SPI_WriteBlocking.str1.4
+                0x00000000        0xd Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_WriteBlocking
+                0x00000000       0x70 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_ReadBlocking
+                0x00000000       0x74 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_MasterTransferBlocking
+                0x00000000      0x106 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.FLEXIO_SPI_MasterTransferCreateHandle.str1.4
+                0x00000000        0x7 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_MasterTransferCreateHandle
+                0x00000000       0x88 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.FLEXIO_SPI_MasterTransferNonBlocking.str1.4
+                0x00000000        0x5 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_MasterTransferNonBlocking
+                0x00000000      0x144 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_MasterTransferGetCount
+                0x00000000       0x44 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_MasterTransferAbort
+                0x00000000       0x3c Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.FLEXIO_SPI_MasterTransferHandleIRQ.str1.4
+                0x00000000        0xa Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_MasterTransferHandleIRQ
+                0x00000000       0x80 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_SlaveTransferHandleIRQ
+                0x00000000       0x80 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_SlaveTransferCreateHandle
+                0x00000000       0x88 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text.FLEXIO_SPI_SlaveTransferNonBlocking
+                0x00000000       0xd4 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata        0x00000000        0x6 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.0
+                0x00000000       0x22 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.1
+                0x00000000       0x24 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.10
+                0x00000000       0x21 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.11
+                0x00000000       0x15 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.12
+                0x00000000       0x22 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.13
+                0x00000000       0x12 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.14
+                0x00000000       0x16 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.2
+                0x00000000       0x25 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.3
+                0x00000000       0x23 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.4
+                0x00000000       0x1f Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.5
+                0x00000000       0x22 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.6
+                0x00000000       0x25 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.7
+                0x00000000       0x26 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.8
+                0x00000000       0x18 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .rodata.__func__.9
+                0x00000000       0x19 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .debug_info    0x00000000     0x32a1 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .debug_abbrev  0x00000000      0x414 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .debug_loc     0x00000000     0x1f39 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .debug_aranges
+                0x00000000       0xe8 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .debug_ranges  0x00000000      0x1f0 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .debug_line    0x00000000     0x1715 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .debug_str     0x00000000     0x2f45 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .comment       0x00000000       0x4a Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .debug_frame   0x00000000      0x2e8 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .ARM.attributes
+                0x00000000       0x32 Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .rodata.GPIO_GetInstance.str1.4
+                0x00000000       0x59 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .text.GPIO_GetInstance
+                0x00000000       0x3c Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .rodata.GPIO_PinWrite.str1.4
+                0x00000000        0x9 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .text.GPIO_PinWrite
+                0x00000000       0x40 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .text.GPIO_PinSetInterruptConfig
+                0x00000000       0x86 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .rodata.GPIO_PinInit.str1.4
+                0x00000000       0x42 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .text.GPIO_PinInit
+                0x00000000       0x98 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .rodata.__func__.0
+                0x00000000        0xe Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .rodata.__func__.1
+                0x00000000       0x12 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .rodata.__func__.2
+                0x00000000       0x11 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .rodata.s_gpioBases
+                0x00000000       0x18 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .rodata.s_gpioClock
+                0x00000000        0xc Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .debug_info    0x00000000      0xe40 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .debug_abbrev  0x00000000      0x2b3 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .debug_loc     0x00000000      0x424 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .debug_aranges
+                0x00000000       0x38 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .debug_ranges  0x00000000       0x40 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .debug_line    0x00000000      0x3d3 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .debug_str     0x00000000     0x13cd Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .comment       0x00000000       0x4a Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .debug_frame   0x00000000       0x7c Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .ARM.attributes
+                0x00000000       0x32 Output/debug_ram/Obj/helloworld/fsl_gpio.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_ReadNonBlocking
+                0x00000000       0x5c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_WriteNonBlocking
+                0x00000000       0x30 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.LPUART_TransferGetRxRingBufferLength.str1.4
+                0x00000000        0xf Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferGetRxRingBufferLength
+                0x00000000       0x38 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferIsRxRingBufferFull
+                0x00000000       0x34 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_Deinit
+                0x00000000       0x70 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.LPUART_SetBaudRate.str1.4
+                0x00000000       0x12 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_SetBaudRate
+                0x00000000       0xcc Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_EnableInterrupts
+                0x00000000       0x28 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_DisableInterrupts
+                0x00000000       0x2c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_GetEnabledInterrupts
+                0x00000000       0x26 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferHandleIRQ
+                0x00000000      0x280 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferCreateHandle
+                0x00000000       0xb0 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.LPUART_TransferStartRingBuffer.str1.4
+                0x00000000       0x13 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferStartRingBuffer
+                0x00000000       0x48 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferStopRingBuffer
+                0x00000000       0x40 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.LPUART_TransferSendNonBlocking.str1.4
+                0x00000000       0x39 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferSendNonBlocking
+                0x00000000       0x8c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferAbortSend
+                0x00000000       0x34 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.LPUART_TransferGetSendCount.str1.4
+                0x00000000        0xe Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferGetSendCount
+                0x00000000       0x4c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferReceiveNonBlocking
+                0x00000000      0x14c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferAbortReceive
+                0x00000000       0x3c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferGetReceiveCount
+                0x00000000       0x4c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text.LPUART_TransferHandleErrorIRQ
+                0x00000000        0x2 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.0
+                0x00000000       0x18 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.1
+                0x00000000       0x22 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.10
+                0x00000000       0x1e Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.11
+                0x00000000       0x1f Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.12
+                0x00000000       0x1c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.15
+                0x00000000       0x13 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.19
+                0x00000000       0x25 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.2
+                0x00000000       0x17 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.3
+                0x00000000       0x19 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.4
+                0x00000000       0x1f Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.5
+                0x00000000       0x1c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.6
+                0x00000000       0x22 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.7
+                0x00000000       0x1c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.8
+                0x00000000       0x19 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.9
+                0x00000000       0x1f Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.s_lpuartIRQ
+                0x00000000       0x12 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_str.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_str.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_str.o
+ .text.ScanIgnoreWhiteSpace
+                0x00000000       0x38 Output/debug_ram/Obj/helloworld/fsl_str.o
+ .text.StrFormatScanf
+                0x00000000      0x304 Output/debug_ram/Obj/helloworld/fsl_str.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+ .rodata.boot_data
+                0x00000000       0x10 Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+ .debug_info    0x00000000      0x330 Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+ .debug_abbrev  0x00000000       0x8f Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+ .debug_aranges
+                0x00000000       0x18 Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+ .debug_line    0x00000000      0x109 Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+ .debug_str     0x00000000      0xa40 Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+ .comment       0x00000000       0x4a Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+ .ARM.attributes
+                0x00000000       0x32 Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_DeinitExternalClk
+                0x00000000       0x10 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_DeinitRcOsc24M
+                0x00000000       0x14 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_EnableUsbhs0Clock
+                0x00000000       0x60 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_EnableUsbhs1Clock
+                0x00000000       0x64 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_DisableUsbhs0PhyPllClock
+                0x00000000       0x1c Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_DeinitArmPll
+                0x00000000       0x10 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_DeinitSysPll
+                0x00000000       0x10 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_EnableUsbhs0PhyPllClock
+                0x00000000       0x54 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_DeinitUsb1Pll
+                0x00000000        0xc Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_InitUsb2Pll
+                0x00000000       0x48 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_InitAudioPll
+                0x00000000       0xb8 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_InitVideoPll
+                0x00000000       0xbc Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_InitEnetPll
+                0x00000000       0x68 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_DeinitSysPfd
+                0x00000000       0x18 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_DeinitUsb1Pfd
+                0x00000000       0x18 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_GetSysPfdFreq
+                0x00000000       0x68 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_GetPeriphClkFreq
+                0x00000000       0xbc Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_GetAhbFreq
+                0x00000000       0x1c Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_GetIpgFreq
+                0x00000000       0x1c Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_GetUsb1PfdFreq
+                0x00000000       0x68 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_GetSemcFreq
+                0x00000000       0x40 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_GetFreq
+                0x00000000      0x104 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_GetPerClkFreq
+                0x00000000       0x48 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_EnableUsbhs1PhyPllClock
+                0x00000000       0x38 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.CLOCK_DisableUsbhs1PhyPllClock
+                0x00000000       0x1c Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .rodata.SDK_DelayAtLeastUs.str1.4
+                0x00000000       0x4d Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text.SDK_DelayAtLeastUs
+                0x00000000       0xd0 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .rodata.__func__.0
+                0x00000000       0x13 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .text.SDK_Malloc
+                0x00000000       0x30 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .text.SDK_Free
+                0x00000000       0x1c Output/debug_ram/Obj/helloworld/fsl_common.o
+ .debug_info    0x00000000      0x1e5 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .debug_abbrev  0x00000000      0x127 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .debug_loc     0x00000000      0x119 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .debug_aranges
+                0x00000000       0x28 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .debug_ranges  0x00000000       0x18 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .debug_line    0x00000000      0x1b9 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .debug_str     0x00000000      0x2f6 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .comment       0x00000000       0x4a Output/debug_ram/Obj/helloworld/fsl_common.o
+ .debug_frame   0x00000000       0x44 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .ARM.attributes
+                0x00000000       0x32 Output/debug_ram/Obj/helloworld/fsl_common.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/generic_list.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/generic_list.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_Scan
+                0x00000000       0x16 Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_Init
+                0x00000000        0xc Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_GetList
+                0x00000000        0x4 Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_AddTail
+                0x00000000       0x5a Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_AddHead
+                0x00000000       0x5a Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_RemoveHead
+                0x00000000       0x3e Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_GetHead
+                0x00000000        0x4 Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_GetNext
+                0x00000000        0x4 Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_GetPrev
+                0x00000000        0x4 Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_RemoveElement
+                0x00000000       0x4c Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_AddPrevElement
+                0x00000000       0x66 Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_GetSize
+                0x00000000        0x4 Output/debug_ram/Obj/helloworld/generic_list.o
+ .text.LIST_GetAvailableSize
+                0x00000000        0x8 Output/debug_ram/Obj/helloworld/generic_list.o
+ .debug_info    0x00000000      0xac8 Output/debug_ram/Obj/helloworld/generic_list.o
+ .debug_abbrev  0x00000000      0x2b8 Output/debug_ram/Obj/helloworld/generic_list.o
+ .debug_loc     0x00000000      0x6c1 Output/debug_ram/Obj/helloworld/generic_list.o
+ .debug_aranges
+                0x00000000       0x80 Output/debug_ram/Obj/helloworld/generic_list.o
+ .debug_ranges  0x00000000      0x190 Output/debug_ram/Obj/helloworld/generic_list.o
+ .debug_line    0x00000000      0x83c Output/debug_ram/Obj/helloworld/generic_list.o
+ .debug_str     0x00000000      0x454 Output/debug_ram/Obj/helloworld/generic_list.o
+ .comment       0x00000000       0x4a Output/debug_ram/Obj/helloworld/generic_list.o
+ .debug_frame   0x00000000      0x114 Output/debug_ram/Obj/helloworld/generic_list.o
+ .ARM.attributes
+                0x00000000       0x32 Output/debug_ram/Obj/helloworld/generic_list.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .text.HAL_UartDeinit
+                0x00000000       0x34 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .rodata.__func__.2
+                0x00000000        0xf Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .text.SerialManager_Deinit
+                0x00000000       0x48 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .text.SerialManager_CloseWriteHandle
+                0x00000000       0x48 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .text.SerialManager_CloseReadHandle
+                0x00000000       0x44 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .text.SerialManager_EnterLowpower
+                0x00000000       0x24 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .text.SerialManager_ExitLowpower
+                0x00000000       0x24 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .rodata.__func__.0
+                0x00000000       0x1b Output/debug_ram/Obj/helloworld/serial_manager.o
+ .rodata.__func__.1
+                0x00000000       0x1c Output/debug_ram/Obj/helloworld/serial_manager.o
+ .rodata.__func__.4
+                0x00000000       0x1e Output/debug_ram/Obj/helloworld/serial_manager.o
+ .rodata.__func__.6
+                0x00000000       0x1f Output/debug_ram/Obj/helloworld/serial_manager.o
+ .rodata.__func__.8
+                0x00000000       0x15 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .text.Serial_UartDeinit
+                0x00000000       0x24 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .rodata.__func__.2
+                0x00000000       0x12 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .text          0x00000000        0x0 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+ .data          0x00000000        0x0 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+ .bss           0x00000000        0x0 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+ .text.SystemCoreClockUpdate
+                0x00000000      0x16c Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+ .text          0x00000000       0x30 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000      0x2d0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000000       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .text          0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-malloc.o)
+ .text.malloc   0x00000000       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-malloc.o)
+ .text.free     0x00000000       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-malloc.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-malloc.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-freer.o)
+ .text._free_r  0x00000000       0x98 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-mallocr.o)
+ .text.sbrk_aligned
+                0x00000000       0x40 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x00000000       0xe8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_free_list
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000       0x4c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-mlock.o)
+ .text.__malloc_lock
+                0x00000000        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-mlock.o)
+ .text.__malloc_unlock
+                0x00000000        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1a c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xb8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-reent.o)
+ .bss.errno     0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-reent.o)
+ .debug_frame   0x00000000       0x5c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-reent.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .bss.__lock___malloc_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .bss.__lock___sinit_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .debug_frame   0x00000000       0xb0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-lock.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
+ .text._sbrk    0x00000000       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
+ .bss.heap_end.0
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .rodata        0x00000000       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000400         xr
+m_text           0x00000400         0x0001fc00         xr
+m_data           0x20000000         0x00020000         rw
+m_data2          0x20200000         0x00040000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a
+END GROUP
+LOAD Output/debug_ram/Obj/helloworld/startup_MIMXRT1052.o
+LOAD Output/debug_ram/Obj/helloworld/board.o
+LOAD Output/debug_ram/Obj/helloworld/clock_config.o
+LOAD Output/debug_ram/Obj/helloworld/hello_world.o
+LOAD Output/debug_ram/Obj/helloworld/pin_mux.o
+LOAD Output/debug_ram/Obj/helloworld/evkbimxrt1050_flexspi_nor_config.o
+LOAD Output/debug_ram/Obj/helloworld/evkbimxrt1050_sdram_ini_dcd.o
+LOAD Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+LOAD Output/debug_ram/Obj/helloworld/fsl_assert.o
+LOAD Output/debug_ram/Obj/helloworld/fsl_flexio_spi.o
+LOAD Output/debug_ram/Obj/helloworld/fsl_gpio.o
+LOAD Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+LOAD Output/debug_ram/Obj/helloworld/fsl_str.o
+LOAD Output/debug_ram/Obj/helloworld/fsl_flexspi_nor_boot.o
+LOAD Output/debug_ram/Obj/helloworld/fsl_clock.o
+LOAD Output/debug_ram/Obj/helloworld/fsl_common.o
+LOAD Output/debug_ram/Obj/helloworld/generic_list.o
+LOAD Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+LOAD Output/debug_ram/Obj/helloworld/serial_manager.o
+LOAD Output/debug_ram/Obj/helloworld/serial_port_uart.o
+LOAD Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+LOAD C:/Users/elmag/AppData/Local/SEGGER/SEGGER Embedded Studio/v3/packages/libraries/libcxx/lib/libcxx_noexcept_v7em_t_le_eabi_balanced.a
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a
+END GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+
+.interrupts     0x00000000      0x400
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x400 Output/debug_ram/Obj/helloworld/startup_MIMXRT1052.o
+                0x00000000                __isr_vector
+                0x00000400                . = ALIGN (0x4)
+                0x00000000                __VECTOR_RAM = __VECTOR_TABLE
+                0x00000000                __RAM_VECTOR_TABLE_SIZE_BYTES = 0x0
+
+.text           0x00000400     0x26d8
+                0x00000400                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000400       0x40 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .text          0x00000440       0x7c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
+                0x00000440                _stack_init
+                0x00000448                _start
+                0x00000448                _mainCRTStartup
+ .text          0x000004bc      0x230 Output/debug_ram/Obj/helloworld/startup_MIMXRT1052.o
+                0x000004bc                Reset_Handler
+                0x00000548                PWM1_3_IRQHandler
+                0x00000548                LPSPI2_DriverIRQHandler
+                0x00000548                SJC_IRQHandler
+                0x00000548                ADC_ETC_IRQ0_IRQHandler
+                0x00000548                DebugMon_Handler
+                0x00000548                SAI3_RX_DriverIRQHandler
+                0x00000548                PXP_IRQHandler
+                0x00000548                DMA13_DMA29_DriverIRQHandler
+                0x00000548                CTI1_ERROR_IRQHandler
+                0x00000548                Reserved86_IRQHandler
+                0x00000548                SRC_IRQHandler
+                0x00000548                LPSPI4_DriverIRQHandler
+                0x00000548                PWM3_FAULT_IRQHandler
+                0x00000548                GPIO2_Combined_0_15_IRQHandler
+                0x00000548                SPDIF_DriverIRQHandler
+                0x00000548                GPIO1_INT2_IRQHandler
+                0x00000548                CSI_IRQHandler
+                0x00000548                LCDIF_IRQHandler
+                0x00000548                SNVS_LP_WRAPPER_IRQHandler
+                0x00000548                ENC2_IRQHandler
+                0x00000548                PWM2_2_IRQHandler
+                0x00000548                TRNG_IRQHandler
+                0x00000548                TMR1_IRQHandler
+                0x00000548                PWM4_FAULT_IRQHandler
+                0x00000548                CAN1_DriverIRQHandler
+                0x00000548                GPIO1_INT7_IRQHandler
+                0x00000548                CCM_1_IRQHandler
+                0x00000548                PWM4_0_IRQHandler
+                0x00000548                ADC_ETC_IRQ1_IRQHandler
+                0x00000548                DMA_ERROR_DriverIRQHandler
+                0x00000548                LPI2C2_DriverIRQHandler
+                0x00000548                ENC4_IRQHandler
+                0x00000548                LPSPI3_DriverIRQHandler
+                0x00000548                DMA7_DMA23_DriverIRQHandler
+                0x00000548                CTI0_ERROR_IRQHandler
+                0x00000548                GPIO5_Combined_0_15_IRQHandler
+                0x00000548                PWM1_0_IRQHandler
+                0x00000548                Reserved68_IRQHandler
+                0x00000548                LPI2C3_DriverIRQHandler
+                0x00000548                GPIO4_Combined_16_31_IRQHandler
+                0x00000548                USB_PHY2_IRQHandler
+                0x00000548                DMA15_DMA31_DriverIRQHandler
+                0x00000548                TSC_DIG_IRQHandler
+                0x00000548                Reserved87_IRQHandler
+                0x00000548                GPIO4_Combined_0_15_IRQHandler
+                0x00000548                BusFault_Handler
+                0x00000548                ACMP1_IRQHandler
+                0x00000548                PWM2_0_IRQHandler
+                0x00000548                DCP_VMI_IRQHandler
+                0x00000548                DMA5_DMA21_DriverIRQHandler
+                0x00000548                DMA14_DMA30_DriverIRQHandler
+                0x00000548                ENET_1588_Timer_DriverIRQHandler
+                0x00000548                FLEXRAM_IRQHandler
+                0x00000548                PWM2_1_IRQHandler
+                0x00000548                GPT2_IRQHandler
+                0x00000548                PWM2_FAULT_IRQHandler
+                0x00000548                FLEXIO2_DriverIRQHandler
+                0x00000548                UsageFault_Handler
+                0x00000548                WDOG1_IRQHandler
+                0x00000548                ACMP2_IRQHandler
+                0x00000548                PMU_EVENT_IRQHandler
+                0x00000548                GPT1_IRQHandler
+                0x00000548                SAI3_TX_DriverIRQHandler
+                0x00000548                PWM4_1_IRQHandler
+                0x00000548                USB_OTG2_IRQHandler
+                0x00000548                ACMP4_IRQHandler
+                0x00000548                SEMC_IRQHandler
+                0x00000548                DMA0_DMA16_DriverIRQHandler
+                0x00000548                DefaultISR
+                0x00000548                PWM1_1_IRQHandler
+                0x00000548                SNVS_HP_WRAPPER_TZ_IRQHandler
+                0x00000548                DMA2_DMA18_DriverIRQHandler
+                0x00000548                PWM3_0_IRQHandler
+                0x00000548                USDHC1_DriverIRQHandler
+                0x00000548                PWM3_3_IRQHandler
+                0x00000548                GPIO1_INT0_IRQHandler
+                0x00000548                XBAR1_IRQ_0_1_IRQHandler
+                0x00000548                CSU_IRQHandler
+                0x00000548                TMR3_IRQHandler
+                0x00000548                ADC1_IRQHandler
+                0x00000548                FLEXIO1_DriverIRQHandler
+                0x00000548                ENET_DriverIRQHandler
+                0x00000548                GPIO1_Combined_16_31_IRQHandler
+                0x00000548                LPI2C4_DriverIRQHandler
+                0x00000548                RTWDOG_IRQHandler
+                0x00000548                USB_PHY1_IRQHandler
+                0x00000548                Reserved78_IRQHandler
+                0x00000548                SAI1_DriverIRQHandler
+                0x00000548                DMA12_DMA28_DriverIRQHandler
+                0x00000548                ENC3_IRQHandler
+                0x00000548                GPIO3_Combined_16_31_IRQHandler
+                0x00000548                EWM_IRQHandler
+                0x00000548                TEMP_LOW_HIGH_IRQHandler
+                0x00000548                WDOG2_IRQHandler
+                0x00000548                GPIO1_INT5_IRQHandler
+                0x00000548                FLEXSPI_DriverIRQHandler
+                0x00000548                GPIO2_Combined_16_31_IRQHandler
+                0x00000548                PWM3_1_IRQHandler
+                0x00000548                PWM2_3_IRQHandler
+                0x00000548                Reserved143_IRQHandler
+                0x00000548                CORE_IRQHandler
+                0x00000548                PWM1_FAULT_IRQHandler
+                0x00000548                ENC1_IRQHandler
+                0x00000548                DMA10_DMA26_DriverIRQHandler
+                0x00000548                TEMP_PANIC_IRQHandler
+                0x00000548                GPIO1_INT6_IRQHandler
+                0x00000548                PWM1_2_IRQHandler
+                0x00000548                Reserved144_IRQHandler
+                0x00000548                GPR_IRQ_IRQHandler
+                0x00000548                GPC_IRQHandler
+                0x00000548                DCDC_IRQHandler
+                0x00000548                GPIO3_Combined_0_15_IRQHandler
+                0x00000548                PWM4_3_IRQHandler
+                0x00000548                ACMP3_IRQHandler
+                0x00000548                DMA1_DMA17_DriverIRQHandler
+                0x00000548                USB_OTG1_IRQHandler
+                0x00000548                CAN2_DriverIRQHandler
+                0x00000548                TMR4_IRQHandler
+                0x00000548                GPIO5_Combined_16_31_IRQHandler
+                0x00000548                TMR2_IRQHandler
+                0x00000548                ADC_ETC_ERROR_IRQ_IRQHandler
+                0x00000548                DMA8_DMA24_DriverIRQHandler
+                0x00000548                PWM4_2_IRQHandler
+                0x00000548                DMA6_DMA22_DriverIRQHandler
+                0x00000548                BEE_IRQHandler
+                0x00000548                GPIO1_INT1_IRQHandler
+                0x00000548                DMA3_DMA19_DriverIRQHandler
+                0x00000548                ADC_ETC_IRQ2_IRQHandler
+                0x00000548                GPIO1_INT4_IRQHandler
+                0x00000548                CCM_2_IRQHandler
+                0x00000548                KPP_IRQHandler
+                0x00000548                LPSPI1_DriverIRQHandler
+                0x00000548                ADC2_IRQHandler
+                0x00000548                USDHC2_DriverIRQHandler
+                0x00000548                MemManage_Handler
+                0x00000548                SAI2_DriverIRQHandler
+                0x00000548                GPIO1_Combined_0_15_IRQHandler
+                0x00000548                PIT_IRQHandler
+                0x00000548                Reserved115_IRQHandler
+                0x00000548                SNVS_HP_WRAPPER_IRQHandler
+                0x00000548                DMA9_DMA25_DriverIRQHandler
+                0x00000548                DMA11_DMA27_DriverIRQHandler
+                0x00000548                GPIO1_INT3_IRQHandler
+                0x00000548                XBAR1_IRQ_2_3_IRQHandler
+                0x00000548                PWM3_2_IRQHandler
+                0x00000548                LPI2C1_DriverIRQHandler
+                0x00000548                DCP_IRQHandler
+                0x00000548                Reserved123_IRQHandler
+                0x00000548                DMA4_DMA20_DriverIRQHandler
+                0x0000054c                NMI_Handler
+                0x00000550                HardFault_Handler
+                0x00000554                SVC_Handler
+                0x00000558                PendSV_Handler
+                0x0000055c                SysTick_Handler
+                0x00000560                DMA0_DMA16_IRQHandler
+                0x00000564                DMA1_DMA17_IRQHandler
+                0x00000568                DMA2_DMA18_IRQHandler
+                0x0000056c                DMA3_DMA19_IRQHandler
+                0x00000570                DMA4_DMA20_IRQHandler
+                0x00000574                DMA5_DMA21_IRQHandler
+                0x00000578                DMA6_DMA22_IRQHandler
+                0x0000057c                DMA7_DMA23_IRQHandler
+                0x00000580                DMA8_DMA24_IRQHandler
+                0x00000584                DMA9_DMA25_IRQHandler
+                0x00000588                DMA10_DMA26_IRQHandler
+                0x0000058c                DMA11_DMA27_IRQHandler
+                0x00000590                DMA12_DMA28_IRQHandler
+                0x00000594                DMA13_DMA29_IRQHandler
+                0x00000598                DMA14_DMA30_IRQHandler
+                0x0000059c                DMA15_DMA31_IRQHandler
+                0x000005a0                DMA_ERROR_IRQHandler
+                0x000005a4                LPUART1_IRQHandler
+                0x000005a8                LPUART2_IRQHandler
+                0x000005ac                LPUART3_IRQHandler
+                0x000005b0                LPUART4_IRQHandler
+                0x000005b4                LPUART5_IRQHandler
+                0x000005b8                LPUART6_IRQHandler
+                0x000005bc                LPUART7_IRQHandler
+                0x000005c0                LPUART8_IRQHandler
+                0x000005c4                LPI2C1_IRQHandler
+                0x000005c8                LPI2C2_IRQHandler
+                0x000005cc                LPI2C3_IRQHandler
+                0x000005d0                LPI2C4_IRQHandler
+                0x000005d4                LPSPI1_IRQHandler
+                0x000005d8                LPSPI2_IRQHandler
+                0x000005dc                LPSPI3_IRQHandler
+                0x000005e0                LPSPI4_IRQHandler
+                0x000005e4                CAN1_IRQHandler
+                0x000005e8                CAN2_IRQHandler
+                0x000005ec                SAI1_IRQHandler
+                0x000005f0                SAI2_IRQHandler
+                0x000005f4                SAI3_RX_IRQHandler
+                0x000005f8                SAI3_TX_IRQHandler
+                0x000005fc                SPDIF_IRQHandler
+                0x00000600                FLEXIO1_IRQHandler
+                0x00000604                FLEXIO2_IRQHandler
+                0x00000608                FLEXSPI_IRQHandler
+                0x0000060c                USDHC1_IRQHandler
+                0x00000610                USDHC2_IRQHandler
+                0x00000614                ENET_IRQHandler
+                0x00000618                ENET_1588_Timer_IRQHandler
+ .text          0x000006ec       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-strlen.o)
+                0x000006ec                strlen
+ *(.text*)
+ .text.exit     0x000006fc       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
+                0x000006fc                exit
+ .text.__libc_init_array
+                0x00000724       0x48 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+                0x00000724                __libc_init_array
+ .text.memset   0x0000076c       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+                0x0000076c                memset
+ .text._exit    0x0000077c        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
+                0x0000077c                _exit
+ .text.BOARD_DebugConsoleSrcFreq
+                0x00000780       0x68 Output/debug_ram/Obj/helloworld/board.o
+                0x00000780                BOARD_DebugConsoleSrcFreq
+ .text.BOARD_InitDebugConsole
+                0x000007e8       0x16 Output/debug_ram/Obj/helloworld/board.o
+                0x000007e8                BOARD_InitDebugConsole
+ *fill*         0x000007fe        0x2 
+ .text.BOARD_ConfigMPU
+                0x00000800      0x1dc Output/debug_ram/Obj/helloworld/board.o
+                0x00000800                BOARD_ConfigMPU
+ .text.BOARD_BootClockRUN
+                0x000009dc      0x5e0 Output/debug_ram/Obj/helloworld/clock_config.o
+                0x000009dc                BOARD_BootClockRUN
+ .text.main     0x00000fbc       0x28 Output/debug_ram/Obj/helloworld/hello_world.o
+                0x00000fbc                main
+ .text.BOARD_InitPins
+                0x00000fe4       0x2c Output/debug_ram/Obj/helloworld/pin_mux.o
+                0x00000fe4                BOARD_InitPins
+ .text.DbgConsole_ReadOneCharacter
+                0x00001010       0x18 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+                0x00001010                DbgConsole_ReadOneCharacter
+ .text.DbgConsole_SendDataReliable
+                0x00001028       0x50 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+                0x00001028                DbgConsole_SendDataReliable
+ .text.DbgConsole_PrintCallback
+                0x00001078       0x3a Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ *fill*         0x000010b2        0x2 
+ .text.DbgConsole_ReadCharacter
+                0x000010b4       0x30 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+                0x000010b4                DbgConsole_ReadCharacter
+ .text.DbgConsole_Init
+                0x000010e4       0xb4 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+                0x000010e4                DbgConsole_Init
+ .text.DbgConsole_Printf
+                0x00001198       0x44 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+                0x00001198                DbgConsole_Printf
+ .text.DbgConsole_Putchar
+                0x000011dc       0x14 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+                0x000011dc                DbgConsole_Putchar
+ .text.DbgConsole_Getchar
+                0x000011f0       0x1c Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+                0x000011f0                DbgConsole_Getchar
+ .text.__assert_func
+                0x0000120c       0x1c Output/debug_ram/Obj/helloworld/fsl_assert.o
+                0x0000120c                __assert_func
+ .text.LPUART_GetInstance
+                0x00001228       0x3c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x00001228                LPUART_GetInstance
+ .text.LPUART_Init
+                0x00001264      0x22c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x00001264                LPUART_Init
+ .text.LPUART_GetDefaultConfig
+                0x00001490       0x50 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x00001490                LPUART_GetDefaultConfig
+ .text.LPUART_GetStatusFlags
+                0x000014e0       0x10 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x000014e0                LPUART_GetStatusFlags
+ .text.LPUART_ClearStatusFlags
+                0x000014f0       0x50 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x000014f0                LPUART_ClearStatusFlags
+ .text.LPUART_WriteBlocking
+                0x00001540       0x38 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x00001540                LPUART_WriteBlocking
+ .text.LPUART_ReadBlocking
+                0x00001578       0xe8 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x00001578                LPUART_ReadBlocking
+ .text.LPUART1_DriverIRQHandler
+                0x00001660       0x1c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x00001660                LPUART1_DriverIRQHandler
+ .text.LPUART2_DriverIRQHandler
+                0x0000167c       0x1c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x0000167c                LPUART2_DriverIRQHandler
+ .text.LPUART3_DriverIRQHandler
+                0x00001698       0x1c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x00001698                LPUART3_DriverIRQHandler
+ .text.LPUART4_DriverIRQHandler
+                0x000016b4       0x1c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x000016b4                LPUART4_DriverIRQHandler
+ .text.LPUART5_DriverIRQHandler
+                0x000016d0       0x1c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x000016d0                LPUART5_DriverIRQHandler
+ .text.LPUART6_DriverIRQHandler
+                0x000016ec       0x1c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x000016ec                LPUART6_DriverIRQHandler
+ .text.LPUART7_DriverIRQHandler
+                0x00001708       0x1c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x00001708                LPUART7_DriverIRQHandler
+ .text.LPUART8_DriverIRQHandler
+                0x00001724       0x1c Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                0x00001724                LPUART8_DriverIRQHandler
+ .text.ConvertRadixNumToString
+                0x00001740       0x7c Output/debug_ram/Obj/helloworld/fsl_str.o
+ .text.StrFormatPrintf
+                0x000017bc      0x230 Output/debug_ram/Obj/helloworld/fsl_str.o
+                0x000017bc                StrFormatPrintf
+ .text.CLOCK_InitExternalClk
+                0x000019ec       0x58 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x000019ec                CLOCK_InitExternalClk
+ .text.CLOCK_SwitchOsc
+                0x00001a44       0x1c Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001a44                CLOCK_SwitchOsc
+ .text.CLOCK_InitRcOsc24M
+                0x00001a60       0x14 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001a60                CLOCK_InitRcOsc24M
+ .text.CLOCK_InitArmPll
+                0x00001a74       0x48 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001a74                CLOCK_InitArmPll
+ .text.CLOCK_InitSysPll
+                0x00001abc       0x6c Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001abc                CLOCK_InitSysPll
+ .text.CLOCK_InitUsb1Pll
+                0x00001b28       0x48 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001b28                CLOCK_InitUsb1Pll
+ .text.CLOCK_DeinitUsb2Pll
+                0x00001b70        0xc Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001b70                CLOCK_DeinitUsb2Pll
+ .text.CLOCK_DeinitAudioPll
+                0x00001b7c       0x10 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001b7c                CLOCK_DeinitAudioPll
+ .text.CLOCK_DeinitVideoPll
+                0x00001b8c       0x10 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001b8c                CLOCK_DeinitVideoPll
+ .text.CLOCK_DeinitEnetPll
+                0x00001b9c       0x10 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001b9c                CLOCK_DeinitEnetPll
+ .text.CLOCK_GetPllFreq
+                0x00001bac      0x244 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001bac                CLOCK_GetPllFreq
+ .text.CLOCK_InitSysPfd
+                0x00001df0       0x34 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001df0                CLOCK_InitSysPfd
+ .text.CLOCK_InitUsb1Pfd
+                0x00001e24       0x34 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x00001e24                CLOCK_InitUsb1Pfd
+ .text.HAL_UartGetStatus
+                0x00001e58        0xa Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ *fill*         0x00001e62        0x2 
+ .text.HAL_UartInit
+                0x00001e64       0xe4 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+                0x00001e64                HAL_UartInit
+ .text.HAL_UartReceiveBlocking
+                0x00001f48       0x5c Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+                0x00001f48                HAL_UartReceiveBlocking
+ .text.HAL_UartSendBlocking
+                0x00001fa4       0x5c Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+                0x00001fa4                HAL_UartSendBlocking
+ .text.SerialManager_StartWriting
+                0x00002000       0x24 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .text.SerialManager_Write
+                0x00002024       0x6c Output/debug_ram/Obj/helloworld/serial_manager.o
+ .text.SerialManager_StartReading
+                0x00002090       0x24 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .text.SerialManager_Read
+                0x000020b4       0x6c Output/debug_ram/Obj/helloworld/serial_manager.o
+ .text.SerialManager_Init
+                0x00002120       0x58 Output/debug_ram/Obj/helloworld/serial_manager.o
+                0x00002120                SerialManager_Init
+ .text.SerialManager_OpenWriteHandle
+                0x00002178       0x4c Output/debug_ram/Obj/helloworld/serial_manager.o
+                0x00002178                SerialManager_OpenWriteHandle
+ .text.SerialManager_OpenReadHandle
+                0x000021c4       0x54 Output/debug_ram/Obj/helloworld/serial_manager.o
+                0x000021c4                SerialManager_OpenReadHandle
+ .text.SerialManager_WriteBlocking
+                0x00002218        0x8 Output/debug_ram/Obj/helloworld/serial_manager.o
+                0x00002218                SerialManager_WriteBlocking
+ .text.SerialManager_ReadBlocking
+                0x00002220        0x8 Output/debug_ram/Obj/helloworld/serial_manager.o
+                0x00002220                SerialManager_ReadBlocking
+ .text.Serial_UartInit
+                0x00002228       0x6c Output/debug_ram/Obj/helloworld/serial_port_uart.o
+                0x00002228                Serial_UartInit
+ .text.Serial_UartWrite
+                0x00002294       0x4c Output/debug_ram/Obj/helloworld/serial_port_uart.o
+                0x00002294                Serial_UartWrite
+ .text.Serial_UartRead
+                0x000022e0       0x4c Output/debug_ram/Obj/helloworld/serial_port_uart.o
+                0x000022e0                Serial_UartRead
+ .text.SystemInitHook
+                0x0000232c        0x2 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+                0x0000232c                SystemInitHook
+ *fill*         0x0000232e        0x2 
+ .text.SystemInit
+                0x00002330      0x134 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+                0x00002330                SystemInit
+ *(.rodata)
+ .rodata        0x00002464       0x10 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ *(.rodata*)
+ .rodata._global_impure_ptr
+                0x00002474        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+                0x00002474                _global_impure_ptr
+ .rodata.armPllConfig_BOARD_BootClockRUN
+                0x00002478        0x8 Output/debug_ram/Obj/helloworld/clock_config.o
+                0x00002478                armPllConfig_BOARD_BootClockRUN
+ .rodata.sysPllConfig_BOARD_BootClockRUN
+                0x00002480       0x14 Output/debug_ram/Obj/helloworld/clock_config.o
+                0x00002480                sysPllConfig_BOARD_BootClockRUN
+ .rodata.usb1PllConfig_BOARD_BootClockRUN
+                0x00002494        0x2 Output/debug_ram/Obj/helloworld/clock_config.o
+                0x00002494                usb1PllConfig_BOARD_BootClockRUN
+ *fill*         0x00002496        0x2 
+ .rodata.main.str1.4
+                0x00002498        0xf Output/debug_ram/Obj/helloworld/hello_world.o
+ *fill*         0x000024a7        0x1 
+ .rodata.DbgConsole_SendData.str1.4
+                0x000024a8       0x66 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .rodata.DbgConsole_ReadCharacter.str1.4
+                0x0000250e       0x66 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+                                  0x3 (size before relaxing)
+ *fill*         0x0000250e        0x2 
+ .rodata.DbgConsole_Init.str1.4
+                0x00002510       0x28 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .rodata.__func__.0
+                0x00002538       0x10 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .rodata.__func__.1
+                0x00002548       0x19 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ *fill*         0x00002561        0x3 
+ .rodata.__func__.3
+                0x00002564       0x1c Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .rodata.__assert_func.str1.4
+                0x00002580       0x3e Output/debug_ram/Obj/helloworld/fsl_assert.o
+ *fill*         0x000025be        0x2 
+ .rodata.LPUART_ReadNonBlocking.str1.4
+                0x000025c0       0x47 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ *fill*         0x00002607        0x1 
+ .rodata.LPUART_GetInstance.str1.4
+                0x00002608       0x25 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ *fill*         0x0000262d        0x3 
+ .rodata.LPUART_Init.str1.4
+                0x00002630       0xfe Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ *fill*         0x0000272e        0x2 
+ .rodata.__func__.13
+                0x00002730       0x14 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.14
+                0x00002744       0x15 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ *fill*         0x00002759        0x3 
+ .rodata.__func__.16
+                0x0000275c       0x18 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.17
+                0x00002774       0x12 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ *fill*         0x00002786        0x2 
+ .rodata.__func__.18
+                0x00002788        0xc Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.__func__.20
+                0x00002794       0x13 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ *fill*         0x000027a7        0x1 
+ .rodata.s_lpuartBases
+                0x000027a8       0x24 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .rodata.s_lpuartClock
+                0x000027cc       0x12 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ *fill*         0x000027de        0x2 
+ .rodata.CLOCK_InitExternalClk.str1.4
+                0x000027e0       0x46 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ *fill*         0x00002826        0x2 
+ .rodata.__func__.1
+                0x00002828       0x16 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ *fill*         0x0000283e        0x2 
+ .rodata.HAL_UartInit.str1.4
+                0x00002840       0xaa Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+                                 0xb2 (size before relaxing)
+ *fill*         0x000028ea        0x2 
+ .rodata.HAL_UartReceiveBlocking.str1.4
+                0x000028ec        0x7 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+                                  0xf (size before relaxing)
+ *fill*         0x000028f3        0x1 
+ .rodata.__func__.0
+                0x000028f4       0x15 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ *fill*         0x00002909        0x3 
+ .rodata.__func__.1
+                0x0000290c       0x18 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .rodata.__func__.3
+                0x00002924        0xd Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ *fill*         0x00002931        0x3 
+ .rodata.s_LpuartAdapterBase
+                0x00002934       0x24 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .rodata.SerialManager_Write.str1.4
+                0x00002958       0x4f Output/debug_ram/Obj/helloworld/serial_manager.o
+                                 0x5f (size before relaxing)
+ *fill*         0x000029a7        0x1 
+ .rodata.SerialManager_Read.str1.4
+                0x000029a8        0xb Output/debug_ram/Obj/helloworld/serial_manager.o
+ *fill*         0x000029b3        0x1 
+ .rodata.SerialManager_Init.str1.4
+                0x000029b4        0xd Output/debug_ram/Obj/helloworld/serial_manager.o
+                                 0x15 (size before relaxing)
+ *fill*         0x000029c1        0x3 
+ .rodata.__func__.2
+                0x000029c4       0x13 Output/debug_ram/Obj/helloworld/serial_manager.o
+ *fill*         0x000029d7        0x1 
+ .rodata.__func__.3
+                0x000029d8       0x14 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .rodata.__func__.5
+                0x000029ec       0x1d Output/debug_ram/Obj/helloworld/serial_manager.o
+ *fill*         0x00002a09        0x3 
+ .rodata.__func__.7
+                0x00002a0c       0x1e Output/debug_ram/Obj/helloworld/serial_manager.o
+ *fill*         0x00002a2a        0x2 
+ .rodata.__func__.9
+                0x00002a2c       0x13 Output/debug_ram/Obj/helloworld/serial_manager.o
+ *fill*         0x00002a3f        0x1 
+ .rodata.Serial_UartInit.str1.4
+                0x00002a40       0x4c Output/debug_ram/Obj/helloworld/serial_port_uart.o
+                                 0x59 (size before relaxing)
+ .rodata.Serial_UartWrite.str1.4
+                0x00002a8c        0xf Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .rodata.__func__.0
+                0x00002a8c       0x10 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .rodata.__func__.1
+                0x00002a9c       0x11 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ *fill*         0x00002aad        0x3 
+ .rodata.__func__.3
+                0x00002ab0       0x10 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ *(.glue_7)
+ .glue_7        0x00002ac0        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00002ac0        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x00002ac0        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ *(.init)
+ .init          0x00002ac0        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x00002ac0                _init
+ .init          0x00002ac4        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
+ *(.fini)
+ .fini          0x00002acc        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x00002acc                _fini
+ .fini          0x00002ad0        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
+                0x00002ad8                . = ALIGN (0x4)
+
+.vfp11_veneer   0x00002ad8        0x0
+ .vfp11_veneer  0x00002ad8        0x0 linker stubs
+
+.v4_bx          0x00002ad8        0x0
+ .v4_bx         0x00002ad8        0x0 linker stubs
+
+.iplt           0x00002ad8        0x0
+ .iplt          0x00002ad8        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x00002ad8        0x8
+                0x00002ad8                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x00002ad8        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
+                                 0x10 (size before relaxing)
+                0x00002ae0                __exidx_end = .
+
+.rel.dyn        0x00002ae0        0x0
+ .rel.iplt      0x00002ae0        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+
+.ctors          0x00002ae0        0x0
+                0x00002ae0                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x00002ae0                __CTOR_END__ = .
+
+.dtors          0x00002ae0        0x0
+                0x00002ae0                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x00002ae0                __DTOR_END__ = .
+
+.preinit_array  0x00002ae0        0x0
+                0x00002ae0                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x00002ae0                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00002ae0        0x4
+                0x00002ae0                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x00002ae0        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x00002ae4                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00002ae4        0x4
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x00002ae4        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end = .)
+                0x00002ae8                __etext = .
+                0x00002ae8                __DATA_ROM = .
+
+.data           0x20000000       0x64 load address 0x00002ae8
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __DATA_RAM = .
+                0x20000000                __data_start__ = .
+ *(m_usb_dma_init_data)
+ *(.data)
+ *(.data*)
+ .data.impure_data
+                0x20000000       0x60 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .data.SystemCoreClock
+                0x20000060        0x4 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+                0x20000060                SystemCoreClock
+ *(.jcr*)
+                0x20000064                . = ALIGN (0x4)
+                0x20000064                __data_end__ = .
+                0x00002b4c                __NDATA_ROM = (__DATA_ROM + (__data_end__ - __data_start__))
+
+.igot.plt       0x20000064        0x0 load address 0x00002b4c
+ .igot.plt      0x20000064        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+
+.ncache.init    0x20000064        0x0 load address 0x00002b4c
+                0x20000064                __noncachedata_start__ = .
+ *(NonCacheable.init)
+                0x20000064                . = ALIGN (0x4)
+                0x20000064                __noncachedata_init_end__ = .
+                0x20000064                . = __noncachedata_init_end__
+
+.ncache         0x20000064        0x0
+ *(NonCacheable)
+                0x20000064                . = ALIGN (0x4)
+                0x20000064                __noncachedata_end__ = .
+                0x00002b4c                __DATA_END = (__NDATA_ROM + (__noncachedata_init_end__ - __noncachedata_start__))
+                0x00020000                text_end = (ORIGIN (m_text) + LENGTH (m_text))
+                0x00000001                ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
+
+.bss            0x20000064       0x6c load address 0x00002b4c
+                0x20000064                . = ALIGN (0x4)
+                0x20000064                __START_BSS = .
+                0x20000064                __bss_start__ = .
+ *(m_usb_dma_noninit_data)
+ *(.bss)
+ .bss           0x20000064       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ *(.bss*)
+ .bss.g_serialHandle
+                0x20000080        0x4 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+                0x20000080                g_serialHandle
+ .bss.s_debugConsoleState
+                0x20000084       0x1c Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .bss.s_lpuartHandle
+                0x200000a0       0x24 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .bss.s_lpuartIsr
+                0x200000c4        0x4 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .bss.g_rtcXtalFreq
+                0x200000c8        0x4 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x200000c8                g_rtcXtalFreq
+ .bss.g_xtalFreq
+                0x200000cc        0x4 Output/debug_ram/Obj/helloworld/fsl_clock.o
+                0x200000cc                g_xtalFreq
+ *(COMMON)
+                0x200000d0                . = ALIGN (0x4)
+                0x200000d0                __bss_end__ = .
+                0x200000d0                __END_BSS = .
+
+.heap           0x200000d0      0x400 load address 0x00002bb8
+                0x200000d0                . = ALIGN (0x8)
+                0x200000d0                __end__ = .
+                0x200000d0                PROVIDE (end = .)
+                0x200000d0                __HeapBase = .
+                0x200004d0                . = (. + HEAP_SIZE)
+ *fill*         0x200000d0      0x400 
+                0x200004d0                __HeapLimit = .
+                0x200004d0                __heap_limit = .
+
+.stack          0x200004d0      0x400 load address 0x00002fb8
+                0x200004d0                . = ALIGN (0x8)
+                0x200008d0                . = (. + STACK_SIZE)
+ *fill*         0x200004d0      0x400 
+                0x20020000                __StackTop = (ORIGIN (m_data) + LENGTH (m_data))
+                0x2001fc00                __StackLimit = (__StackTop - STACK_SIZE)
+                0x20020000                PROVIDE (__stack = __StackTop)
+
+.ARM.attributes
+                0x00000000       0x2e
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
+ .ARM.attributes
+                0x0000001e       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .ARM.attributes
+                0x00000050       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
+ .ARM.attributes
+                0x0000006c       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000009e       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000000d0       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000102       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000134       0x32 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000166       0x1d Output/debug_ram/Obj/helloworld/startup_MIMXRT1052.o
+ .ARM.attributes
+                0x00000183       0x32 Output/debug_ram/Obj/helloworld/board.o
+ .ARM.attributes
+                0x000001b5       0x32 Output/debug_ram/Obj/helloworld/clock_config.o
+ .ARM.attributes
+                0x000001e7       0x32 Output/debug_ram/Obj/helloworld/hello_world.o
+ .ARM.attributes
+                0x00000219       0x32 Output/debug_ram/Obj/helloworld/pin_mux.o
+ .ARM.attributes
+                0x0000024b       0x32 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .ARM.attributes
+                0x0000027d       0x32 Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .ARM.attributes
+                0x000002af       0x32 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .ARM.attributes
+                0x000002e1       0x32 Output/debug_ram/Obj/helloworld/fsl_str.o
+ .ARM.attributes
+                0x00000313       0x32 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .ARM.attributes
+                0x00000345       0x32 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .ARM.attributes
+                0x00000377       0x32 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .ARM.attributes
+                0x000003a9       0x32 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .ARM.attributes
+                0x000003db       0x32 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+ .ARM.attributes
+                0x0000040d       0x17 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000424       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data overflowed with stack and heap)
+OUTPUT(debug/hello_world.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_frame    0x00000000      0xdb8
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000028       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000054       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000074       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
+ .debug_frame   0x00000094       0x7c Output/debug_ram/Obj/helloworld/board.o
+ .debug_frame   0x00000110       0x44 Output/debug_ram/Obj/helloworld/clock_config.o
+ .debug_frame   0x00000154       0x28 Output/debug_ram/Obj/helloworld/hello_world.o
+ .debug_frame   0x0000017c       0x38 Output/debug_ram/Obj/helloworld/pin_mux.o
+ .debug_frame   0x000001b4      0x1dc Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .debug_frame   0x00000390       0x28 Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .debug_frame   0x000003b8      0x368 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .debug_frame   0x00000720       0x90 Output/debug_ram/Obj/helloworld/fsl_str.o
+ .debug_frame   0x000007b0      0x344 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .debug_frame   0x00000af4       0x8c Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .debug_frame   0x00000b80      0x16c Output/debug_ram/Obj/helloworld/serial_manager.o
+ .debug_frame   0x00000cec       0x78 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .debug_frame   0x00000d64       0x54 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+
+.debug_line     0x00000000     0x6dea
+ .debug_line    0x00000000      0x1bc Output/debug_ram/Obj/helloworld/startup_MIMXRT1052.o
+ .debug_line    0x000001bc      0x86d Output/debug_ram/Obj/helloworld/board.o
+ .debug_line    0x00000a29     0x13fa Output/debug_ram/Obj/helloworld/clock_config.o
+ .debug_line    0x00001e23       0xf8 Output/debug_ram/Obj/helloworld/hello_world.o
+ .debug_line    0x00001f1b      0x1e5 Output/debug_ram/Obj/helloworld/pin_mux.o
+ .debug_line    0x00002100      0x757 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .debug_line    0x00002857      0x138 Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .debug_line    0x0000298f     0x1701 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .debug_line    0x00004090      0xa39 Output/debug_ram/Obj/helloworld/fsl_str.o
+ .debug_line    0x00004ac9     0x116c Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .debug_line    0x00005c35      0x3f1 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .debug_line    0x00006026      0x60a Output/debug_ram/Obj/helloworld/serial_manager.o
+ .debug_line    0x00006630      0x320 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .debug_line    0x00006950      0x49a Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+
+.debug_info     0x00000000    0x1012a
+ .debug_info    0x00000000       0x26 Output/debug_ram/Obj/helloworld/startup_MIMXRT1052.o
+ .debug_info    0x00000026     0x17f2 Output/debug_ram/Obj/helloworld/board.o
+ .debug_info    0x00001818     0x3f3a Output/debug_ram/Obj/helloworld/clock_config.o
+ .debug_info    0x00005752      0x149 Output/debug_ram/Obj/helloworld/hello_world.o
+ .debug_info    0x0000589b      0x992 Output/debug_ram/Obj/helloworld/pin_mux.o
+ .debug_info    0x0000622d      0xfe9 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .debug_info    0x00007216      0x128 Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .debug_info    0x0000733e     0x30d7 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .debug_info    0x0000a415      0x788 Output/debug_ram/Obj/helloworld/fsl_str.o
+ .debug_info    0x0000ab9d     0x24d0 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .debug_info    0x0000d06d      0xd2a Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .debug_info    0x0000dd97      0xebf Output/debug_ram/Obj/helloworld/serial_manager.o
+ .debug_info    0x0000ec56      0x784 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .debug_info    0x0000f3da      0xd50 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+
+.debug_abbrev   0x00000000     0x1bbe
+ .debug_abbrev  0x00000000       0x14 Output/debug_ram/Obj/helloworld/startup_MIMXRT1052.o
+ .debug_abbrev  0x00000014      0x350 Output/debug_ram/Obj/helloworld/board.o
+ .debug_abbrev  0x00000364      0x283 Output/debug_ram/Obj/helloworld/clock_config.o
+ .debug_abbrev  0x000005e7       0x93 Output/debug_ram/Obj/helloworld/hello_world.o
+ .debug_abbrev  0x0000067a      0x1b6 Output/debug_ram/Obj/helloworld/pin_mux.o
+ .debug_abbrev  0x00000830      0x256 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .debug_abbrev  0x00000a86       0x97 Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .debug_abbrev  0x00000b1d      0x3c3 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .debug_abbrev  0x00000ee0      0x22d Output/debug_ram/Obj/helloworld/fsl_str.o
+ .debug_abbrev  0x0000110d      0x3fd Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .debug_abbrev  0x0000150a      0x1fc Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .debug_abbrev  0x00001706      0x178 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .debug_abbrev  0x0000187e      0x196 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .debug_abbrev  0x00001a14      0x1aa Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+
+.debug_aranges  0x00000000      0x568
+ .debug_aranges
+                0x00000000       0x20 Output/debug_ram/Obj/helloworld/startup_MIMXRT1052.o
+ .debug_aranges
+                0x00000020       0x40 Output/debug_ram/Obj/helloworld/board.o
+ .debug_aranges
+                0x00000060       0x28 Output/debug_ram/Obj/helloworld/clock_config.o
+ .debug_aranges
+                0x00000088       0x20 Output/debug_ram/Obj/helloworld/hello_world.o
+ .debug_aranges
+                0x000000a8       0x28 Output/debug_ram/Obj/helloworld/pin_mux.o
+ .debug_aranges
+                0x000000d0       0x90 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .debug_aranges
+                0x00000160       0x20 Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .debug_aranges
+                0x00000180      0x130 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .debug_aranges
+                0x000002b0       0x38 Output/debug_ram/Obj/helloworld/fsl_str.o
+ .debug_aranges
+                0x000002e8      0x150 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .debug_aranges
+                0x00000438       0x40 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .debug_aranges
+                0x00000478       0x88 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .debug_aranges
+                0x00000500       0x38 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .debug_aranges
+                0x00000538       0x30 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+
+.debug_str      0x00000000     0x5836
+ .debug_str     0x00000000       0xb9 Output/debug_ram/Obj/helloworld/startup_MIMXRT1052.o
+ .debug_str     0x000000b9      0xb76 Output/debug_ram/Obj/helloworld/board.o
+                                0xc24 (size before relaxing)
+ .debug_str     0x00000c2f     0x1769 Output/debug_ram/Obj/helloworld/clock_config.o
+                               0x1ffc (size before relaxing)
+ .debug_str     0x00002398       0x5d Output/debug_ram/Obj/helloworld/hello_world.o
+                                0x2ae (size before relaxing)
+ .debug_str     0x000023f5       0x50 Output/debug_ram/Obj/helloworld/pin_mux.o
+                                0xa67 (size before relaxing)
+ .debug_str     0x00002445      0x74b Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+                               0x1212 (size before relaxing)
+ .debug_str     0x00002b90       0x4e Output/debug_ram/Obj/helloworld/fsl_assert.o
+                                0x28a (size before relaxing)
+ .debug_str     0x00002bde     0x19a6 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+                               0x2c9e (size before relaxing)
+ .debug_str     0x00004584      0x1c9 Output/debug_ram/Obj/helloworld/fsl_str.o
+                                0x45a (size before relaxing)
+ .debug_str     0x0000474d      0xa7c Output/debug_ram/Obj/helloworld/fsl_clock.o
+                               0x1c31 (size before relaxing)
+ .debug_str     0x000051c9      0x2b7 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+                               0x1230 (size before relaxing)
+ .debug_str     0x00005480      0x264 Output/debug_ram/Obj/helloworld/serial_manager.o
+                                0x799 (size before relaxing)
+ .debug_str     0x000056e4       0x86 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+                                0x82c (size before relaxing)
+ .debug_str     0x0000576a       0xcc Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+                                0x833 (size before relaxing)
+
+.debug_loc      0x00000000     0x8f22
+ .debug_loc     0x00000000      0x923 Output/debug_ram/Obj/helloworld/board.o
+ .debug_loc     0x00000923     0x2915 Output/debug_ram/Obj/helloworld/clock_config.o
+ .debug_loc     0x00003238       0x15 Output/debug_ram/Obj/helloworld/hello_world.o
+ .debug_loc     0x0000324d      0x23c Output/debug_ram/Obj/helloworld/pin_mux.o
+ .debug_loc     0x00003489      0x7dd Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .debug_loc     0x00003c66       0xc9 Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .debug_loc     0x00003d2f     0x1ff6 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .debug_loc     0x00005d25      0xb5e Output/debug_ram/Obj/helloworld/fsl_str.o
+ .debug_loc     0x00006883      0xcc5 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .debug_loc     0x00007548      0x53b Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .debug_loc     0x00007a83      0xf0a Output/debug_ram/Obj/helloworld/serial_manager.o
+ .debug_loc     0x0000898d      0x452 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .debug_loc     0x00008ddf      0x143 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+
+.debug_ranges   0x00000000      0x968
+ .debug_ranges  0x00000000       0x60 Output/debug_ram/Obj/helloworld/board.o
+ .debug_ranges  0x00000060      0x408 Output/debug_ram/Obj/helloworld/clock_config.o
+ .debug_ranges  0x00000468       0x10 Output/debug_ram/Obj/helloworld/hello_world.o
+ .debug_ranges  0x00000478       0x30 Output/debug_ram/Obj/helloworld/pin_mux.o
+ .debug_ranges  0x000004a8       0x80 Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .debug_ranges  0x00000528       0x10 Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .debug_ranges  0x00000538      0x160 Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .debug_ranges  0x00000698       0x28 Output/debug_ram/Obj/helloworld/fsl_str.o
+ .debug_ranges  0x000006c0      0x1b8 Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .debug_ranges  0x00000878       0x30 Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .debug_ranges  0x000008a8       0x78 Output/debug_ram/Obj/helloworld/serial_manager.o
+ .debug_ranges  0x00000920       0x28 Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .debug_ranges  0x00000948       0x20 Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o
+
+.comment        0x00000000       0x49
+ .comment       0x00000000       0x49 Output/debug_ram/Obj/helloworld/board.o
+                                 0x4a (size before relaxing)
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/clock_config.o
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/hello_world.o
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/pin_mux.o
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/fsl_debug_console.o
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/fsl_assert.o
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/fsl_lpuart.o
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/fsl_str.o
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/fsl_clock.o
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/lpuart_adapter.o
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/serial_manager.o
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/serial_port_uart.o
+ .comment       0x00000049       0x4a Output/debug_ram/Obj/helloworld/system_MIMXRT1052.o

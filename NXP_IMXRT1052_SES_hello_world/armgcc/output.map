@@ -45,8 +45,16 @@ Discarded input sections
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
  .ARM.extab     0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
+ .text          0x00000000      0x230 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
  .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
  .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
+ .isr_vector    0x00000000      0x400 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
+ .debug_line    0x00000000      0x1ea CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
+ .debug_info    0x00000000       0x26 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
+ .debug_abbrev  0x00000000       0x14 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
+ .debug_aranges
+                0x00000000       0x20 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
+ .debug_str     0x00000000       0xe6 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
  .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
@@ -71,8 +79,6 @@ Discarded input sections
  .debug_line    0x00000000       0x1d CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_flexspi_nor_config.c.obj
  .debug_str     0x00000000      0x28b CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_flexspi_nor_config.c.obj
  .comment       0x00000000       0x4a CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_flexspi_nor_config.c.obj
- .ARM.attributes
-                0x00000000       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_flexspi_nor_config.c.obj
  .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_sdram_ini_dcd.c.obj
  .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_sdram_ini_dcd.c.obj
  .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_sdram_ini_dcd.c.obj
@@ -83,8 +89,6 @@ Discarded input sections
  .debug_line    0x00000000       0x1d CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_sdram_ini_dcd.c.obj
  .debug_str     0x00000000      0x27b CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_sdram_ini_dcd.c.obj
  .comment       0x00000000       0x4a CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_sdram_ini_dcd.c.obj
- .ARM.attributes
-                0x00000000       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_sdram_ini_dcd.c.obj
  .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
  .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
  .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
@@ -163,8 +167,6 @@ Discarded input sections
  .debug_str     0x00000000      0x313 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_common.c.obj
  .comment       0x00000000       0x4a CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_common.c.obj
  .debug_frame   0x00000000       0x58 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_common.c.obj
- .ARM.attributes
-                0x00000000       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_common.c.obj
  .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
  .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
  .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
@@ -198,8 +200,6 @@ Discarded input sections
  .debug_line    0x00000000      0x151 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.c.obj
  .debug_str     0x00000000      0xa69 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.c.obj
  .comment       0x00000000       0x4a CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.c.obj
- .ARM.attributes
-                0x00000000       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.c.obj
  .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_gpio.c.obj
  .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_gpio.c.obj
  .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_gpio.c.obj
@@ -237,8 +237,6 @@ Discarded input sections
  .debug_str     0x00000000     0x13e8 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_gpio.c.obj
  .comment       0x00000000       0x4a CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_gpio.c.obj
  .debug_frame   0x00000000      0x110 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_gpio.c.obj
- .ARM.attributes
-                0x00000000       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_gpio.c.obj
  .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
  .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
  .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
@@ -248,8 +246,12 @@ Discarded input sections
                 0x00000000       0x1e CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
  .text.EnableIRQ
                 0x00000000       0x2c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .bss.s_lpuartHandle
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
  .rodata.s_lpuartIRQ
                 0x00000000       0x12 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .bss.s_lpuartIsr
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
  .text.LPUART_TransferGetRxRingBufferLength
                 0x00000000       0x64 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
  .text.LPUART_TransferIsRxRingBufferFull
@@ -290,6 +292,22 @@ Discarded input sections
                 0x00000000      0x3a0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
  .text.LPUART_TransferHandleErrorIRQ
                 0x00000000       0x16 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .text.LPUART1_DriverIRQHandler
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .text.LPUART2_DriverIRQHandler
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .text.LPUART3_DriverIRQHandler
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .text.LPUART4_DriverIRQHandler
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .text.LPUART5_DriverIRQHandler
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .text.LPUART6_DriverIRQHandler
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .text.LPUART7_DriverIRQHandler
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .text.LPUART8_DriverIRQHandler
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
  .rodata.__func__.19
                 0x00000000       0x25 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
  .rodata.__func__.18
@@ -369,8 +387,6 @@ Discarded input sections
  .debug_str     0x00000000      0x47d CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/lists/generic_list.c.obj
  .comment       0x00000000       0x4a CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/lists/generic_list.c.obj
  .debug_frame   0x00000000      0x254 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/lists/generic_list.c.obj
- .ARM.attributes
-                0x00000000       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/lists/generic_list.c.obj
  .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
  .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
  .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
@@ -419,8 +435,16 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
  .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
  .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+ .text.SCB_EnableICache
+                0x00000000       0x4c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+ .text.SCB_EnableDCache
+                0x00000000       0x88 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+ .text.SystemInit
+                0x00000000       0xec CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
  .text.SystemCoreClockUpdate
                 0x00000000      0x214 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+ .text.SystemInitHook
+                0x00000000        0xe CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
  .text          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
@@ -438,8 +462,6 @@ Discarded input sections
  .text.malloc   0x00000000       0x10 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
  .text.free     0x00000000       0x10 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
  .debug_frame   0x00000000       0x30 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
- .ARM.attributes
-                0x00000000       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
  .text          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
@@ -448,8 +470,6 @@ Discarded input sections
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
  .text._free_r  0x00000000       0x98 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
  .debug_frame   0x00000000       0x38 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
- .ARM.attributes
-                0x00000000       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
  .text          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
@@ -462,15 +482,11 @@ Discarded input sections
  .bss.__malloc_sbrk_start
                 0x00000000        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
  .debug_frame   0x00000000       0x4c d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
- .ARM.attributes
-                0x00000000       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
  .text          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
  .text._sbrk_r  0x00000000       0x20 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
  .debug_frame   0x00000000       0x2c d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
- .ARM.attributes
-                0x00000000       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
  .text          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
@@ -481,8 +497,6 @@ Discarded input sections
  .text.__malloc_unlock
                 0x00000000        0xc d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
  .debug_frame   0x00000000       0x30 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
- .ARM.attributes
-                0x00000000       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
  .text          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
@@ -492,8 +506,6 @@ Discarded input sections
                 0x00000000       0xb8 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
  .bss.errno     0x00000000        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
  .debug_frame   0x00000000       0x5c d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
- .ARM.attributes
-                0x00000000       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
  .text          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lock.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lock.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lock.o)
@@ -536,27 +548,19 @@ Discarded input sections
  .bss.__lock___tz_mutex
                 0x00000000        0x1 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lock.o)
  .debug_frame   0x00000000       0xb0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lock.o)
- .ARM.attributes
-                0x00000000       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lock.o)
  .text          0x00000000       0x30 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
  .debug_frame   0x00000000       0x2c d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
- .ARM.attributes
-                0x00000000       0x1e d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
  .text          0x00000000      0x2d0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
  .ARM.extab     0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
  .ARM.exidx     0x00000000        0x8 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
  .debug_frame   0x00000000       0x34 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
- .ARM.attributes
-                0x00000000       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
  .text          0x00000000        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
- .ARM.attributes
-                0x00000000       0x1e d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
@@ -564,8 +568,6 @@ Discarded input sections
  .bss.heap_end.0
                 0x00000000        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
  .debug_frame   0x00000000       0x20 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
- .ARM.attributes
-                0x00000000       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
  .text          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
@@ -573,9 +575,6 @@ Discarded input sections
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
  .rodata        0x00000000       0x24 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
- .eh_frame      0x00000000        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
- .ARM.attributes
-                0x00000000       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
  .text          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
  .data          0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
  .bss           0x00000000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
@@ -583,10 +582,6 @@ Discarded input sections
 Memory Configuration
 
 Name             Origin             Length             Attributes
-m_interrupts     0x00000000         0x00000400         xr
-m_text           0x00000400         0x0001fc00         xr
-m_data           0x20000000         0x00020000         rw
-m_data2          0x20200000         0x00040000         rw
 *default*        0x00000000         0xffffffff
 
 Linker script and memory map
@@ -637,938 +632,642 @@ LOAD d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.
 END GROUP
 LOAD d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
 LOAD d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
-                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
-                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+                [!provide]                PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x8000))
+                0x00008000                . = SEGMENT_START ("text-segment", 0x8000)
 
-.interrupts     0x00000000      0x400
-                0x00000000                __VECTOR_TABLE = .
-                0x00000000                . = ALIGN (0x4)
- *(.isr_vector)
- .isr_vector    0x00000000      0x400 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
-                0x00000000                __isr_vector
-                0x00000400                . = ALIGN (0x4)
-                0x00000000                __VECTOR_RAM = __VECTOR_TABLE
-                0x00000000                __RAM_VECTOR_TABLE_SIZE_BYTES = 0x0
+.interp
+ *(.interp)
 
-.text           0x00000400     0x3de4
-                0x00000400                . = ALIGN (0x4)
- *(.text)
- .text          0x00000400       0x40 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
- .text          0x00000440       0x7c d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
-                0x00000440                _stack_init
-                0x00000448                _start
-                0x00000448                _mainCRTStartup
- .text          0x000004bc      0x230 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
-                0x000004bc                Reset_Handler
-                0x00000548                PWM1_3_IRQHandler
-                0x00000548                LPSPI2_DriverIRQHandler
-                0x00000548                SJC_IRQHandler
-                0x00000548                ADC_ETC_IRQ0_IRQHandler
-                0x00000548                DebugMon_Handler
-                0x00000548                SAI3_RX_DriverIRQHandler
-                0x00000548                PXP_IRQHandler
-                0x00000548                DMA13_DMA29_DriverIRQHandler
-                0x00000548                CTI1_ERROR_IRQHandler
-                0x00000548                Reserved86_IRQHandler
-                0x00000548                SRC_IRQHandler
-                0x00000548                LPSPI4_DriverIRQHandler
-                0x00000548                PWM3_FAULT_IRQHandler
-                0x00000548                GPIO2_Combined_0_15_IRQHandler
-                0x00000548                SPDIF_DriverIRQHandler
-                0x00000548                GPIO1_INT2_IRQHandler
-                0x00000548                CSI_IRQHandler
-                0x00000548                LCDIF_IRQHandler
-                0x00000548                SNVS_LP_WRAPPER_IRQHandler
-                0x00000548                ENC2_IRQHandler
-                0x00000548                PWM2_2_IRQHandler
-                0x00000548                TRNG_IRQHandler
-                0x00000548                TMR1_IRQHandler
-                0x00000548                PWM4_FAULT_IRQHandler
-                0x00000548                CAN1_DriverIRQHandler
-                0x00000548                GPIO1_INT7_IRQHandler
-                0x00000548                CCM_1_IRQHandler
-                0x00000548                PWM4_0_IRQHandler
-                0x00000548                ADC_ETC_IRQ1_IRQHandler
-                0x00000548                DMA_ERROR_DriverIRQHandler
-                0x00000548                LPI2C2_DriverIRQHandler
-                0x00000548                ENC4_IRQHandler
-                0x00000548                LPSPI3_DriverIRQHandler
-                0x00000548                DMA7_DMA23_DriverIRQHandler
-                0x00000548                CTI0_ERROR_IRQHandler
-                0x00000548                GPIO5_Combined_0_15_IRQHandler
-                0x00000548                PWM1_0_IRQHandler
-                0x00000548                Reserved68_IRQHandler
-                0x00000548                LPI2C3_DriverIRQHandler
-                0x00000548                GPIO4_Combined_16_31_IRQHandler
-                0x00000548                USB_PHY2_IRQHandler
-                0x00000548                DMA15_DMA31_DriverIRQHandler
-                0x00000548                TSC_DIG_IRQHandler
-                0x00000548                Reserved87_IRQHandler
-                0x00000548                GPIO4_Combined_0_15_IRQHandler
-                0x00000548                BusFault_Handler
-                0x00000548                ACMP1_IRQHandler
-                0x00000548                PWM2_0_IRQHandler
-                0x00000548                DCP_VMI_IRQHandler
-                0x00000548                DMA5_DMA21_DriverIRQHandler
-                0x00000548                DMA14_DMA30_DriverIRQHandler
-                0x00000548                ENET_1588_Timer_DriverIRQHandler
-                0x00000548                FLEXRAM_IRQHandler
-                0x00000548                PWM2_1_IRQHandler
-                0x00000548                GPT2_IRQHandler
-                0x00000548                PWM2_FAULT_IRQHandler
-                0x00000548                FLEXIO2_DriverIRQHandler
-                0x00000548                UsageFault_Handler
-                0x00000548                WDOG1_IRQHandler
-                0x00000548                ACMP2_IRQHandler
-                0x00000548                PMU_EVENT_IRQHandler
-                0x00000548                GPT1_IRQHandler
-                0x00000548                SAI3_TX_DriverIRQHandler
-                0x00000548                PWM4_1_IRQHandler
-                0x00000548                USB_OTG2_IRQHandler
-                0x00000548                ACMP4_IRQHandler
-                0x00000548                SEMC_IRQHandler
-                0x00000548                DMA0_DMA16_DriverIRQHandler
-                0x00000548                DefaultISR
-                0x00000548                PWM1_1_IRQHandler
-                0x00000548                SNVS_HP_WRAPPER_TZ_IRQHandler
-                0x00000548                DMA2_DMA18_DriverIRQHandler
-                0x00000548                PWM3_0_IRQHandler
-                0x00000548                USDHC1_DriverIRQHandler
-                0x00000548                PWM3_3_IRQHandler
-                0x00000548                GPIO1_INT0_IRQHandler
-                0x00000548                XBAR1_IRQ_0_1_IRQHandler
-                0x00000548                CSU_IRQHandler
-                0x00000548                TMR3_IRQHandler
-                0x00000548                ADC1_IRQHandler
-                0x00000548                FLEXIO1_DriverIRQHandler
-                0x00000548                ENET_DriverIRQHandler
-                0x00000548                GPIO1_Combined_16_31_IRQHandler
-                0x00000548                LPI2C4_DriverIRQHandler
-                0x00000548                RTWDOG_IRQHandler
-                0x00000548                USB_PHY1_IRQHandler
-                0x00000548                Reserved78_IRQHandler
-                0x00000548                SAI1_DriverIRQHandler
-                0x00000548                DMA12_DMA28_DriverIRQHandler
-                0x00000548                ENC3_IRQHandler
-                0x00000548                GPIO3_Combined_16_31_IRQHandler
-                0x00000548                EWM_IRQHandler
-                0x00000548                TEMP_LOW_HIGH_IRQHandler
-                0x00000548                WDOG2_IRQHandler
-                0x00000548                GPIO1_INT5_IRQHandler
-                0x00000548                FLEXSPI_DriverIRQHandler
-                0x00000548                GPIO2_Combined_16_31_IRQHandler
-                0x00000548                PWM3_1_IRQHandler
-                0x00000548                PWM2_3_IRQHandler
-                0x00000548                Reserved143_IRQHandler
-                0x00000548                CORE_IRQHandler
-                0x00000548                PWM1_FAULT_IRQHandler
-                0x00000548                ENC1_IRQHandler
-                0x00000548                DMA10_DMA26_DriverIRQHandler
-                0x00000548                TEMP_PANIC_IRQHandler
-                0x00000548                GPIO1_INT6_IRQHandler
-                0x00000548                PWM1_2_IRQHandler
-                0x00000548                Reserved144_IRQHandler
-                0x00000548                GPR_IRQ_IRQHandler
-                0x00000548                GPC_IRQHandler
-                0x00000548                DCDC_IRQHandler
-                0x00000548                GPIO3_Combined_0_15_IRQHandler
-                0x00000548                PWM4_3_IRQHandler
-                0x00000548                ACMP3_IRQHandler
-                0x00000548                DMA1_DMA17_DriverIRQHandler
-                0x00000548                USB_OTG1_IRQHandler
-                0x00000548                CAN2_DriverIRQHandler
-                0x00000548                TMR4_IRQHandler
-                0x00000548                GPIO5_Combined_16_31_IRQHandler
-                0x00000548                TMR2_IRQHandler
-                0x00000548                ADC_ETC_ERROR_IRQ_IRQHandler
-                0x00000548                DMA8_DMA24_DriverIRQHandler
-                0x00000548                PWM4_2_IRQHandler
-                0x00000548                DMA6_DMA22_DriverIRQHandler
-                0x00000548                BEE_IRQHandler
-                0x00000548                GPIO1_INT1_IRQHandler
-                0x00000548                DMA3_DMA19_DriverIRQHandler
-                0x00000548                ADC_ETC_IRQ2_IRQHandler
-                0x00000548                GPIO1_INT4_IRQHandler
-                0x00000548                CCM_2_IRQHandler
-                0x00000548                KPP_IRQHandler
-                0x00000548                LPSPI1_DriverIRQHandler
-                0x00000548                ADC2_IRQHandler
-                0x00000548                USDHC2_DriverIRQHandler
-                0x00000548                MemManage_Handler
-                0x00000548                SAI2_DriverIRQHandler
-                0x00000548                GPIO1_Combined_0_15_IRQHandler
-                0x00000548                PIT_IRQHandler
-                0x00000548                Reserved115_IRQHandler
-                0x00000548                SNVS_HP_WRAPPER_IRQHandler
-                0x00000548                DMA9_DMA25_DriverIRQHandler
-                0x00000548                DMA11_DMA27_DriverIRQHandler
-                0x00000548                GPIO1_INT3_IRQHandler
-                0x00000548                XBAR1_IRQ_2_3_IRQHandler
-                0x00000548                PWM3_2_IRQHandler
-                0x00000548                LPI2C1_DriverIRQHandler
-                0x00000548                DCP_IRQHandler
-                0x00000548                Reserved123_IRQHandler
-                0x00000548                DMA4_DMA20_DriverIRQHandler
-                0x0000054c                NMI_Handler
-                0x00000550                HardFault_Handler
-                0x00000554                SVC_Handler
-                0x00000558                PendSV_Handler
-                0x0000055c                SysTick_Handler
-                0x00000560                DMA0_DMA16_IRQHandler
-                0x00000564                DMA1_DMA17_IRQHandler
-                0x00000568                DMA2_DMA18_IRQHandler
-                0x0000056c                DMA3_DMA19_IRQHandler
-                0x00000570                DMA4_DMA20_IRQHandler
-                0x00000574                DMA5_DMA21_IRQHandler
-                0x00000578                DMA6_DMA22_IRQHandler
-                0x0000057c                DMA7_DMA23_IRQHandler
-                0x00000580                DMA8_DMA24_IRQHandler
-                0x00000584                DMA9_DMA25_IRQHandler
-                0x00000588                DMA10_DMA26_IRQHandler
-                0x0000058c                DMA11_DMA27_IRQHandler
-                0x00000590                DMA12_DMA28_IRQHandler
-                0x00000594                DMA13_DMA29_IRQHandler
-                0x00000598                DMA14_DMA30_IRQHandler
-                0x0000059c                DMA15_DMA31_IRQHandler
-                0x000005a0                DMA_ERROR_IRQHandler
-                0x000005a4                LPUART1_IRQHandler
-                0x000005a8                LPUART2_IRQHandler
-                0x000005ac                LPUART3_IRQHandler
-                0x000005b0                LPUART4_IRQHandler
-                0x000005b4                LPUART5_IRQHandler
-                0x000005b8                LPUART6_IRQHandler
-                0x000005bc                LPUART7_IRQHandler
-                0x000005c0                LPUART8_IRQHandler
-                0x000005c4                LPI2C1_IRQHandler
-                0x000005c8                LPI2C2_IRQHandler
-                0x000005cc                LPI2C3_IRQHandler
-                0x000005d0                LPI2C4_IRQHandler
-                0x000005d4                LPSPI1_IRQHandler
-                0x000005d8                LPSPI2_IRQHandler
-                0x000005dc                LPSPI3_IRQHandler
-                0x000005e0                LPSPI4_IRQHandler
-                0x000005e4                CAN1_IRQHandler
-                0x000005e8                CAN2_IRQHandler
-                0x000005ec                SAI1_IRQHandler
-                0x000005f0                SAI2_IRQHandler
-                0x000005f4                SAI3_RX_IRQHandler
-                0x000005f8                SAI3_TX_IRQHandler
-                0x000005fc                SPDIF_IRQHandler
-                0x00000600                FLEXIO1_IRQHandler
-                0x00000604                FLEXIO2_IRQHandler
-                0x00000608                FLEXSPI_IRQHandler
-                0x0000060c                USDHC1_IRQHandler
-                0x00000610                USDHC2_IRQHandler
-                0x00000614                ENET_IRQHandler
-                0x00000618                ENET_1588_Timer_IRQHandler
- .text          0x000006ec       0x10 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
-                0x000006ec                strlen
- *(.text*)
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.dyn        0x00008000        0x0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+                [!provide]                PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+ .rel.iplt      0x00008000        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                [!provide]                PROVIDE (__rel_iplt_end = .)
+
+.rela.dyn       0x00008000        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                PROVIDE (__rela_iplt_end = .)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x00008000        0xc
+ *(SORT_NONE(.init))
+ .init          0x00008000        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x00008000                _init
+ .init          0x00008004        0x8 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
+
+.plt
+ *(.plt)
+
+.iplt           0x0000800c        0x0
+ *(.iplt)
+ .iplt          0x0000800c        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+
+.text           0x0000800c     0x2e9c
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ .text.exit     0x0000800c       0x28 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
+                0x0000800c                exit
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00008034       0x40 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .text          0x00008074       0x7c d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
+                0x00008074                _stack_init
+                0x0000807c                _start
+                0x0000807c                _mainCRTStartup
  .text.ARM_MPU_Enable
-                0x000006fc       0x40 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x000080f0       0x40 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .text.ARM_MPU_Disable
-                0x0000073c       0x3c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x00008130       0x3c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .text.SCB_EnableICache
-                0x00000778       0x4c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x0000816c       0x4c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .text.SCB_DisableICache
-                0x000007c4       0x40 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x000081b8       0x40 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .text.SCB_EnableDCache
-                0x00000804       0x88 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x000081f8       0x88 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .text.SCB_DisableDCache
-                0x0000088c       0x70 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x00008280       0x70 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .text.CLOCK_GetMux
-                0x000008fc       0x44 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x000082f0       0x44 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .text.CLOCK_GetDiv
-                0x00000940       0x44 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x00008334       0x44 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .text.CLOCK_GetOscFreq
-                0x00000984       0x30 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x00008378       0x30 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .text.BOARD_DebugConsoleSrcFreq
-                0x000009b4       0x64 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
-                0x000009b4                BOARD_DebugConsoleSrcFreq
+                0x000083a8       0x64 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x000083a8                BOARD_DebugConsoleSrcFreq
  .text.BOARD_InitDebugConsole
-                0x00000a18       0x22 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
-                0x00000a18                BOARD_InitDebugConsole
- *fill*         0x00000a3a        0x2 
+                0x0000840c       0x22 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x0000840c                BOARD_InitDebugConsole
+ *fill*         0x0000842e        0x2 
  .text.BOARD_ConfigMPU
-                0x00000a3c       0xec CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
-                0x00000a3c                BOARD_ConfigMPU
+                0x00008430       0xec CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                0x00008430                BOARD_ConfigMPU
  .text.CLOCK_SetMux
-                0x00000b28       0xac CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x0000851c       0xac CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
  .text.CLOCK_SetDiv
-                0x00000bd4       0xac CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x000085c8       0xac CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
  .text.CLOCK_ControlGate
-                0x00000c80       0x74 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x00008674       0x74 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
  .text.CLOCK_DisableClock
-                0x00000cf4       0x1e CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- *fill*         0x00000d12        0x2 
+                0x000086e8       0x1e CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ *fill*         0x00008706        0x2 
  .text.CLOCK_SetXtalFreq
-                0x00000d14       0x20 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x00008708       0x20 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
  .text.CLOCK_SetRtcXtalFreq
-                0x00000d34       0x20 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x00008728       0x20 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
  .text.CLOCK_SetPllBypass
-                0x00000d54       0x4e CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- *fill*         0x00000da2        0x2 
+                0x00008748       0x4e CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ *fill*         0x00008796        0x2 
  .text.IOMUXC_EnableMode
-                0x00000da4       0x48 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x00008798       0x48 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
  .text.IOMUXC_SetSaiMClkClockSource
-                0x00000dec       0x6c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x000087e0       0x6c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
  .text.IOMUXC_MQSConfig
-                0x00000e58       0x44 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x0000884c       0x44 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
  .text.BOARD_BootClockRUN
-                0x00000e9c      0x680 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
-                0x00000e9c                BOARD_BootClockRUN
+                0x00008890      0x680 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x00008890                BOARD_BootClockRUN
  .text.__assert_func
-                0x0000151c       0x28 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
-                0x0000151c                __assert_func
+                0x00008f10       0x28 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
+                0x00008f10                __assert_func
  .text.CLOCK_GetOscFreq
-                0x00001544       0x30 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x00008f38       0x30 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
  .text.CLOCK_IsPllBypassed
-                0x00001574       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x00008f68       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
  .text.CLOCK_IsPllEnabled
-                0x000015a6       0x3c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x00008f9a       0x3c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
  .text.CLOCK_GetPllBypassRefClk
-                0x000015e2       0x34 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
- *fill*         0x00001616        0x2 
+                0x00008fd6       0x34 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+ *fill*         0x0000900a        0x2 
  .text.CLOCK_InitExternalClk
-                0x00001618       0x78 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x00001618                CLOCK_InitExternalClk
+                0x0000900c       0x78 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x0000900c                CLOCK_InitExternalClk
  .text.CLOCK_SwitchOsc
-                0x00001690       0x34 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x00001690                CLOCK_SwitchOsc
+                0x00009084       0x34 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x00009084                CLOCK_SwitchOsc
  .text.CLOCK_InitRcOsc24M
-                0x000016c4       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x000016c4                CLOCK_InitRcOsc24M
+                0x000090b8       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x000090b8                CLOCK_InitRcOsc24M
  .text.CLOCK_InitArmPll
-                0x000016e8       0x68 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x000016e8                CLOCK_InitArmPll
+                0x000090dc       0x68 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x000090dc                CLOCK_InitArmPll
  .text.CLOCK_InitSysPll
-                0x00001750       0x9c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x00001750                CLOCK_InitSysPll
+                0x00009144       0x9c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x00009144                CLOCK_InitSysPll
  .text.CLOCK_InitUsb1Pll
-                0x000017ec       0x68 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x000017ec                CLOCK_InitUsb1Pll
+                0x000091e0       0x68 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x000091e0                CLOCK_InitUsb1Pll
  .text.CLOCK_DeinitUsb2Pll
-                0x00001854       0x18 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x00001854                CLOCK_DeinitUsb2Pll
+                0x00009248       0x18 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x00009248                CLOCK_DeinitUsb2Pll
  .text.CLOCK_DeinitAudioPll
-                0x0000186c       0x1c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x0000186c                CLOCK_DeinitAudioPll
+                0x00009260       0x1c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x00009260                CLOCK_DeinitAudioPll
  .text.CLOCK_DeinitVideoPll
-                0x00001888       0x1c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x00001888                CLOCK_DeinitVideoPll
+                0x0000927c       0x1c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x0000927c                CLOCK_DeinitVideoPll
  .text.CLOCK_DeinitEnetPll
-                0x000018a4       0x1c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x000018a4                CLOCK_DeinitEnetPll
+                0x00009298       0x1c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x00009298                CLOCK_DeinitEnetPll
  .text.CLOCK_GetPllFreq
-                0x000018c0      0x32c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x000018c0                CLOCK_GetPllFreq
+                0x000092b4      0x32c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x000092b4                CLOCK_GetPllFreq
  .text.CLOCK_InitSysPfd
-                0x00001bec       0x64 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x00001bec                CLOCK_InitSysPfd
+                0x000095e0       0x64 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x000095e0                CLOCK_InitSysPfd
  .text.CLOCK_InitUsb1Pfd
-                0x00001c50       0x64 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x00001c50                CLOCK_InitUsb1Pfd
+                0x00009644       0x64 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x00009644                CLOCK_InitUsb1Pfd
  .text.DbgConsole_ReadOneCharacter
-                0x00001cb4       0x34 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
-                0x00001cb4                DbgConsole_ReadOneCharacter
+                0x000096a8       0x34 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+                0x000096a8                DbgConsole_ReadOneCharacter
  .text.DbgConsole_SendDataReliable
-                0x00001ce8       0x70 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
-                0x00001ce8                DbgConsole_SendDataReliable
+                0x000096dc       0x70 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+                0x000096dc                DbgConsole_SendDataReliable
  .text.DbgConsole_ReadCharacter
-                0x00001d58       0x4c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
-                0x00001d58                DbgConsole_ReadCharacter
+                0x0000974c       0x4c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+                0x0000974c                DbgConsole_ReadCharacter
  .text.DbgConsole_PrintCallback
-                0x00001da4       0x66 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
- *fill*         0x00001e0a        0x2 
+                0x00009798       0x66 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+ *fill*         0x000097fe        0x2 
  .text.DbgConsole_Init
-                0x00001e0c      0x11c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
-                0x00001e0c                DbgConsole_Init
+                0x00009800      0x11c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+                0x00009800                DbgConsole_Init
  .text.DbgConsole_Printf
-                0x00001f28       0x7c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
-                0x00001f28                DbgConsole_Printf
+                0x0000991c       0x7c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+                0x0000991c                DbgConsole_Printf
  .text.DbgConsole_Putchar
-                0x00001fa4       0x1c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
-                0x00001fa4                DbgConsole_Putchar
+                0x00009998       0x1c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+                0x00009998                DbgConsole_Putchar
  .text.DbgConsole_Getchar
-                0x00001fc0       0x1c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
-                0x00001fc0                DbgConsole_Getchar
+                0x000099b4       0x1c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+                0x000099b4                DbgConsole_Getchar
  .text.CLOCK_ControlGate
-                0x00001fdc       0x74 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+                0x000099d0       0x74 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
  .text.CLOCK_EnableClock
-                0x00002050       0x1e CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+                0x00009a44       0x1e CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
  .text.LPUART_SoftwareReset
-                0x0000206e       0x2c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- *fill*         0x0000209a        0x2 
+                0x00009a62       0x2c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ *fill*         0x00009a8e        0x2 
  .text.LPUART_GetInstance
-                0x0000209c       0x58 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x0000209c                LPUART_GetInstance
+                0x00009a90       0x58 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+                0x00009a90                LPUART_GetInstance
  .text.LPUART_Init
-                0x000020f4      0x320 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x000020f4                LPUART_Init
+                0x00009ae8      0x320 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+                0x00009ae8                LPUART_Init
  .text.LPUART_GetDefaultConfig
-                0x00002414       0x98 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x00002414                LPUART_GetDefaultConfig
+                0x00009e08       0x98 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+                0x00009e08                LPUART_GetDefaultConfig
  .text.LPUART_GetStatusFlags
-                0x000024ac       0x2c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x000024ac                LPUART_GetStatusFlags
+                0x00009ea0       0x2c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+                0x00009ea0                LPUART_GetStatusFlags
  .text.LPUART_ClearStatusFlags
-                0x000024d8       0xa4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x000024d8                LPUART_ClearStatusFlags
+                0x00009ecc       0xa4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+                0x00009ecc                LPUART_ClearStatusFlags
  .text.LPUART_WriteBlocking
-                0x0000257c       0x6c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x0000257c                LPUART_WriteBlocking
+                0x00009f70       0x6c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+                0x00009f70                LPUART_WriteBlocking
  .text.LPUART_ReadBlocking
-                0x000025e8      0x158 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x000025e8                LPUART_ReadBlocking
- .text.LPUART1_DriverIRQHandler
-                0x00002740       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x00002740                LPUART1_DriverIRQHandler
- .text.LPUART2_DriverIRQHandler
-                0x00002764       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x00002764                LPUART2_DriverIRQHandler
- .text.LPUART3_DriverIRQHandler
-                0x00002788       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x00002788                LPUART3_DriverIRQHandler
- .text.LPUART4_DriverIRQHandler
-                0x000027ac       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x000027ac                LPUART4_DriverIRQHandler
- .text.LPUART5_DriverIRQHandler
-                0x000027d0       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x000027d0                LPUART5_DriverIRQHandler
- .text.LPUART6_DriverIRQHandler
-                0x000027f4       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x000027f4                LPUART6_DriverIRQHandler
- .text.LPUART7_DriverIRQHandler
-                0x00002818       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x00002818                LPUART7_DriverIRQHandler
- .text.LPUART8_DriverIRQHandler
-                0x0000283c       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                0x0000283c                LPUART8_DriverIRQHandler
+                0x00009fdc      0x158 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+                0x00009fdc                LPUART_ReadBlocking
  .text.ConvertRadixNumToString
-                0x00002860      0x114 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
+                0x0000a134      0x114 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
  .text.StrFormatPrintf
-                0x00002974      0x30c CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
-                0x00002974                StrFormatPrintf
- .text.main     0x00002c80       0x34 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
-                0x00002c80                main
+                0x0000a248      0x30c CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
+                0x0000a248                StrFormatPrintf
+ .text.main     0x0000a554       0x34 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
+                0x0000a554                main
  .text.HAL_UartGetStatus
-                0x00002cb4       0x22 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- *fill*         0x00002cd6        0x2 
+                0x0000a588       0x22 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ *fill*         0x0000a5aa        0x2 
  .text.HAL_UartInit
-                0x00002cd8      0x120 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
-                0x00002cd8                HAL_UartInit
+                0x0000a5ac      0x120 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+                0x0000a5ac                HAL_UartInit
  .text.HAL_UartReceiveBlocking
-                0x00002df8       0x8c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
-                0x00002df8                HAL_UartReceiveBlocking
+                0x0000a6cc       0x8c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+                0x0000a6cc                HAL_UartReceiveBlocking
  .text.HAL_UartSendBlocking
-                0x00002e84       0x84 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
-                0x00002e84                HAL_UartSendBlocking
+                0x0000a758       0x84 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+                0x0000a758                HAL_UartSendBlocking
  .text.CLOCK_ControlGate
-                0x00002f08       0x74 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+                0x0000a7dc       0x74 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
  .text.CLOCK_EnableClock
-                0x00002f7c       0x1e CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+                0x0000a850       0x1e CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
  .text.IOMUXC_SetPinMux
-                0x00002f9a       0x3a CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+                0x0000a86e       0x3a CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
  .text.IOMUXC_SetPinConfig
-                0x00002fd4       0x26 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
- *fill*         0x00002ffa        0x2 
+                0x0000a8a8       0x26 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+ *fill*         0x0000a8ce        0x2 
  .text.BOARD_InitPins
-                0x00002ffc       0x78 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
-                0x00002ffc                BOARD_InitPins
+                0x0000a8d0       0x78 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+                0x0000a8d0                BOARD_InitPins
  .text.SerialManager_StartWriting
-                0x00003074       0x4a CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+                0x0000a948       0x4a CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
  .text.SerialManager_StartReading
-                0x000030be       0x4a CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+                0x0000a992       0x4a CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
  .text.SerialManager_Write
-                0x00003108       0x94 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+                0x0000a9dc       0x94 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
  .text.SerialManager_Read
-                0x0000319c       0x94 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+                0x0000aa70       0x94 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
  .text.SerialManager_Init
-                0x00003230       0x8c CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
-                0x00003230                SerialManager_Init
+                0x0000ab04       0x8c CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+                0x0000ab04                SerialManager_Init
  .text.SerialManager_OpenWriteHandle
-                0x000032bc       0x70 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
-                0x000032bc                SerialManager_OpenWriteHandle
+                0x0000ab90       0x70 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+                0x0000ab90                SerialManager_OpenWriteHandle
  .text.SerialManager_OpenReadHandle
-                0x0000332c       0x78 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
-                0x0000332c                SerialManager_OpenReadHandle
+                0x0000ac00       0x78 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+                0x0000ac00                SerialManager_OpenReadHandle
  .text.SerialManager_WriteBlocking
-                0x000033a4       0x20 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
-                0x000033a4                SerialManager_WriteBlocking
+                0x0000ac78       0x20 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+                0x0000ac78                SerialManager_WriteBlocking
  .text.SerialManager_ReadBlocking
-                0x000033c4       0x20 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
-                0x000033c4                SerialManager_ReadBlocking
+                0x0000ac98       0x20 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+                0x0000ac98                SerialManager_ReadBlocking
  .text.Serial_UartInit
-                0x000033e4       0x94 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
-                0x000033e4                Serial_UartInit
+                0x0000acb8       0x94 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+                0x0000acb8                Serial_UartInit
  .text.Serial_UartWrite
-                0x00003478       0x78 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
-                0x00003478                Serial_UartWrite
+                0x0000ad4c       0x78 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+                0x0000ad4c                Serial_UartWrite
  .text.Serial_UartRead
-                0x000034f0       0x78 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
-                0x000034f0                Serial_UartRead
- .text.SCB_EnableICache
-                0x00003568       0x4c CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
- .text.SCB_EnableDCache
-                0x000035b4       0x88 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
- .text.SystemInit
-                0x0000363c       0xec CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
-                0x0000363c                SystemInit
- .text.SystemInitHook
-                0x00003728        0xe CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
-                0x00003728                SystemInitHook
- *fill*         0x00003736        0x2 
- .text.exit     0x00003738       0x28 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
-                0x00003738                exit
+                0x0000adc4       0x78 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+                0x0000adc4                Serial_UartRead
  .text.__libc_init_array
-                0x00003760       0x48 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
-                0x00003760                __libc_init_array
- .text.memset   0x000037a8       0x10 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
-                0x000037a8                memset
- .text._exit    0x000037b8        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
-                0x000037b8                _exit
- *(.rodata)
- .rodata        0x000037bc       0x8f CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- *fill*         0x0000384b        0x1 
- .rodata        0x0000384c       0x3e CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
- *fill*         0x0000388a        0x2 
- .rodata        0x0000388c       0xd1 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
- *fill*         0x0000395d        0x3 
- .rodata        0x00003960       0xcc CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
- .rodata        0x00003a2c      0x24e CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- *fill*         0x00003c7a        0x2 
- .rodata        0x00003c7c        0xf CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
- *fill*         0x00003c8b        0x1 
- .rodata        0x00003c8c       0xf3 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- *fill*         0x00003d7f        0x1 
- .rodata        0x00003d80       0x70 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
- .rodata        0x00003df0       0xad CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- *fill*         0x00003e9d        0x3 
- .rodata        0x00003ea0       0x9b CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
- *(.rodata*)
- *fill*         0x00003f3b        0x1 
- .rodata.armPllConfig_BOARD_BootClockRUN
-                0x00003f3c        0x8 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
-                0x00003f3c                armPllConfig_BOARD_BootClockRUN
- .rodata.sysPllConfig_BOARD_BootClockRUN
-                0x00003f44       0x14 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
-                0x00003f44                sysPllConfig_BOARD_BootClockRUN
- .rodata.usb1PllConfig_BOARD_BootClockRUN
-                0x00003f58        0x2 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
-                0x00003f58                usb1PllConfig_BOARD_BootClockRUN
- *fill*         0x00003f5a        0x2 
- .rodata.__func__.2
-                0x00003f5c       0x12 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- *fill*         0x00003f6e        0x2 
- .rodata.__func__.1
-                0x00003f70        0xd CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- *fill*         0x00003f7d        0x3 
- .rodata.__func__.0
-                0x00003f80        0xd CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- *fill*         0x00003f8d        0x3 
- .rodata.__func__.1
-                0x00003f90       0x16 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
- *fill*         0x00003fa6        0x2 
- .rodata.__func__.3
-                0x00003fa8       0x1c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
- .rodata.__func__.1
-                0x00003fc4       0x19 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
- *fill*         0x00003fdd        0x3 
- .rodata.__func__.0
-                0x00003fe0       0x10 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
- .rodata.s_lpuartBases
-                0x00003ff0       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- .rodata.s_lpuartClock
-                0x00004014       0x12 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- *fill*         0x00004026        0x2 
- .rodata.__func__.20
-                0x00004028       0x13 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- *fill*         0x0000403b        0x1 
- .rodata.__func__.15
-                0x0000403c        0xc CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- .rodata.__func__.14
-                0x00004048       0x12 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- *fill*         0x0000405a        0x2 
- .rodata.__func__.13
-                0x0000405c       0x18 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- .rodata.__func__.11
-                0x00004074       0x15 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- *fill*         0x00004089        0x3 
- .rodata.__func__.10
-                0x0000408c       0x14 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- .rodata.s_LpuartAdapterBase
-                0x000040a0       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- .rodata.__func__.3
-                0x000040c4        0xd CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- *fill*         0x000040d1        0x3 
- .rodata.__func__.1
-                0x000040d4       0x18 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- .rodata.__func__.0
-                0x000040ec       0x15 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- *fill*         0x00004101        0x3 
- .rodata.__func__.0
-                0x00004104       0x12 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
- *fill*         0x00004116        0x2 
- .rodata.__func__.9
-                0x00004118       0x14 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- .rodata.__func__.8
-                0x0000412c       0x13 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- *fill*         0x0000413f        0x1 
- .rodata.__func__.7
-                0x00004140       0x13 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- *fill*         0x00004153        0x1 
- .rodata.__func__.5
-                0x00004154       0x1e CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- *fill*         0x00004172        0x2 
- .rodata.__func__.3
-                0x00004174       0x1d CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- *fill*         0x00004191        0x3 
- .rodata.__func__.3
-                0x00004194       0x10 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
- .rodata.__func__.1
-                0x000041a4       0x11 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
- *fill*         0x000041b5        0x3 
- .rodata.__func__.0
-                0x000041b8       0x10 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
- .rodata._global_impure_ptr
-                0x000041c8        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
-                0x000041c8                _global_impure_ptr
- *(.glue_7)
- .glue_7        0x000041cc        0x0 linker stubs
+                0x0000ae3c       0x48 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+                0x0000ae3c                __libc_init_array
+ .text.memset   0x0000ae84       0x10 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+                0x0000ae84                memset
+ .text          0x0000ae94       0x10 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
+                0x0000ae94                strlen
+ .text._exit    0x0000aea4        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
+                0x0000aea4                _exit
+ *(.gnu.warning)
  *(.glue_7t)
- .glue_7t       0x000041cc        0x0 linker stubs
- *(.eh_frame)
- .eh_frame      0x000041cc        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
- *(.init)
- .init          0x000041cc        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
-                0x000041cc                _init
- .init          0x000041d0        0x8 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
- *(.fini)
- .fini          0x000041d8        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
-                0x000041d8                _fini
- .fini          0x000041dc        0x8 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
-                0x000041e4                . = ALIGN (0x4)
+ .glue_7t       0x0000aea8        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000aea8        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x0000aea8        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x0000aea8        0x0 linker stubs
 
-.vfp11_veneer   0x000041e4        0x0
- .vfp11_veneer  0x000041e4        0x0 linker stubs
+.fini           0x0000aea8        0xc
+ *(SORT_NONE(.fini))
+ .fini          0x0000aea8        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x0000aea8                _fini
+ .fini          0x0000aeac        0x8 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
+                0x0000aeb4                PROVIDE (__etext = .)
+                [!provide]                PROVIDE (_etext = .)
+                [!provide]                PROVIDE (etext = .)
 
-.v4_bx          0x000041e4        0x0
- .v4_bx         0x000041e4        0x0 linker stubs
+.rodata         0x0000aeb4      0xa10
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000aeb4       0x8f CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ *fill*         0x0000af43        0x1 
+ .rodata.armPllConfig_BOARD_BootClockRUN
+                0x0000af44        0x8 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x0000af44                armPllConfig_BOARD_BootClockRUN
+ .rodata.sysPllConfig_BOARD_BootClockRUN
+                0x0000af4c       0x14 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x0000af4c                sysPllConfig_BOARD_BootClockRUN
+ .rodata.usb1PllConfig_BOARD_BootClockRUN
+                0x0000af60        0x2 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                0x0000af60                usb1PllConfig_BOARD_BootClockRUN
+ *fill*         0x0000af62        0x2 
+ .rodata.__func__.2
+                0x0000af64       0x12 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ *fill*         0x0000af76        0x2 
+ .rodata.__func__.1
+                0x0000af78        0xd CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ *fill*         0x0000af85        0x3 
+ .rodata.__func__.0
+                0x0000af88        0xd CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ *fill*         0x0000af95        0x3 
+ .rodata        0x0000af98       0x3e CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
+ *fill*         0x0000afd6        0x2 
+ .rodata        0x0000afd8       0xd1 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+ *fill*         0x0000b0a9        0x3 
+ .rodata.__func__.1
+                0x0000b0ac       0x16 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+ *fill*         0x0000b0c2        0x2 
+ .rodata        0x0000b0c4       0xcc CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+ .rodata.__func__.3
+                0x0000b190       0x1c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+ .rodata.__func__.1
+                0x0000b1ac       0x19 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+ *fill*         0x0000b1c5        0x3 
+ .rodata.__func__.0
+                0x0000b1c8       0x10 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+ .rodata        0x0000b1d8      0x24e CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ *fill*         0x0000b426        0x2 
+ .rodata.s_lpuartBases
+                0x0000b428       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .rodata.s_lpuartClock
+                0x0000b44c       0x12 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ *fill*         0x0000b45e        0x2 
+ .rodata.__func__.20
+                0x0000b460       0x13 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ *fill*         0x0000b473        0x1 
+ .rodata.__func__.15
+                0x0000b474        0xc CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .rodata.__func__.14
+                0x0000b480       0x12 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ *fill*         0x0000b492        0x2 
+ .rodata.__func__.13
+                0x0000b494       0x18 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .rodata.__func__.11
+                0x0000b4ac       0x15 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ *fill*         0x0000b4c1        0x3 
+ .rodata.__func__.10
+                0x0000b4c4       0x14 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .rodata        0x0000b4d8        0xf CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
+ *fill*         0x0000b4e7        0x1 
+ .rodata.s_LpuartAdapterBase
+                0x0000b4e8       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ .rodata        0x0000b50c       0xf3 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ *fill*         0x0000b5ff        0x1 
+ .rodata.__func__.3
+                0x0000b600        0xd CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ *fill*         0x0000b60d        0x3 
+ .rodata.__func__.1
+                0x0000b610       0x18 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ .rodata.__func__.0
+                0x0000b628       0x15 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ *fill*         0x0000b63d        0x3 
+ .rodata        0x0000b640       0x70 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+ .rodata.__func__.0
+                0x0000b6b0       0x12 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+ *fill*         0x0000b6c2        0x2 
+ .rodata        0x0000b6c4       0xad CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ *fill*         0x0000b771        0x3 
+ .rodata.__func__.9
+                0x0000b774       0x14 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ .rodata.__func__.8
+                0x0000b788       0x13 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ *fill*         0x0000b79b        0x1 
+ .rodata.__func__.7
+                0x0000b79c       0x13 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ *fill*         0x0000b7af        0x1 
+ .rodata.__func__.5
+                0x0000b7b0       0x1e CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ *fill*         0x0000b7ce        0x2 
+ .rodata.__func__.3
+                0x0000b7d0       0x1d CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ *fill*         0x0000b7ed        0x3 
+ .rodata        0x0000b7f0       0x9b CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+ *fill*         0x0000b88b        0x1 
+ .rodata.__func__.3
+                0x0000b88c       0x10 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+ .rodata.__func__.1
+                0x0000b89c       0x11 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+ *fill*         0x0000b8ad        0x3 
+ .rodata.__func__.0
+                0x0000b8b0       0x10 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+ .rodata._global_impure_ptr
+                0x0000b8c0        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+                0x0000b8c0                _global_impure_ptr
 
-.iplt           0x000041e4        0x0
- .iplt          0x000041e4        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+.rodata1
+ *(.rodata1)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x000041e4        0x8
-                0x000041e4                __exidx_start = .
- *(.ARM.exidx*)
- .ARM.exidx     0x000041e4        0x8 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
+.ARM.exidx      0x0000b8c4        0x8
+                [!provide]                PROVIDE (__exidx_start = .)
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000b8c4        0x8 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
                                  0x10 (size before relaxing)
-                0x000041ec                __exidx_end = .
+                [!provide]                PROVIDE (__exidx_end = .)
 
-.rel.dyn        0x000041ec        0x0
- .rel.iplt      0x000041ec        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
 
-.ctors          0x000041ec        0x0
-                0x000041ec                __CTOR_LIST__ = .
+.eh_frame       0x0000b8cc        0x4
+ *(.eh_frame)
+ .eh_frame      0x0000b8cc        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .eh_frame      0x0000b8cc        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0001b8d0                . = (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1)))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x0001b8d0        0x0
+                [!provide]                PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0001b8d0        0x0
+                0x0001b8d0                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0001b8d0                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0001b8d0        0x4
+                0x0001b8d0                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0001b8d0        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x0001b8d4                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0001b8d4        0x4
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0001b8d4        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end = .)
+
+.ctors
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
- *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x000041ec                __CTOR_END__ = .
 
-.dtors          0x000041ec        0x0
-                0x000041ec                __DTOR_LIST__ = .
+.dtors
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
- *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x000041ec                __DTOR_END__ = .
 
-.preinit_array  0x000041ec        0x0
-                0x000041ec                PROVIDE (__preinit_array_start = .)
- *(.preinit_array*)
-                0x000041ec                PROVIDE (__preinit_array_end = .)
+.jcr
+ *(.jcr)
 
-.init_array     0x000041ec        0x4
-                0x000041ec                PROVIDE (__init_array_start = .)
- *(SORT_BY_NAME(.init_array.*))
- *(.init_array*)
- .init_array    0x000041ec        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
-                0x000041f0                PROVIDE (__init_array_end = .)
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
 
-.fini_array     0x000041f0        0x4
-                [!provide]                PROVIDE (__fini_array_start = .)
- *(SORT_BY_NAME(.fini_array.*))
- *(.fini_array*)
- .fini_array    0x000041f0        0x4 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
-                [!provide]                PROVIDE (__fini_array_end = .)
-                0x000041f4                __etext = .
-                0x000041f4                __DATA_ROM = .
+.dynamic
+ *(.dynamic)
 
-.data           0x20000000       0x64 load address 0x000041f4
-                0x20000000                . = ALIGN (0x4)
-                0x20000000                __DATA_RAM = .
-                0x20000000                __data_start__ = .
- *(m_usb_dma_init_data)
- *(.data)
- *(.data*)
+.got            0x0001b8d8        0x0
+ *(.got.plt)
+ *(.igot.plt)
+ .igot.plt      0x0001b8d8        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ *(.got)
+ *(.igot)
+
+.data           0x0001b8d8       0x64
+                0x0001b8d8                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
  .data.SystemCoreClock
-                0x20000000        0x4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
-                0x20000000                SystemCoreClock
+                0x0001b8d8        0x4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+                0x0001b8d8                SystemCoreClock
  .data.impure_data
-                0x20000004       0x60 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
- *(.jcr*)
-                0x20000064                . = ALIGN (0x4)
-                0x20000064                __data_end__ = .
-                0x00004258                __NDATA_ROM = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x0001b8dc       0x60 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
 
-.igot.plt       0x20000064        0x0 load address 0x00004258
- .igot.plt      0x20000064        0x0 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+.data1
+ *(.data1)
+                0x0001b93c                _edata = .
+                [!provide]                PROVIDE (edata = .)
 
-.ncache.init    0x20000064        0x0 load address 0x00004258
-                0x20000064                __noncachedata_start__ = .
- *(NonCacheable.init)
-                0x20000064                . = ALIGN (0x4)
-                0x20000064                __noncachedata_init_end__ = .
-                0x20000064                . = __noncachedata_init_end__
+.persistent     0x0001b93c        0x0
+                0x0001b93c                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__persistent_start = .)
+ *(.persistent .persistent.* .gnu.linkonce.p.*)
+                0x0001b93c                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__persistent_end = .)
+                0x0001b93c                . = .
+                0x0001b93c                __bss_start = .
+                0x0001b93c                __bss_start__ = .
 
-.ncache         0x20000064        0x0
- *(NonCacheable)
-                0x20000064                . = ALIGN (0x4)
-                0x20000064                __noncachedata_end__ = .
-                0x00004258                __DATA_END = (__NDATA_ROM + (__noncachedata_init_end__ - __noncachedata_start__))
-                0x00020000                text_end = (ORIGIN (m_text) + LENGTH (m_text))
-                0x00000001                ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
-
-.bss            0x20000064       0x6c load address 0x00004258
-                0x20000064                . = ALIGN (0x4)
-                0x20000064                __START_BSS = .
-                0x20000064                __bss_start__ = .
- *(m_usb_dma_noninit_data)
- *(.bss)
- .bss           0x20000064       0x1c d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
- *(.bss*)
+.bss            0x0001b93c       0x44
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0001b93c       0x1c d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
  .bss.g_xtalFreq
-                0x20000080        0x4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x20000080                g_xtalFreq
+                0x0001b958        0x4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x0001b958                g_xtalFreq
  .bss.g_rtcXtalFreq
-                0x20000084        0x4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                0x20000084                g_rtcXtalFreq
+                0x0001b95c        0x4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                0x0001b95c                g_rtcXtalFreq
  .bss.s_debugConsoleState
-                0x20000088       0x1c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+                0x0001b960       0x1c CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
  .bss.g_serialHandle
-                0x200000a4        0x4 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
-                0x200000a4                g_serialHandle
- .bss.s_lpuartHandle
-                0x200000a8       0x24 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- .bss.s_lpuartIsr
-                0x200000cc        0x4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+                0x0001b97c        0x4 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+                0x0001b97c                g_serialHandle
  *(COMMON)
-                0x200000d0                . = ALIGN (0x4)
-                0x200000d0                __bss_end__ = .
-                0x200000d0                __END_BSS = .
+                0x0001b980                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0001b980                _bss_end__ = .
+                0x0001b980                __bss_end__ = .
 
-.heap           0x200000d0      0x400 load address 0x000042c4
-                0x200000d0                . = ALIGN (0x8)
-                0x200000d0                __end__ = .
-                0x200000d0                PROVIDE (end = .)
-                0x200000d0                __HeapBase = .
-                0x200004d0                . = (. + HEAP_SIZE)
- *fill*         0x200000d0      0x400 
-                0x200004d0                __HeapLimit = .
-                0x200004d0                __heap_limit = .
+.noinit         0x0001b980        0x0
+                0x0001b980                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                0x0001b980                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__noinit_end = .)
+                0x0001b980                . = ALIGN (0x4)
+                0x0001b980                . = SEGMENT_START ("ldata-segment", .)
+                0x0001b980                . = ALIGN (0x4)
+                0x0001b980                __end__ = .
+                0x0001b980                _end = .
+                0x0001b980                PROVIDE (end = .)
 
-.stack          0x200004d0      0x400 load address 0x000046c4
-                0x200004d0                . = ALIGN (0x8)
-                0x200008d0                . = (. + STACK_SIZE)
- *fill*         0x200004d0      0x400 
-                0x20020000                __StackTop = (ORIGIN (m_data) + LENGTH (m_data))
-                0x2001fc00                __StackLimit = (__StackTop - STACK_SIZE)
-                0x20020000                PROVIDE (__stack = __StackTop)
+.stack          0x00080000        0x0
+                0x00080000                _stack = .
+ *(.stack)
 
-.ARM.attributes
-                0x00000000       0x2e
- *(.ARM.attributes)
- .ARM.attributes
-                0x00000000       0x1e d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
- .ARM.attributes
-                0x0000001e       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
- .ARM.attributes
-                0x00000050       0x1c d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
- .ARM.attributes
-                0x0000006c       0x1d CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
- .ARM.attributes
-                0x00000089       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
- .ARM.attributes
-                0x000000bb       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- .ARM.attributes
-                0x000000ed       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
- .ARM.attributes
-                0x0000011f       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
- .ARM.attributes
-                0x00000151       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
- .ARM.attributes
-                0x00000183       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- .ARM.attributes
-                0x000001b5       0x32 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
- .ARM.attributes
-                0x000001e7       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
- .ARM.attributes
-                0x00000219       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- .ARM.attributes
-                0x0000024b       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
- .ARM.attributes
-                0x0000027d       0x32 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- .ARM.attributes
-                0x000002af       0x32 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
- .ARM.attributes
-                0x000002e1       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
- .ARM.attributes
-                0x00000313       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
- .ARM.attributes
-                0x00000345       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
- .ARM.attributes
-                0x00000377       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
- .ARM.attributes
-                0x000003a9       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
- .ARM.attributes
-                0x000003db       0x17 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
- .ARM.attributes
-                0x000003f2       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
- .ARM.attributes
-                0x00000424       0x1e d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
-                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data overflowed with stack and heap)
-OUTPUT(debug/hello_world.elf elf32-littlearm)
-LOAD linker stubs
+.stab
+ *(.stab)
 
-.debug_line     0x00000000     0x4cef
- .debug_line    0x00000000      0x1ea CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
- .debug_line    0x000001ea      0x794 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
- .debug_line    0x0000097e      0x5b1 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- .debug_line    0x00000f2f       0xed CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
- .debug_line    0x0000101c      0xe05 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
- .debug_line    0x00001e21      0x5cc CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
- .debug_line    0x000023ed     0x1007 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- .debug_line    0x000033f4      0x797 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
- .debug_line    0x00003b8b       0xca CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
- .debug_line    0x00003c55      0x318 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- .debug_line    0x00003f6d      0x2b1 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
- .debug_line    0x0000421e      0x3e8 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- .debug_line    0x00004606      0x272 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
- .debug_line    0x00004878      0x477 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+.stabstr
+ *(.stabstr)
 
-.debug_info     0x00000000     0xa833
- .debug_info    0x00000000       0x26 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
- .debug_info    0x00000026      0xf9a CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
- .debug_info    0x00000fc0     0x1809 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- .debug_info    0x000027c9       0xd4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
- .debug_info    0x0000289d     0x2046 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
- .debug_info    0x000048e3      0xb03 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
- .debug_info    0x000053e6     0x22f0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- .debug_info    0x000076d6      0x4fa CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
- .debug_info    0x00007bd0       0x9f CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
- .debug_info    0x00007c6f      0xa0e CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- .debug_info    0x0000867d      0x7c8 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
- .debug_info    0x00008e45      0x833 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- .debug_info    0x00009678      0x507 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
- .debug_info    0x00009b7f      0xcb4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+.stab.excl
+ *(.stab.excl)
 
-.debug_abbrev   0x00000000     0x167f
- .debug_abbrev  0x00000000       0x14 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
- .debug_abbrev  0x00000014      0x285 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
- .debug_abbrev  0x00000299      0x203 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- .debug_abbrev  0x0000049c       0x68 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
- .debug_abbrev  0x00000504      0x3ac CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
- .debug_abbrev  0x000008b0      0x1e3 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
- .debug_abbrev  0x00000a93      0x320 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- .debug_abbrev  0x00000db3      0x177 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
- .debug_abbrev  0x00000f2a       0x57 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
- .debug_abbrev  0x00000f81      0x188 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- .debug_abbrev  0x00001109      0x160 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
- .debug_abbrev  0x00001269      0x155 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- .debug_abbrev  0x000013be      0x138 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
- .debug_abbrev  0x000014f6      0x189 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+.stab.exclstr
+ *(.stab.exclstr)
 
-.debug_aranges  0x00000000      0x690
- .debug_aranges
-                0x00000000       0x20 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
- .debug_aranges
-                0x00000020       0x90 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
- .debug_aranges
-                0x000000b0       0x78 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- .debug_aranges
-                0x00000128       0x20 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
- .debug_aranges
-                0x00000148      0x178 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
- .debug_aranges
-                0x000002c0       0x90 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
- .debug_aranges
-                0x00000350      0x160 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- .debug_aranges
-                0x000004b0       0x38 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
- .debug_aranges
-                0x000004e8       0x20 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
- .debug_aranges
-                0x00000508       0x40 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- .debug_aranges
-                0x00000548       0x48 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
- .debug_aranges
-                0x00000590       0x88 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- .debug_aranges
-                0x00000618       0x38 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
- .debug_aranges
-                0x00000650       0x40 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+.stab.index
+ *(.stab.index)
 
-.debug_str      0x00000000     0x5b68
- .debug_str     0x00000000       0xe6 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
- .debug_str     0x000000e6      0xbb6 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
-                                0xc63 (size before relaxing)
- .debug_str     0x00000c9c     0x16ec CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
-                               0x1f7a (size before relaxing)
- .debug_str     0x00002388       0x8a CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
-                                0x2a1 (size before relaxing)
- .debug_str     0x00002412      0xbae CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
-                               0x1c4c (size before relaxing)
- .debug_str     0x00002fc0      0x6c1 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
-                               0x1134 (size before relaxing)
- .debug_str     0x00003681     0x19dc CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
-                               0x2cb2 (size before relaxing)
- .debug_str     0x0000505d      0x208 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
-                                0x47c (size before relaxing)
- .debug_str     0x00005265       0x7b CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
-                                0x28d (size before relaxing)
- .debug_str     0x000052e0      0x2e5 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
-                               0x11f0 (size before relaxing)
- .debug_str     0x000055c5       0xb2 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
-                                0xac7 (size before relaxing)
- .debug_str     0x00005677      0x311 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
-                                0x76a (size before relaxing)
- .debug_str     0x00005988       0xf7 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
-                                0x7fe (size before relaxing)
- .debug_str     0x00005a7f       0xe9 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
-                                0x84b (size before relaxing)
-
-.debug_ranges   0x00000000      0x5a0
- .debug_ranges  0x00000000       0x80 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
- .debug_ranges  0x00000080       0x68 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
- .debug_ranges  0x000000e8       0x10 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
- .debug_ranges  0x000000f8      0x168 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
- .debug_ranges  0x00000260       0x80 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
- .debug_ranges  0x000002e0      0x150 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
- .debug_ranges  0x00000430       0x28 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
- .debug_ranges  0x00000458       0x10 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
- .debug_ranges  0x00000468       0x30 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
- .debug_ranges  0x00000498       0x38 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
- .debug_ranges  0x000004d0       0x78 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
- .debug_ranges  0x00000548       0x28 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
- .debug_ranges  0x00000570       0x30 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+.stab.indexstr
+ *(.stab.indexstr)
 
 .comment        0x00000000       0x49
+ *(.comment)
  .comment       0x00000000       0x49 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
                                  0x4a (size before relaxing)
  .comment       0x00000049       0x4a CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
@@ -1584,7 +1283,103 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
  .comment       0x00000049       0x4a CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
 
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x670
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x90 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+ .debug_aranges
+                0x00000090       0x78 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ .debug_aranges
+                0x00000108       0x20 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
+ .debug_aranges
+                0x00000128      0x178 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+ .debug_aranges
+                0x000002a0       0x90 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+ .debug_aranges
+                0x00000330      0x160 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .debug_aranges
+                0x00000490       0x38 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
+ .debug_aranges
+                0x000004c8       0x20 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
+ .debug_aranges
+                0x000004e8       0x40 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ .debug_aranges
+                0x00000528       0x48 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+ .debug_aranges
+                0x00000570       0x88 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ .debug_aranges
+                0x000005f8       0x38 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+ .debug_aranges
+                0x00000630       0x40 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xa80d
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xf9a CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+ .debug_info    0x00000f9a     0x1809 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ .debug_info    0x000027a3       0xd4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
+ .debug_info    0x00002877     0x2046 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+ .debug_info    0x000048bd      0xb03 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+ .debug_info    0x000053c0     0x22f0 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .debug_info    0x000076b0      0x4fa CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
+ .debug_info    0x00007baa       0x9f CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
+ .debug_info    0x00007c49      0xa0e CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ .debug_info    0x00008657      0x7c8 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+ .debug_info    0x00008e1f      0x833 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ .debug_info    0x00009652      0x507 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+ .debug_info    0x00009b59      0xcb4 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+
+.debug_abbrev   0x00000000     0x166b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x285 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+ .debug_abbrev  0x00000285      0x203 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ .debug_abbrev  0x00000488       0x68 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
+ .debug_abbrev  0x000004f0      0x3ac CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+ .debug_abbrev  0x0000089c      0x1e3 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+ .debug_abbrev  0x00000a7f      0x320 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .debug_abbrev  0x00000d9f      0x177 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
+ .debug_abbrev  0x00000f16       0x57 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
+ .debug_abbrev  0x00000f6d      0x188 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ .debug_abbrev  0x000010f5      0x160 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+ .debug_abbrev  0x00001255      0x155 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ .debug_abbrev  0x000013aa      0x138 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+ .debug_abbrev  0x000014e2      0x189 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+
+.debug_line     0x00000000     0x4b05
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x794 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+ .debug_line    0x00000794      0x5b1 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ .debug_line    0x00000d45       0xed CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
+ .debug_line    0x00000e32      0xe05 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+ .debug_line    0x00001c37      0x5cc CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+ .debug_line    0x00002203     0x1007 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .debug_line    0x0000320a      0x797 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
+ .debug_line    0x000039a1       0xca CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
+ .debug_line    0x00003a6b      0x318 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ .debug_line    0x00003d83      0x2b1 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+ .debug_line    0x00004034      0x3e8 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ .debug_line    0x0000441c      0x272 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+ .debug_line    0x0000468e      0x477 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+
 .debug_frame    0x00000000     0x1918
+ *(.debug_frame)
  .debug_frame   0x00000000      0x238 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
  .debug_frame   0x00000238      0x1c8 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
  .debug_frame   0x00000400       0x30 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
@@ -1602,3 +1397,192 @@ LOAD linker stubs
  .debug_frame   0x000018ac       0x2c d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
  .debug_frame   0x000018d8       0x20 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
  .debug_frame   0x000018f8       0x20 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
+
+.debug_str      0x00000000     0x5af1
+ *(.debug_str)
+ .debug_str     0x00000000      0xc25 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+                                0xc63 (size before relaxing)
+ .debug_str     0x00000c25     0x16ec CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+                               0x1f7a (size before relaxing)
+ .debug_str     0x00002311       0x8a CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
+                                0x2a1 (size before relaxing)
+ .debug_str     0x0000239b      0xbae CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+                               0x1c4c (size before relaxing)
+ .debug_str     0x00002f49      0x6c1 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+                               0x1134 (size before relaxing)
+ .debug_str     0x0000360a     0x19dc CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+                               0x2cb2 (size before relaxing)
+ .debug_str     0x00004fe6      0x208 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
+                                0x47c (size before relaxing)
+ .debug_str     0x000051ee       0x7b CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
+                                0x28d (size before relaxing)
+ .debug_str     0x00005269      0x2e5 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+                               0x11f0 (size before relaxing)
+ .debug_str     0x0000554e       0xb2 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+                                0xac7 (size before relaxing)
+ .debug_str     0x00005600      0x311 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+                                0x76a (size before relaxing)
+ .debug_str     0x00005911       0xf7 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+                                0x7fe (size before relaxing)
+ .debug_str     0x00005a08       0xe9 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+                                0x84b (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x5a0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x80 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+ .debug_ranges  0x00000080       0x68 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ .debug_ranges  0x000000e8       0x10 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
+ .debug_ranges  0x000000f8      0x168 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+ .debug_ranges  0x00000260       0x80 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+ .debug_ranges  0x000002e0      0x150 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .debug_ranges  0x00000430       0x28 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
+ .debug_ranges  0x00000458       0x10 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
+ .debug_ranges  0x00000468       0x30 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ .debug_ranges  0x00000498       0x38 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+ .debug_ranges  0x000004d0       0x78 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ .debug_ranges  0x00000548       0x28 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+ .debug_ranges  0x00000570       0x30 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x2e
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crti.o
+ .ARM.attributes
+                0x0000001e       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .ARM.attributes
+                0x00000050       0x1c d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
+ .ARM.attributes
+                0x0000006c       0x1d CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
+ .ARM.attributes
+                0x00000089       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj
+ .ARM.attributes
+                0x000000bb       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj
+ .ARM.attributes
+                0x000000ed       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_flexspi_nor_config.c.obj
+ .ARM.attributes
+                0x0000011f       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_sdram_ini_dcd.c.obj
+ .ARM.attributes
+                0x00000151       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
+ .ARM.attributes
+                0x00000183       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+ .ARM.attributes
+                0x000001b5       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_common.c.obj
+ .ARM.attributes
+                0x000001e7       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj
+ .ARM.attributes
+                0x00000219       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.c.obj
+ .ARM.attributes
+                0x0000024b       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_gpio.c.obj
+ .ARM.attributes
+                0x0000027d       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+ .ARM.attributes
+                0x000002af       0x32 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
+ .ARM.attributes
+                0x000002e1       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/lists/generic_list.c.obj
+ .ARM.attributes
+                0x00000313       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj
+ .ARM.attributes
+                0x00000345       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj
+ .ARM.attributes
+                0x00000377       0x32 CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj
+ .ARM.attributes
+                0x000003a9       0x32 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj
+ .ARM.attributes
+                0x000003db       0x32 CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj
+ .ARM.attributes
+                0x0000040d       0x32 CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+ .ARM.attributes
+                0x0000043f       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000471       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000004a3       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000004d5       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x00000507       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000539       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x0000056b       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x0000059d       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x000005cf       0x17 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000005e6       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000618       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000064a       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000067c       0x1e d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000069a       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x000006cc       0x1e d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000006ea       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x0000071c       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000074e       0x32 d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .ARM.attributes
+                0x00000780       0x1e d:/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard/crtn.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(debug/hello_world.elf elf32-littlearm)
+LOAD linker stubs

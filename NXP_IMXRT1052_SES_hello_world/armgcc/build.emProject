@@ -1,6 +1,7 @@
 <!DOCTYPE CrossStudio_Project_File>
 <solution Name="build" target="8" version="2">
-  <project Name="debug/hello_world.elf">
+  <configuration Name="debug_ram" />
+  <project Name="helloworld">
     <configuration
       Name="Common"
       arm_architecture="v7EM"
@@ -20,6 +21,7 @@
       c_additional_options=""
       c_additional_options_backup=";-Og;-g2;-mcpu=cortex-m7;-mfloat-abi=hard;-mfpu=fpv5-sp-d16"
       c_only_additional_options=""
+      c_user_include_directories=".;../;../../;../../../../../CMSIS/Include;../../../../../devices;../../../../../devices/MIMXRT1052/drivers;../../../../../devices/MIMXRT1052;../../../../../devices/MIMXRT1052/utilities/str;../../../../../devices/MIMXRT1052/utilities/debug_console;../../../../../components/uart;../../../../../components/serial_manager;../../../../../components/lists;../../../../../devices/MIMXRT1052/xip;../../../xip"
       code_completion_options=""
       cpp_only_additional_options=""
       debug_target_connection="J-Link"
@@ -55,12 +57,7 @@
         asm_additional_options="-g;-g;-g;-DDEBUG;-D__STARTUP_CLEAR_BSS;-D__STARTUP_INITIALIZE_NONCACHEDATA;-g;-mcpu=cortex-m7;-Wall;-mfloat-abi=hard;-mfpu=fpv5-d16;-mthumb;-fno-common;-ffunction-sections;-fdata-sections;-ffreestanding;-fno-builtin;-mapcs;-std=gnu99"
         c_preprocessor_definitions="DEBUG;__STARTUP_CLEAR_BSS;__STARTUP_INITIALIZE_NONCACHEDATA"
         c_user_include_directories="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/..;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../..;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../CMSIS/Include;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices/MIMXRT1052/drivers;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices/MIMXRT1052;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices/MIMXRT1052/utilities/str;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices/MIMXRT1052/utilities/debug_console;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../components/uart;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../components/serial_manager;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../components/lists;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices/MIMXRT1052/xip;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../xip" />
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\e80b1e64208fade1e56dcc745157207a\SDK_2.6.0_EVKB-IMXRT1050\devices\MIMXRT1052\gcc\startup_MIMXRT1052.S.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj" />
-      </file>
+      <file file_name="../../../../../devices/MIMXRT1052/gcc/startup_MIMXRT1052.S" />
     </folder>
     <folder Name="C_COMPILER__hello_world.2eelf_debug">
       <configuration
@@ -68,120 +65,29 @@
         c_only_additional_options="-O0;-g;-O0;-g;-O0;-g;-DDEBUG;-DCPU_MIMXRT1052DVL6B;-DPRINTF_FLOAT_ENABLE=0;-DSCANF_FLOAT_ENABLE=0;-DPRINTF_ADVANCED_ENABLE=0;-DSCANF_ADVANCED_ENABLE=0;-g;-O0;-mcpu=cortex-m7;-Wall;-mfloat-abi=hard;-mfpu=fpv5-d16;-mthumb;-MMD;-MP;-fno-common;-ffunction-sections;-fdata-sections;-ffreestanding;-fno-builtin;-mapcs;-std=gnu99"
         c_preprocessor_definitions="DEBUG;CPU_MIMXRT1052DVL6B;PRINTF_FLOAT_ENABLE=0;SCANF_FLOAT_ENABLE=0;PRINTF_ADVANCED_ENABLE=0;SCANF_ADVANCED_ENABLE=0"
         c_user_include_directories="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/..;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../..;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../CMSIS/Include;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices/MIMXRT1052/drivers;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices/MIMXRT1052;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices/MIMXRT1052/utilities/str;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices/MIMXRT1052/utilities/debug_console;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../components/uart;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../components/serial_manager;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../components/lists;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../../../devices/MIMXRT1052/xip;F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/armgcc/../../../xip" />
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/board.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\06b4f722f0096b8e831cef3a518bd843\boards\evkbimxrt1050\demo_apps\hello_world\board.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/board.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\06b4f722f0096b8e831cef3a518bd843\boards\evkbimxrt1050\demo_apps\hello_world\clock_config.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/clock_config.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/xip/evkbimxrt1050_flexspi_nor_config.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\06b4f722f0096b8e831cef3a518bd843\boards\evkbimxrt1050\xip\evkbimxrt1050_flexspi_nor_config.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_flexspi_nor_config.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/xip/evkbimxrt1050_sdram_ini_dcd.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\06b4f722f0096b8e831cef3a518bd843\boards\evkbimxrt1050\xip\evkbimxrt1050_sdram_ini_dcd.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/xip/evkbimxrt1050_sdram_ini_dcd.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\F_\NXP\ref\SDK_2.6.0_EVKB-IMXRT1050\SDK_2.6.0_EVKB-IMXRT1050\devices\MIMXRT1052\utilities\fsl_assert.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\F_\NXP\ref\SDK_2.6.0_EVKB-IMXRT1050\SDK_2.6.0_EVKB-IMXRT1050\devices\MIMXRT1052\drivers\fsl_clock.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_common.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\F_\NXP\ref\SDK_2.6.0_EVKB-IMXRT1050\SDK_2.6.0_EVKB-IMXRT1050\devices\MIMXRT1052\drivers\fsl_common.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_common.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\06b4f722f0096b8e831cef3a518bd843\devices\MIMXRT1052\utilities\debug_console\fsl_debug_console.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\06b4f722f0096b8e831cef3a518bd843\devices\MIMXRT1052\xip\fsl_flexspi_nor_boot.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_gpio.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\F_\NXP\ref\SDK_2.6.0_EVKB-IMXRT1050\SDK_2.6.0_EVKB-IMXRT1050\devices\MIMXRT1052\drivers\fsl_gpio.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_gpio.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\F_\NXP\ref\SDK_2.6.0_EVKB-IMXRT1050\SDK_2.6.0_EVKB-IMXRT1050\devices\MIMXRT1052\drivers\fsl_lpuart.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\e80b1e64208fade1e56dcc745157207a\SDK_2.6.0_EVKB-IMXRT1050\devices\MIMXRT1052\utilities\str\fsl_str.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/lists/generic_list.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\F_\NXP\ref\SDK_2.6.0_EVKB-IMXRT1050\SDK_2.6.0_EVKB-IMXRT1050\components\lists\generic_list.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/lists/generic_list.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\06b4f722f0096b8e831cef3a518bd843\boards\evkbimxrt1050\demo_apps\hello_world\hello_world.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\F_\NXP\ref\SDK_2.6.0_EVKB-IMXRT1050\SDK_2.6.0_EVKB-IMXRT1050\components\uart\lpuart_adapter.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/uart/lpuart_adapter.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\06b4f722f0096b8e831cef3a518bd843\boards\evkbimxrt1050\demo_apps\hello_world\pin_mux.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/06b4f722f0096b8e831cef3a518bd843/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\e80b1e64208fade1e56dcc745157207a\SDK_2.6.0_EVKB-IMXRT1050\components\serial_manager\serial_manager.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_manager.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\e80b1e64208fade1e56dcc745157207a\SDK_2.6.0_EVKB-IMXRT1050\components\serial_manager\serial_port_uart.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/e80b1e64208fade1e56dcc745157207a/SDK_2.6.0_EVKB-IMXRT1050/components/serial_manager/serial_port_uart.c.obj" />
-      </file>
-      <file file_name="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c">
-        <configuration
-          Name="Common"
-          build_dependency_file_name="$(ProjectDir)/CMakeFiles\hello_world.elf.dir\F_\NXP\ref\SDK_2.6.0_EVKB-IMXRT1050\SDK_2.6.0_EVKB-IMXRT1050\devices\MIMXRT1052\system_MIMXRT1052.c.obj.d"
-          build_object_file_name="CMakeFiles/hello_world.elf.dir/F_/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj" />
-      </file>
+      <file file_name="../board.c" />
+      <file file_name="../clock_config.c" />
+      <file file_name="../hello_world.c" />
+      <file file_name="../pin_mux.c" />
+      <file file_name="../../../xip/evkbimxrt1050_flexspi_nor_config.c" />
+      <file file_name="../../../xip/evkbimxrt1050_sdram_ini_dcd.c" />
+      <file file_name="../../../../../devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.c" />
+      <file file_name="../../../../../devices/MIMXRT1052/utilities/fsl_assert.c" />
+      <file file_name="../../../../../devices/MIMXRT1052/drivers/fsl_flexio_spi.c" />
+      <file file_name="../../../../../devices/MIMXRT1052/drivers/fsl_gpio.c" />
+      <file file_name="../../../../../devices/MIMXRT1052/drivers/fsl_lpuart.c" />
+      <file file_name="../../../../../devices/MIMXRT1052/utilities/str/fsl_str.c" />
+      <file file_name="../../../../../devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.c" />
+      <file file_name="../../../../../devices/MIMXRT1052/drivers/fsl_clock.c" />
+      <file file_name="../../../../../devices/MIMXRT1052/drivers/fsl_common.c" />
+      <file file_name="../../../../../components/lists/generic_list.c" />
+      <file file_name="../../../../../components/uart/lpuart_adapter.c" />
+      <file file_name="../../../../../components/serial_manager/serial_manager.c" />
+      <file file_name="../../../../../components/serial_manager/serial_port_uart.c" />
+      <file file_name="../../../../../devices/MIMXRT1052/system_MIMXRT1052.c" />
     </folder>
+    <configuration
+      Name="debug_ram"
+      build_toolchain_directory="C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin" />
   </project>
 </solution>

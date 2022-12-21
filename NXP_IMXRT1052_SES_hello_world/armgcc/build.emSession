@@ -1,25 +1,41 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
  <Bookmarks/>
- <Breakpoints groups="" active_group="Breakpoints"/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
   <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
  </FrameBufferWindow>
- <Memory1/>
- <Memory2/>
- <Memory3/>
- <Memory4/>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="debug/hello_world.elf_Common" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="debug/hello_world.elf_Common" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="debug/hello_world.elf_Common" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="debug/hello_world.elf_Common" sizeText="" addressText=""/>
+ </Memory4>
  <Project>
   <ProjectSessionItem path="build"/>
-  <ProjectSessionItem path="build;debug/hello_world.elf"/>
-  <ProjectSessionItem path="build;debug/hello_world.elf;ASM_COMPILER__hello_world.2eelf_debug"/>
-  <ProjectSessionItem path="build;debug/hello_world.elf;C_COMPILER__hello_world.2eelf_debug"/>
+  <ProjectSessionItem path="build;helloworld"/>
+  <ProjectSessionItem path="build;helloworld;ASM_COMPILER__hello_world.2eelf_debug"/>
+  <ProjectSessionItem path="build;helloworld;C_COMPILER__hello_world.2eelf_debug"/>
  </Project>
- <Register1/>
- <Register2/>
- <Register3/>
- <Register4/>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="debug/hello_world.elf_Common" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="debug/hello_world.elf_Common" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="debug/hello_world.elf_Common" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="debug/hello_world.elf_Common" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
  <Threads>
   <ThreadsWindow showLists=""/>
  </Threads>
@@ -39,9 +55,19 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="45" useTextEdit="1" path="../hello_world.c" left="0" top="11" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../../../../../devices/MIMXRT1052/system_MIMXRT1052.c" left="0" top="27" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../../../../../devices/MIMXRT1052/gcc/startup_MIMXRT1052.S" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="42" useTextEdit="1" path="../hello_world.c" left="0" top="9" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c" path="../../../../../devices/MIMXRT1052/fsl_device_registers.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c" path="../../../../../devices/MIMXRT1052/utilities/debug_console/fsl_debug_console.h" left="0" top="36" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c" path="../board.h" left="0" top="24" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c" path="../pin_mux.h" left="0" top="26" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="8" useTextEdit="1" openedFrom="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/hello_world.c" path="../clock_config.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="24" useTextEdit="1" path="../pin_mux.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="3" y="23" useTextEdit="1" openedFrom="F:/NXP/ref/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/boards/evkbimxrt1050/demo_apps/hello_world/pin_mux.c" path="../../../../../devices/MIMXRT1052/drivers/fsl_common.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../../../../../devices/MIMXRT1052/gcc/startup_MIMXRT1052.S" left="0" top="147" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../../../../../components/uart/lpuart_adapter.c" left="0" top="42" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="126" useTextEdit="1" path="MIMXRT1052xxxxx_ram.ld" left="0" top="110" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="40" y="16" useTextEdit="1" path="../board.c" left="0" top="9" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="11" useTextEdit="1" path="../../../../../devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.h" left="0" selected="1" top="0" codecName="Default"/>
  </Files>
- <EMStudioWindow activeProject="debug/hello_world.elf" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Common" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="F:/NXP/test/MIMXRT1052/CMSIS/Include" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <EMStudioWindow activeProject="helloworld" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="debug_ram" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Work/NXP/SDK_2.6.0_EVKB-IMXRT1050/SDK_2.6.0_EVKB-IMXRT1050/devices/MIMXRT1052" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
