@@ -4,8 +4,10 @@ import os
 
 # first get all file
 dir = r"E:\elmagnificogi.github.io\_posts"
-origin_str = "Raspberrypi-head-bg.jpg"
-replace_str = "Raspberrypi-head-bg.png"
+dir = r"E:\Github\elmagnificogi.github.io\_posts"
+origin_str = "Forward"
+replace_str = "Foreword"
+line_num_limit = 30
 
 for file in os.listdir(dir):
     # show file name
@@ -18,10 +20,12 @@ for file in os.listdir(dir):
     # replace it
     f = open(file_path, 'w', encoding='utf-8')
     new_file = ""
+    line_num = 0
     for line in content:
         new_line = line
         # print(line)
-        if line.find(origin_str) != -1:
+        line_num+=1
+        if line.find(origin_str) != -1 and line_num < line_num_limit:
             print(line)
             print(line.replace(origin_str, replace_str))
             new_line = line.replace(origin_str, replace_str)

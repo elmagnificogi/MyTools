@@ -5,13 +5,16 @@ import re
 
 # first get all file
 dir = r"E:\Github\elmagnificogi.github.io\_posts"
-target_str = "![*](*)"
+#target_str = "![*](*)"
+#target_str = "Foreword"#"Forward"
+target_str = "Foreward"
+line_num_limit = 30
 #origin_str = "Raspberrypi-head-bg.jpg"
 #replace_str = "Raspberrypi-head-bg.png"
 
 for file in os.listdir(dir):
     # show file name
-    print(file)
+    #print(file)
     file_path = dir + "\\" + file
     f = open(file_path, encoding='utf-8')
     content = f.readlines()
@@ -20,27 +23,14 @@ for file in os.listdir(dir):
     # replace it
     #f = open(file_path, 'w', encoding='utf-8')
     #new_file = ""
+    line_num = 0
     for line in content:
         new_line = line
+        line_num+=1
         # print(line)
-        if re.search(r'!\[(.*)\]\((.*)\)',line) != None:
-            # # check some un SM.MS pic
-            # if "loli" in line:
-            #     continue
-            # else:
-            #     print(line)
-            # split imgs in one line
-            img_url = line.split("![")
-            for url in img_url:
-                if url != "":
-                    print("!["+url)
-            continue
-        elif re.search(r'<img src',line) != None:
-            # check old img link
-            print(line)
-            #print(line.replace(origin_str, replace_str))
-            #new_line = line.replace(origin_str, replace_str)
-
+        if target_str in line and line_num < line_num_limit:
+            print(file_path)
+            break
         #new_file += new_line
     #f.write(new_file)
     #f.close()
