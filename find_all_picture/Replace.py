@@ -8,6 +8,7 @@ dir = r"E:\Github\elmagnificogi.github.io\_posts"
 no_replace = []
 origin_str = "png"
 replace_str = "jpg"
+line_num_limit = 30
 
 for file in os.listdir(dir):
     # show file name
