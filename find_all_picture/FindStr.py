@@ -5,7 +5,8 @@ import re
 
 # first get all file
 dir = r"E:\Github\elmagnificogi.github.io\_posts"
-target_str = "![*](*)"
+#target_str = "![*](*)"
+target_str = "Forward"
 #origin_str = "Raspberrypi-head-bg.jpg"
 #replace_str = "Raspberrypi-head-bg.png"
 
