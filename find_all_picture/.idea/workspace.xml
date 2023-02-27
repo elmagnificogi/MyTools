@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="684b1585-8102-41bb-9434-3470e0f504a3" name="Default Changelist" comment="add new py for replace and upload all img in my blog">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReplaceOldImgUrl.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReplaceOldImgUrl.py" afterDir="false" />
-    </list>
+    <list default="true" id="684b1585-8102-41bb-9434-3470e0f504a3" name="Default Changelist" comment="add new py for replace and upload all img in my blog" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +191,7 @@
       <workItem from="1647167401979" duration="811000" />
       <workItem from="1647394694334" duration="207000" />
       <workItem from="1676448243792" duration="1006000" />
-      <workItem from="1677473323202" duration="3793000" />
+      <workItem from="1677473323202" duration="4094000" />
     </task>
     <task id="LOCAL-00001" summary="add new py for replace and upload all img in my blog">
       <created>1643358541964</created>
