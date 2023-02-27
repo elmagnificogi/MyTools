@@ -55,7 +55,7 @@ for file in os.listdir(dir):
                     new_line += url
             if find:
                 new_line += "\n"
-        elif re.search(r'<img src', line) != None:
+        elif re.search(r'<img src=', line) != None:
             # check old img link
             new_line = line
             print(line)
