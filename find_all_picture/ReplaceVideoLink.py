@@ -2,16 +2,9 @@ import os
 import re
 #import requests
 
-# use for replace old url
-
 # first get all file
 #dir = r"E:\Github\elmagnificogi.github.io\_posts"
 dir = r"E:\elmagnificogi.github.io\_posts"
-
-# replace url
-replace_url = "https://img.elmagnifico.tech/static/upload/elmagnifico/"
-
-all_img_url = []
 
 for file in os.listdir(dir):
     # show file name
