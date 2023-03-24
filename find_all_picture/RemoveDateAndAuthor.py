@@ -4,7 +4,7 @@ import re
 # use for find all pic in markdown doc
 
 # first get all file
-dir = r"F:\NXP\xxxx"
+dir = r"F:\NXP\xxx"
 target_str = "![*](*)"
 # origin_str = "Raspberrypi-head-bg.jpg"
 # replace_str = "Raspberrypi-head-bg.png"
@@ -38,32 +38,33 @@ for root, dirs, files in os.walk(dir):
         new_file = ""
         time_stamp = datetime.datetime.now()
         now = time_stamp.strftime('%Y.%m.%d %H:%M:%S')
-        time_line =   " * Date    : "+now+'\n'
-        author_line = " * Auther  : xxxxxx\n"
         #continue
-        find_time =False
+        find_title =False
+        find_state = 0
+        find_line = 0
+        jump_line = False
         for line in content:
             new_line = line
             # print(line)
-            if re.search(r' * Date    :', line) != None:
+            if r'Copyright (c) xxxx xxxx Ltd. All rights reserved' in line:
+                #print(line)
+                find_state = 1
+                find_line = 0
+                find_title = True
+            if find_state == 1 and find_line>0 and find_line < 7:
                 print(line)
-                new_line = time_line
-                find_time = True
-            if re.search(r' Auther  : xxx', line) != None:
-                print(line)
-                new_line = author_line
-                find_time = True
-            if re.search(r' Auther  : xxx', line) != None:
-                print(line)
-                new_line = author_line
-                find_time = True
-            new_file+=new_line
+                find_line+=1
+                jump_line = True
+            else:
+                jump_line = False
+            if find_line == 0:
+                find_line +=1
+            if not jump_line:
+                new_file+=new_line
                 # print(line.replace(origin_str, replace_str))
                 # new_line = line.replace(origin_str, replace_str)
-        if find_time:
+        if find_title:
             f = open(file_path,'w')
             f.write(new_file)
             f.close()
-            # new_file += new_line
-        # f.write(new_file)
-        # f.close()
+            new_file += new_line
