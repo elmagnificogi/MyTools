@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="684b1585-8102-41bb-9434-3470e0f504a3" name="Default Changelist" comment="add new py for replace and upload all img in my blog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReplaceVideoLink.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReplaceVideoLink.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,11 +153,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FindStr" />
-      <item itemvalue="Python.UpdateDate" />
       <item itemvalue="Python.DownloadAllPic" />
+      <item itemvalue="Python.FindStr" />
       <item itemvalue="Python.ReplaceOldImgUrl" />
       <item itemvalue="Python.ReplaceVideoLink" />
+      <item itemvalue="Python.UpdateDate" />
     </list>
     <recent_temporary>
       <list>
@@ -227,6 +226,6 @@
     <SUITE FILE_PATH="coverage/find_replace$DownloadAllPic.coverage" NAME="DownloadAllPic Coverage Results" MODIFIED="1643353208985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/find_replace$FindStr.coverage" NAME="FindStr Coverage Results" MODIFIED="1643270057187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/find_all_picture$ReplaceOldImgUrl.coverage" NAME="ReplaceOldImgUrl Coverage Results" MODIFIED="1677486721136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/find_all_picture$ReplaceVideoLink.coverage" NAME="ReplaceVideoLink Coverage Results" MODIFIED="1677506391153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/find_all_picture$ReplaceVideoLink.coverage" NAME="ReplaceVideoLink Coverage Results" MODIFIED="1678814811256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
