@@ -4,7 +4,7 @@ import re
 # use for find all pic in markdown doc
 
 # first get all file
-dir = r"F:\NXP\xxx"
+dir = r"F:\NXP\dmd_uav"
 target_str = "![*](*)"
 # origin_str = "Raspberrypi-head-bg.jpg"
 # replace_str = "Raspberrypi-head-bg.png"
@@ -46,7 +46,7 @@ for root, dirs, files in os.walk(dir):
         for line in content:
             new_line = line
             # print(line)
-            if r'Copyright (c) xxxx xxxx Ltd. All rights reserved' in line:
+            if r'Copyright (c) Shenzheng DMDUAV Ltd. All rights reserved' in line:
                 #print(line)
                 find_state = 1
                 find_line = 0
@@ -64,6 +64,7 @@ for root, dirs, files in os.walk(dir):
                 # print(line.replace(origin_str, replace_str))
                 # new_line = line.replace(origin_str, replace_str)
         if find_title:
+            #print("write a new file")
             f = open(file_path,'w')
             f.write(new_file)
             f.close()
