@@ -20,57 +20,20 @@ boot_branch_map = {
     "Iv2h7": "Iv2h7_boot",
 }
 
-
-def dfs(node):
-    if node.hasChildNodes:
-        for n in node.childNodes:
-            # print(n.nodeType)
-            if (n.nodeType == 1):
-                if n.getAttribute("Name") != "":
-                    print(n.nodeName + " " + n.getAttribute("Name"))
-                elif n.getAttribute("file_name") != "":
-                    print(n.nodeName + " " + n.getAttribute("file_name"))
-            dfs(n)
-    else:
-        return
-    return
-
-
-def bfs(nodes):
-    if len(nodes) > 0:
-        todo = []
-        for n in nodes:
-            if (n.nodeType == 1):
-                # print(n.childNodes)
-                if n.getAttribute("Name") != "":
-                    print(n.nodeName + " " + n.getAttribute("Name"))
-                elif n.getAttribute("file_name") != "":
-                    print(n.nodeName + " " + n.getAttribute("file_name"))
-                if len(n.childNodes) != 0:
-                    # print("add")
-                    for nc in n.childNodes:
-                        todo.append(nc)
-        bfs(todo)
-    else:
-        return
-    return
-
 DOMTree = xml.dom.minidom.parse("demo.emProject")
 collection = DOMTree.documentElement
 project = collection.getElementsByTagName("project")[0]
 folders = project.getElementsByTagName("folder")
-print(len(folders))
+#print(len(folders))
 
 root_dir = folders[0]
-print("root child:" + str(root_dir.childNodes.length))
-# dfs(root_dir)
-# bfs(root_dir.childNodes)
+#print("root child:" + str(root_dir.childNodes.length))
 
 exclude_nodes = {}
 
 confs = root_dir.getElementsByTagName('configuration')
 if len(confs) > 0:
-    print(len(confs))
+    #print(len(confs))
     for conf in confs:
         if conf.hasAttribute("build_exclude_from_build"):
             if conf.parentNode in exclude_nodes:
@@ -85,7 +48,7 @@ if len(confs) > 0:
                     name = conf.parentNode.getAttribute("file_name")
                 # print(name + " exclude from " + conf.getAttribute("Name"))
 
-print("*" * 50)
+#print("*" * 50)
 doc = DOMTree
 # deal all exclude node
 for node in exclude_nodes:
