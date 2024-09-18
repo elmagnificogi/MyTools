@@ -1,0 +1,92 @@
+# picture
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.PNG filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.ai filter=lfs diff=lfs merge=lfs -text
+
+# doc
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.ppt filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.xls filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.doc filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+
+*.xml filter=lfs diff=lfs merge=lfs -text
+*.scdoc filter=lfs diff=lfs merge=lfs -text
+
+# video
+#*.MP4 filter=lfs diff=lfs merge=lfs -text
+#*.mp4 filter=lfs diff=lfs merge=lfs -text
+#*.avi filter=lfs diff=lfs merge=lfs -text
+
+# double
+*.stp filter=lfs diff=lfs merge=lfs -text
+*.STP filter=lfs diff=lfs merge=lfs -text
+*.step filter=lfs diff=lfs merge=lfs -text
+*.STEP filter=lfs diff=lfs merge=lfs -text
+*.SLDPRT filter=lfs diff=lfs merge=lfs -text
+*.sldprt filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
+*.STL filter=lfs diff=lfs merge=lfs -text
+*.igs filter=lfs diff=lfs merge=lfs -text
+*.IGS filter=lfs diff=lfs merge=lfs -text
+
+# struct
+*.CATDrawing filter=lfs diff=lfs merge=lfs -text
+*.CATPart filter=lfs diff=lfs merge=lfs -text
+*.CATProduct filter=lfs diff=lfs merge=lfs -text
+*.dxf filter=lfs diff=lfs merge=lfs -text
+*.dwg filter=lfs diff=lfs merge=lfs -text
+*.3dm filter=lfs diff=lfs merge=lfs -text
+*.3dxml filter=lfs diff=lfs merge=lfs -text
+*.prt.* filter=lfs diff=lfs merge=lfs -text
+*.asm.* filter=lfs diff=lfs merge=lfs -text
+
+# simulation
+*.lms filter=lfs diff=lfs merge=lfs -text
+
+# other
+*.h3d filter=lfs diff=lfs merge=lfs -text
+*.op2 filter=lfs diff=lfs merge=lfs -text
+*.fem filter=lfs diff=lfs merge=lfs -text
+*.x_t filter=lfs diff=lfs merge=lfs -text
+*.unv filter=lfs diff=lfs merge=lfs -text
+*.dat filter=lfs diff=lfs merge=lfs -text
+*.bdf filter=lfs diff=lfs merge=lfs -text
+*.wbpz filter=lfs diff=lfs merge=lfs -text
+*.mechdb filter=lfs diff=lfs merge=lfs -text
+*.acmo filter=lfs diff=lfs merge=lfs -text
+*.pmdb filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.msh filter=lfs diff=lfs merge=lfs -text
+*.pack filter=lfs diff=lfs merge=lfs -text
+*.fecdb filter=lfs diff=lfs merge=lfs -text
+*.wrl filter=lfs diff=lfs merge=lfs -text
+*.SLDASM filter=lfs diff=lfs merge=lfs -text
+*.hm filter=lfs diff=lfs merge=lfs -text
+*.brd filter=lfs diff=lfs merge=lfs -text
+*.hm filter=lfs diff=lfs merge=lfs -text
+*.SAV filter=lfs diff=lfs merge=lfs -text
+*.cgr filter=lfs diff=lfs merge=lfs -text
+*.hsf filter=lfs diff=lfs merge=lfs -text
+*.minf filter=lfs diff=lfs merge=lfs -text
+*.mdd filter=lfs diff=lfs merge=lfs -text
+*.cgr filter=lfs diff=lfs merge=lfs -text
+*.sim filter=lfs diff=lfs merge=lfs -text
+*.mres filter=lfs diff=lfs merge=lfs -text
+*.ldsf filter=lfs diff=lfs merge=lfs -text
+*.agdb filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.ksp filter=lfs diff=lfs merge=lfs -text
+*.xprd filter=lfs diff=lfs merge=lfs -text
+*.xpr filter=lfs diff=lfs merge=lfs -text
+*.xedz filter=lfs diff=lfs merge=lfs -text
+*.bip filter=lfs diff=lfs merge=lfs -text
+
+# *.rst filter=lfs diff=lfs merge=lfs -text
+# *.f06 filter=lfs diff=lfs merge=lfs -text
+# *.mshdb filter=lfs diff=lfs merge=lfs -text
+# *.hm filter=lfs diff=lfs merge=lfs -text

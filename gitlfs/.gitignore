@@ -1,0 +1,33 @@
+# commom
+*.zip
+*.rar
+*.7z
+# *.txt
+# *.jpg
+# *.png
+
+# CATIA
+# *.step
+# *.STEP
+# *.SLDPRT
+# *.SLDASM
+# *.3dm
+# *.x_b
+
+# Creo
+
+# ABAQUS
+
+# ansys
+
+# fluent
+
+# hypermesh
+
+# nastran
+
+# Simcenter 3D
+
+# Cadence
+
+# Matlab
