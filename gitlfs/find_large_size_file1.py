@@ -7,6 +7,9 @@ import re
 dir = r"J:\GITLFS"
 # dir = r"J:\GITLFS\基站3.0"
 
+# lfs file path
+lfs_config_path = r"J:\templete\.gitattributes"
+
 large_file_list = []
 
 
@@ -42,7 +45,6 @@ sorted_arr = sorted(large_file_list, key=lambda x: x[2])
 
 
 new_lfs = []
-lfs_config_path = r"J:\templete\.gitattributes"
 lfr = open(lfs_config_path)
 lines = lfr.readlines()
 for l in lines:
