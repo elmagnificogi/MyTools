@@ -1,0 +1,3 @@
+I:/cmake/CMakeTutorialCN/MyProject1/build/CMakeFiles/MyExecutable.dir
+I:/cmake/CMakeTutorialCN/MyProject1/build/CMakeFiles/edit_cache.dir
+I:/cmake/CMakeTutorialCN/MyProject1/build/CMakeFiles/rebuild_cache.dir
